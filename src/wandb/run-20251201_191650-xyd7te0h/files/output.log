@@ -1,0 +1,213 @@
+============================================
+ Loading model from: /scratch/craj/langsense/models/base_lm
+ Saving finetuned model to: /scratch/craj/langsense/models/finetuned/base_lm-alpaca-sft-lora
+============================================
+Loaded Alpaca samples: 51760
+Model + tokenizer loaded from local directory.
+The tokenizer you are loading from '/scratch/craj/langsense/models/base_lm' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Adding EOS to train dataset: 100%|███████████████████████████████████████████| 51760/51760 [00:01<00:00, 51757.09 examples/s]
+Tokenizing train dataset: 100%|███████████████████████████████████████████████| 51760/51760 [00:17<00:00, 3026.84 examples/s]
+Truncating train dataset: 100%|████████████████████████████████████████████| 51760/51760 [00:00<00:00, 1091412.24 examples/s]
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+GPU = NVIDIA A100-SXM4-80GB, total = 85.10 GB
+
+Starting training...
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 128001, 'bos_token_id': 128000}.
+                                                                                                                             
+
+{'loss': 5.6169, 'grad_norm': 0.02954288013279438, 'learning_rate': 0.00019981452859350852, 'num_tokens': 23997.0, 'epoch': 0.0}
+{'loss': 5.7257, 'grad_norm': 0.04705395549535751, 'learning_rate': 0.0001996084492529624, 'num_tokens': 50161.0, 'epoch': 0.01}
+{'loss': 5.5574, 'grad_norm': 0.05161212384700775, 'learning_rate': 0.0001994023699124163, 'num_tokens': 74761.0, 'epoch': 0.01}
+{'loss': 5.3754, 'grad_norm': 0.04679035767912865, 'learning_rate': 0.00019919629057187018, 'num_tokens': 99651.0, 'epoch': 0.01}
+{'loss': 5.1324, 'grad_norm': 0.05476878583431244, 'learning_rate': 0.00019899021123132406, 'num_tokens': 126938.0, 'epoch': 0.02}
+{'loss': 5.1567, 'grad_norm': 0.047732871025800705, 'learning_rate': 0.00019878413189077795, 'num_tokens': 152385.0, 'epoch': 0.02}
+{'loss': 5.1158, 'grad_norm': 0.06352195888757706, 'learning_rate': 0.00019857805255023186, 'num_tokens': 180482.0, 'epoch': 0.02}
+{'loss': 5.3141, 'grad_norm': 0.06567149609327316, 'learning_rate': 0.00019837197320968575, 'num_tokens': 207435.0, 'epoch': 0.02}
+{'loss': 4.9578, 'grad_norm': 0.052816346287727356, 'learning_rate': 0.0001981658938691396, 'num_tokens': 233573.0, 'epoch': 0.03}
+{'loss': 5.0391, 'grad_norm': 0.05189761891961098, 'learning_rate': 0.00019795981452859352, 'num_tokens': 258576.0, 'epoch': 0.03}
+{'loss': 4.9179, 'grad_norm': 0.04689064249396324, 'learning_rate': 0.0001977537351880474, 'num_tokens': 285073.0, 'epoch': 0.03}
+{'loss': 4.9859, 'grad_norm': 0.052735231816768646, 'learning_rate': 0.0001975476558475013, 'num_tokens': 311756.0, 'epoch': 0.04}
+{'loss': 4.9299, 'grad_norm': 0.05428605526685715, 'learning_rate': 0.0001973415765069552, 'num_tokens': 336958.0, 'epoch': 0.04}
+{'loss': 4.854, 'grad_norm': 0.07335264980792999, 'learning_rate': 0.00019713549716640906, 'num_tokens': 364536.0, 'epoch': 0.04}
+{'loss': 4.6396, 'grad_norm': 0.06090954691171646, 'learning_rate': 0.00019692941782586295, 'num_tokens': 389815.0, 'epoch': 0.05}
+{'loss': 4.7756, 'grad_norm': 0.0594061017036438, 'learning_rate': 0.00019672333848531686, 'num_tokens': 415017.0, 'epoch': 0.05}
+{'loss': 4.7924, 'grad_norm': 0.062229570001363754, 'learning_rate': 0.00019651725914477075, 'num_tokens': 438121.0, 'epoch': 0.05}
+{'loss': 4.7998, 'grad_norm': 0.07274975627660751, 'learning_rate': 0.00019631117980422463, 'num_tokens': 464945.0, 'epoch': 0.06}
+{'loss': 4.7941, 'grad_norm': 0.06447280943393707, 'learning_rate': 0.00019610510046367852, 'num_tokens': 492181.0, 'epoch': 0.06}
+{'loss': 4.7277, 'grad_norm': 0.08241384476423264, 'learning_rate': 0.0001958990211231324, 'num_tokens': 518798.0, 'epoch': 0.06}
+{'loss': 4.7141, 'grad_norm': 0.0693434625864029, 'learning_rate': 0.0001956929417825863, 'num_tokens': 543496.0, 'epoch': 0.06}
+{'loss': 4.8099, 'grad_norm': 0.12171079218387604, 'learning_rate': 0.0001954868624420402, 'num_tokens': 570455.0, 'epoch': 0.07}
+{'loss': 4.6387, 'grad_norm': 0.07186578959226608, 'learning_rate': 0.0001952807831014941, 'num_tokens': 596416.0, 'epoch': 0.07}
+{'loss': 4.7693, 'grad_norm': 0.06714347749948502, 'learning_rate': 0.00019507470376094795, 'num_tokens': 621897.0, 'epoch': 0.07}
+{'loss': 4.5846, 'grad_norm': 0.07410552352666855, 'learning_rate': 0.00019486862442040186, 'num_tokens': 646404.0, 'epoch': 0.08}
+{'loss': 4.7798, 'grad_norm': 0.07200684398412704, 'learning_rate': 0.00019466254507985575, 'num_tokens': 672104.0, 'epoch': 0.08}
+{'loss': 4.5033, 'grad_norm': 0.06042969599366188, 'learning_rate': 0.00019445646573930964, 'num_tokens': 699796.0, 'epoch': 0.08}
+{'loss': 4.548, 'grad_norm': 0.10277383774518967, 'learning_rate': 0.00019425038639876355, 'num_tokens': 726072.0, 'epoch': 0.09}
+{'loss': 4.5659, 'grad_norm': 0.08222406357526779, 'learning_rate': 0.00019404430705821744, 'num_tokens': 752586.0, 'epoch': 0.09}
+{'loss': 4.7062, 'grad_norm': 0.08631587773561478, 'learning_rate': 0.0001938382277176713, 'num_tokens': 780269.0, 'epoch': 0.09}
+{'loss': 4.52, 'grad_norm': 0.08149583637714386, 'learning_rate': 0.0001936321483771252, 'num_tokens': 810957.0, 'epoch': 0.1}
+{'loss': 4.4946, 'grad_norm': 0.09232238680124283, 'learning_rate': 0.0001934260690365791, 'num_tokens': 834038.0, 'epoch': 0.1}
+{'loss': 4.4996, 'grad_norm': 0.07802234590053558, 'learning_rate': 0.00019321998969603298, 'num_tokens': 858968.0, 'epoch': 0.1}
+{'loss': 4.5799, 'grad_norm': 0.1022280752658844, 'learning_rate': 0.0001930139103554869, 'num_tokens': 886004.0, 'epoch': 0.11}
+{'loss': 4.5735, 'grad_norm': 0.08122555166482925, 'learning_rate': 0.00019280783101494075, 'num_tokens': 911359.0, 'epoch': 0.11}
+{'loss': 4.4266, 'grad_norm': 0.08968516439199448, 'learning_rate': 0.00019260175167439464, 'num_tokens': 936564.0, 'epoch': 0.11}
+{'loss': 4.4996, 'grad_norm': 0.19343678653240204, 'learning_rate': 0.00019239567233384855, 'num_tokens': 961254.0, 'epoch': 0.11}
+{'loss': 4.4797, 'grad_norm': 0.09395485371351242, 'learning_rate': 0.00019218959299330244, 'num_tokens': 984341.0, 'epoch': 0.12}
+{'loss': 4.521, 'grad_norm': 0.08286644518375397, 'learning_rate': 0.00019198351365275632, 'num_tokens': 1008978.0, 'epoch': 0.12}
+{'loss': 4.5934, 'grad_norm': 0.10050089657306671, 'learning_rate': 0.0001917774343122102, 'num_tokens': 1031787.0, 'epoch': 0.12}
+{'loss': 4.6023, 'grad_norm': 0.10037172585725784, 'learning_rate': 0.0001915713549716641, 'num_tokens': 1059033.0, 'epoch': 0.13}
+{'loss': 4.497, 'grad_norm': 0.09067169576883316, 'learning_rate': 0.00019136527563111798, 'num_tokens': 1084016.0, 'epoch': 0.13}
+{'loss': 4.5465, 'grad_norm': 0.08655757457017899, 'learning_rate': 0.0001911591962905719, 'num_tokens': 1110813.0, 'epoch': 0.13}
+{'loss': 4.5922, 'grad_norm': 0.08341684937477112, 'learning_rate': 0.00019095311695002578, 'num_tokens': 1140119.0, 'epoch': 0.14}
+{'loss': 4.5279, 'grad_norm': 0.09399951249361038, 'learning_rate': 0.00019074703760947964, 'num_tokens': 1165480.0, 'epoch': 0.14}
+{'loss': 4.4441, 'grad_norm': 0.13254965841770172, 'learning_rate': 0.00019054095826893355, 'num_tokens': 1190291.0, 'epoch': 0.14}
+{'loss': 4.5507, 'grad_norm': 0.15114375948905945, 'learning_rate': 0.00019033487892838744, 'num_tokens': 1214435.0, 'epoch': 0.15}
+{'loss': 4.658, 'grad_norm': 0.09284835308790207, 'learning_rate': 0.00019012879958784132, 'num_tokens': 1239598.0, 'epoch': 0.15}
+{'loss': 4.5883, 'grad_norm': 0.10404034703969955, 'learning_rate': 0.00018992272024729524, 'num_tokens': 1267383.0, 'epoch': 0.15}
+{'loss': 4.5038, 'grad_norm': 0.09167139232158661, 'learning_rate': 0.0001897166409067491, 'num_tokens': 1294829.0, 'epoch': 0.15}
+{'loss': 4.4443, 'grad_norm': 0.11733931303024292, 'learning_rate': 0.00018951056156620298, 'num_tokens': 1320933.0, 'epoch': 0.16}
+{'loss': 4.5783, 'grad_norm': 0.11109711229801178, 'learning_rate': 0.0001893044822256569, 'num_tokens': 1347682.0, 'epoch': 0.16}
+{'loss': 4.745, 'grad_norm': 0.10680904239416122, 'learning_rate': 0.00018909840288511078, 'num_tokens': 1376219.0, 'epoch': 0.16}
+{'loss': 4.482, 'grad_norm': 0.08747795224189758, 'learning_rate': 0.00018889232354456467, 'num_tokens': 1403047.0, 'epoch': 0.17}
+{'loss': 4.491, 'grad_norm': 0.0995902493596077, 'learning_rate': 0.00018868624420401855, 'num_tokens': 1430026.0, 'epoch': 0.17}
+{'loss': 4.4441, 'grad_norm': 0.1016739085316658, 'learning_rate': 0.00018848016486347244, 'num_tokens': 1457238.0, 'epoch': 0.17}
+{'loss': 4.4001, 'grad_norm': 0.07313654571771622, 'learning_rate': 0.00018827408552292633, 'num_tokens': 1482270.0, 'epoch': 0.18}
+{'loss': 4.6784, 'grad_norm': 0.08685686439275742, 'learning_rate': 0.00018806800618238024, 'num_tokens': 1510676.0, 'epoch': 0.18}
+{'loss': 4.4866, 'grad_norm': 0.11217451840639114, 'learning_rate': 0.00018786192684183413, 'num_tokens': 1536412.0, 'epoch': 0.18}
+{'loss': 4.4684, 'grad_norm': 0.07873822003602982, 'learning_rate': 0.00018765584750128798, 'num_tokens': 1565279.0, 'epoch': 0.19}
+{'loss': 4.5276, 'grad_norm': 0.08658284693956375, 'learning_rate': 0.0001874497681607419, 'num_tokens': 1591595.0, 'epoch': 0.19}
+{'loss': 4.467, 'grad_norm': 0.10405705869197845, 'learning_rate': 0.00018724368882019578, 'num_tokens': 1615362.0, 'epoch': 0.19}
+{'loss': 4.495, 'grad_norm': 0.09386155009269714, 'learning_rate': 0.00018703760947964967, 'num_tokens': 1642370.0, 'epoch': 0.19}
+{'loss': 4.339, 'grad_norm': 0.08141043782234192, 'learning_rate': 0.00018683153013910358, 'num_tokens': 1666729.0, 'epoch': 0.2}
+{'loss': 4.5116, 'grad_norm': 0.09003202617168427, 'learning_rate': 0.00018662545079855744, 'num_tokens': 1690869.0, 'epoch': 0.2}
+{'loss': 4.4721, 'grad_norm': 0.1171899363398552, 'learning_rate': 0.00018641937145801133, 'num_tokens': 1717389.0, 'epoch': 0.2}
+{'loss': 4.3843, 'grad_norm': 0.08998943865299225, 'learning_rate': 0.00018621329211746524, 'num_tokens': 1746401.0, 'epoch': 0.21}
+{'loss': 4.5029, 'grad_norm': 0.1064850389957428, 'learning_rate': 0.00018600721277691913, 'num_tokens': 1772295.0, 'epoch': 0.21}
+{'loss': 4.4491, 'grad_norm': 0.10218684375286102, 'learning_rate': 0.000185801133436373, 'num_tokens': 1799289.0, 'epoch': 0.21}
+{'loss': 4.501, 'grad_norm': 0.11787810921669006, 'learning_rate': 0.0001855950540958269, 'num_tokens': 1823190.0, 'epoch': 0.22}
+{'loss': 4.442, 'grad_norm': 0.1138625517487526, 'learning_rate': 0.00018538897475528079, 'num_tokens': 1850824.0, 'epoch': 0.22}
+  File "/scratch/craj/langsense/src/sft.py", line 162, in <module>
+    print("\nStarting training...\n")
+                    ^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 1190, in training_step
+    return super().training_step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/trainer.py", line 4020, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 1103, in compute_loss
+    (loss, outputs) = super().compute_loss(
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/trainer.py", line 4110, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/accelerate/utils/operations.py", line 819, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/accelerate/utils/operations.py", line 807, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/peft/peft_model.py", line 1923, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 308, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/liger_kernel/transformers/model/llama.py", line 208, in lce_forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 395, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return self._gradient_checkpointing_func(partial(super().__call__, **kwargs), *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/utils/checkpoint.py", line 264, in forward
+    outputs = run_function(*args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 292, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/liger_kernel/transformers/rms_norm.py", line 33, in forward
+    return LigerRMSNormFunction.apply(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/liger_kernel/ops/utils.py", line 40, in wrapper
+    return fn(ctx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/liger_kernel/ops/rms_norm.py", line 556, in forward
+    Y, X, RSTD, BLOCK_SIZE, num_warps, casting_mode = rms_norm_forward(X, W, eps, offset, casting_mode, row_mode)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/liger_kernel/ops/rms_norm.py", line 400, in rms_norm_forward
+    _rms_norm_forward_kernel[(n_rows,)](
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/triton/runtime/jit.py", line 330, in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/triton/runtime/jit.py", line 653, in run
+    kernel.run(grid_0, grid_1, grid_2, stream, kernel.function, kernel.packed_metadata, launch_metadata,
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/triton/backends/nvidia/driver.py", line 444, in __call__
+    self.launch(*args, **kwargs)
+KeyboardInterrupt

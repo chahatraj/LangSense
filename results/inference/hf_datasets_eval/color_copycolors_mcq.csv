@@ -1,0 +1,901 @@
+model,prompt,options,label,pred,correct,id,score_0,score_1,score_2,score_3
+base_lm-alpaca-merged,"Scrambled eggs are yellow. What color are scrambled eggs?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| black,2,3,0,87,-11.551993370056152,-12.602774620056152,-12.307852745056152,-9.860587120056152
+base_lm-alpaca-merged,"The ocean is blue. What color is the ocean?
+Question: Choose the correct color.
+",brown ||| grey ||| blue ||| yellow,2,0,0,1,-8.849906921386719,-12.463188171386719,-13.236625671386719,-12.224906921386719
+base_lm-alpaca-merged,"A pine tree is green. What color is a pine tree?
+Question: Choose the correct color.
+",green ||| brown ||| red ||| blue,0,1,0,92,-11.114622116088867,-9.516965866088867,-15.619016647338867,-13.423215866088867
+base_lm-alpaca-merged,"An egg yolk is yellow. What color is an egg yolk?
+Question: Choose the correct color.
+",green ||| yellow ||| pink ||| brown,1,3,0,82,-11.235769271850586,-12.048269271850586,-11.030691146850586,-10.069753646850586
+base_lm-alpaca-merged,"A carrot is orange. What color is a carrot?
+Question: Choose the correct color.
+",red ||| purple ||| orange ||| yellow,2,1,0,14,-14.202112197875977,-9.873987197875977,-10.026330947875977,-12.352502822875977
+base_lm-alpaca-merged,"Rice is white. What color is rice?
+Question: Choose the correct color.
+",purple ||| white ||| grey ||| red,1,0,0,62,-10.215644836425781,-13.414863586425781,-12.442207336425781,-14.064277648925781
+base_lm-alpaca-merged,"Snow is white. What color is snow?
+Question: Choose the correct color.
+",pink ||| white ||| yellow ||| red,1,0,0,30,-10.238252639770508,-13.962862014770508,-11.992158889770508,-15.226533889770508
+base_lm-alpaca-merged,"Bone is white. What color is bone?
+Question: Choose the correct color.
+",white ||| black ||| purple ||| grey,0,2,0,4,-13.97784423828125,-10.59307861328125,-10.31573486328125,-12.62237548828125
+base_lm-alpaca-merged,"A pea is green. What color is a pea?
+Question: Choose the correct color.
+",white ||| pink ||| yellow ||| green,3,1,0,60,-14.25063705444336,-10.19301986694336,-12.03286361694336,-11.23208236694336
+base_lm-alpaca-merged,"Ivy is green. What color is ivy?
+Question: Choose the correct color.
+",green ||| black ||| yellow ||| orange,0,3,0,76,-11.773040771484375,-10.692962646484375,-13.204681396484375,-10.345306396484375
+base_lm-alpaca-merged,"A cucumber is green. What color is a cucumber?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| orange,0,3,0,88,-11.204608917236328,-12.126483917236328,-12.253437042236328,-10.634296417236328
+base_lm-alpaca-merged,"A pear is green. What color is a pear?
+Question: Choose the correct color.
+",green ||| black ||| orange ||| brown,0,3,0,44,-11.258811950683594,-10.461936950683594,-10.071311950683594,-9.309593200683594
+base_lm-alpaca-merged,"Moss is green. What color is moss?
+Question: Choose the correct color.
+",pink ||| orange ||| green ||| blue,2,0,0,84,-10.376609802246094,-11.025047302246094,-11.286766052246094,-13.169578552246094
+base_lm-alpaca-merged,"Cherry blossoms are pink. What color are cherry blossoms?
+Question: Choose the correct color.
+",blue ||| white ||| pink ||| black,2,3,0,33,-12.580487251281738,-15.212323188781738,-10.414471626281738,-9.937909126281738
+base_lm-alpaca-merged,"Rainclouds are grey. What color are rainclouds?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| grey,3,1,0,53,-11.640751838684082,-9.324345588684082,-10.898564338684082,-12.961064338684082
+base_lm-alpaca-merged,"A raven is black. What color is a raven?
+Question: Choose the correct color.
+",grey ||| black ||| brown ||| green,1,2,0,25,-12.4100980758667,-10.2421293258667,-8.9296293258667,-11.0585355758667
+base_lm-alpaca-merged,"A chick is yellow. What color is a chick?
+Question: Choose the correct color.
+",red ||| orange ||| yellow ||| pink,2,3,0,98,-14.190927505493164,-10.776865005493164,-12.499521255493164,-10.714365005493164
+base_lm-alpaca-merged,"A lemon is yellow. What color is a lemon?
+Question: Choose the correct color.
+",orange ||| red ||| yellow ||| purple,2,3,0,17,-10.371550559997559,-14.652312278747559,-12.713347434997559,-9.742644309997559
+base_lm-alpaca-merged,"A cherry is red. What color is a cherry?
+Question: Choose the correct color.
+",orange ||| red ||| purple ||| grey,1,2,0,46,-11.228235244750977,-15.433435440063477,-9.939172744750977,-12.257532119750977
+base_lm-alpaca-merged,"A daffodil is yellow. What color is a daffodil?
+Question: Choose the correct color.
+",yellow ||| brown ||| black ||| red,0,1,0,102,-11.897086143493652,-9.342398643493652,-11.416617393493652,-14.958121299743652
+base_lm-alpaca-merged,"Spinach is green. What color is spinach?
+Question: Choose the correct color.
+",red ||| green ||| black ||| grey,1,2,0,64,-15.959888458251953,-11.219654083251953,-10.071216583251953,-12.413013458251953
+base_lm-alpaca-merged,"Sugar is white. What color is sugar?
+Question: Choose the correct color.
+",pink ||| brown ||| white ||| red,2,1,0,28,-10.268789291381836,-8.651601791381836,-13.967031478881836,-15.636953353881836
+base_lm-alpaca-merged,"Crows are black. What color are crows?
+Question: Choose the correct color.
+",black ||| blue ||| pink ||| orange,0,0,1,24,-10.563957214355469,-13.073722839355469,-10.661613464355469,-10.888175964355469
+base_lm-alpaca-merged,"Wood is brown. What color is wood?
+Question: Choose the correct color.
+",yellow ||| brown ||| blue ||| white,1,1,1,100,-12.51711368560791,-8.85695743560791,-12.47023868560791,-14.02883243560791
+base_lm-alpaca-merged,"The fruit mandarin is orange. What color is the fruit mandarin?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| yellow,2,1,0,45,-10.984455108642578,-9.570392608642578,-10.078205108642578,-12.662189483642578
+base_lm-alpaca-merged,"Sails are white. What color are sails?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| grey,2,0,0,99,-10.267898559570312,-10.338211059570312,-14.191726684570312,-12.566726684570312
+base_lm-alpaca-merged,"Paper is white. What color is paper?
+Question: Choose the correct color.
+",orange ||| blue ||| white ||| grey,2,0,0,27,-10.535219192504883,-12.757875442504883,-14.398500442504883,-12.693422317504883
+base_lm-alpaca-merged,"An elephant is grey. What color is an elephant?
+Question: Choose the correct color.
+",white ||| brown ||| orange ||| grey,3,1,0,36,-14.545812606811523,-9.516027450561523,-10.262121200561523,-12.736730575561523
+base_lm-alpaca-merged,"Feta cheese is white. What color is feta cheese?
+Question: Choose the correct color.
+",blue ||| pink ||| white ||| red,2,1,0,71,-12.90434741973877,-10.90727710723877,-14.22563648223877,-15.02361011505127
+base_lm-alpaca-merged,"Lavender is purple. What color is lavender?
+Question: Choose the correct color.
+",green ||| grey ||| purple ||| yellow,2,2,1,39,-11.36018180847168,-12.08869743347168,-10.23127555847168,-12.80940055847168
+base_lm-alpaca-merged,"Sheep are white. What color are sheep?
+Question: Choose the correct color.
+",green ||| white ||| red ||| blue,1,0,0,31,-11.719854354858398,-14.240362167358398,-15.349004745483398,-12.456182479858398
+base_lm-alpaca-merged,"Pasta is yellow. What color is pasta?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| black,1,3,0,63,-14.227462768554688,-12.492111206054688,-10.781173706054688,-10.624923706054688
+base_lm-alpaca-merged,"Baking soda is white. What color is baking soda?
+Question: Choose the correct color.
+",white ||| blue ||| red ||| brown,0,3,0,79,-14.064008712768555,-13.004438400268555,-15.483625411987305,-9.285688400268555
+base_lm-alpaca-merged,"A frog is green. What color is a frog?
+Question: Choose the correct color.
+",green ||| black ||| red ||| brown,0,3,0,19,-11.460745811462402,-10.741995811462402,-15.771292686462402,-9.187308311462402
+base_lm-alpaca-merged,"Jeans are blue. What color are jeans?
+Question: Choose the correct color.
+",blue ||| yellow ||| brown ||| green,0,2,0,22,-12.082643508911133,-11.711549758911133,-9.553346633911133,-12.049440383911133
+base_lm-alpaca-merged,"Stone is grey. What color is stone?
+Question: Choose the correct color.
+",brown ||| green ||| orange ||| grey,3,0,0,35,-8.942992210388184,-11.681273460388184,-11.771117210388184,-12.644164085388184
+base_lm-alpaca-merged,"Butter is yellow. What color is butter?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| grey,1,2,0,3,-14.366669654846191,-12.148896217346191,-10.252411842346191,-12.023896217346191
+base_lm-alpaca-merged,"A fire extinguisher is red. What color is a fire extinguisher?
+Question: Choose the correct color.
+",grey ||| green ||| red ||| blue,2,1,0,89,-12.565922737121582,-11.882328987121582,-15.30962085723877,-13.194828987121582
+base_lm-alpaca-merged,"A pumpkin is orange. What color is a pumpkin?
+Question: Choose the correct color.
+",orange ||| green ||| purple ||| red,0,2,0,13,-10.763778686523438,-11.404403686523438,-9.607528686523438,-15.114852905273438
+base_lm-alpaca-merged,"A lime is green. What color is a lime?
+Question: Choose the correct color.
+",white ||| green ||| black ||| red,1,2,0,66,-14.553383827209473,-11.099282264709473,-10.400063514709473,-15.328774452209473
+base_lm-alpaca-merged,"Cocoa is brown. What color is cocoa?
+Question: Choose the correct color.
+",orange ||| pink ||| black ||| brown,3,3,1,56,-10.716623306274414,-10.689279556274414,-10.544748306274414,-8.865060806274414
+base_lm-alpaca-merged,"Coal is black. What color is coal?
+Question: Choose the correct color.
+",pink ||| green ||| purple ||| black,3,2,0,26,-10.81176471710205,-10.98754596710205,-10.09692096710205,-10.12426471710205
+base_lm-alpaca-merged,"A leaf is green. What color is a leaf?
+Question: Choose the correct color.
+",grey ||| green ||| purple ||| orange,1,2,0,20,-12.54973030090332,-11.37394905090332,-10.27043342590332,-10.84074592590332
+base_lm-alpaca-merged,"Cottage cheese is white. What color is cottage cheese?
+Question: Choose the correct color.
+",white ||| green ||| black ||| purple,0,2,0,70,-13.624124526977539,-11.083108901977539,-10.020608901977539,-10.333108901977539
+base_lm-alpaca-merged,"The inside of a pineapple is yellow. What color is the inside of a pineapple?
+Question: Choose the correct color.
+",white ||| purple ||| yellow ||| pink,2,3,0,7,-15.118267059326172,-10.224712371826172,-12.119243621826172,-10.017681121826172
+base_lm-alpaca-merged,"A strawberry is red. What color is a strawberry?
+Question: Choose the correct color.
+",red ||| white ||| orange ||| grey,0,2,0,9,-14.88505744934082,-14.10905647277832,-10.84831428527832,-12.15495491027832
+base_lm-alpaca-merged,"Aluminium foil is grey. What color is aluminium foil?
+Question: Choose the correct color.
+",white ||| grey ||| orange ||| purple,1,3,0,59,-13.977520942687988,-12.854474067687988,-10.721661567687988,-10.428692817687988
+base_lm-alpaca-merged,"A lady bug is red. What color is a lady bug?
+Question: Choose the correct color.
+",yellow ||| red ||| grey ||| pink,1,3,0,101,-13.095406532287598,-14.812203407287598,-12.705758094787598,-10.990914344787598
+base_lm-alpaca-merged,"Grass is green. What color is grass?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,2,0,2,-12.412233352661133,-12.634889602661133,-10.361452102661133,-11.611452102661133
+base_lm-alpaca-merged,"Yoghurt is white. What color is yoghurt?
+Question: Choose the correct color.
+",white ||| grey ||| black ||| brown,0,3,0,69,-14.68946647644043,-12.60645866394043,-11.00489616394043,-9.06348991394043
+base_lm-alpaca-merged,"Cinnamon is brown. What color is cinnamon?
+Question: Choose the correct color.
+",grey ||| red ||| yellow ||| brown,3,3,1,85,-12.483829498291016,-15.440860748291016,-11.905704498291016,-8.401798248291016
+base_lm-alpaca-merged,"Flour is white. What color is flour?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| brown,2,3,0,78,-9.881223678588867,-10.178098678588867,-13.864622116088867,-8.830442428588867
+base_lm-alpaca-merged,"A snowman is white. What color is a snowman?
+Question: Choose the correct color.
+",pink ||| green ||| blue ||| white,3,0,0,80,-10.678356170654297,-11.526012420654297,-12.938121795654297,-14.695446014404297
+base_lm-alpaca-merged,"A banana is yellow. What color is a banana?
+Question: Choose the correct color.
+",brown ||| grey ||| green ||| yellow,3,0,0,42,-8.89059829711914,-12.24606704711914,-11.06247329711914,-12.10544204711914
+base_lm-alpaca-merged,"Salmon meat is pink. What color is salmon meat?
+Question: Choose the correct color.
+",blue ||| pink ||| green ||| grey,1,1,1,68,-12.223674774169922,-10.733440399169922,-10.795940399169922,-12.762737274169922
+base_lm-alpaca-merged,"Milk is white. What color is milk?
+Question: Choose the correct color.
+",blue ||| white ||| orange ||| black,1,2,0,29,-13.111065864562988,-13.510479927062988,-10.980206489562988,-11.363018989562988
+base_lm-alpaca-merged,"Ivory is white. What color is ivory?
+Question: Choose the correct color.
+",red ||| black ||| brown ||| white,3,2,0,5,-14.181861877441406,-10.741432189941406,-9.643775939941406,-14.020729064941406
+base_lm-alpaca-merged,"A snow leopard is white. What color is a snow leopard?
+Question: Choose the correct color.
+",white ||| yellow ||| blue ||| orange,0,3,0,49,-15.124043464660645,-12.461445808410645,-12.934102058410645,-11.332539558410645
+base_lm-alpaca-merged,"The animal bat is black. What color is the animal bat?
+Question: Choose the correct color.
+",white ||| green ||| blue ||| black,3,3,1,23,-15.500340461730957,-12.305516242980957,-13.018406867980957,-11.088719367980957
+base_lm-alpaca-merged,"A blackboard is black. What color is a blackboard?
+Question: Choose the correct color.
+",grey ||| black ||| yellow ||| red,1,1,1,105,-12.181859016418457,-10.334202766418457,-12.410374641418457,-15.174534797668457
+base_lm-alpaca-merged,"The animal seal is grey. What color is the animal seal?
+Question: Choose the correct color.
+",blue ||| grey ||| white ||| brown,1,3,0,37,-13.34150505065918,-12.50361442565918,-15.12763786315918,-9.24189567565918
+base_lm-alpaca-merged,"A suit is black. What color is a suit?
+Question: Choose the correct color.
+",black ||| brown ||| white ||| yellow,0,1,0,55,-11.261067390441895,-9.686848640441895,-15.050618171691895,-12.889973640441895
+base_lm-alpaca-merged,"Feces is brown. What color is feces?
+Question: Choose the correct color.
+",yellow ||| white ||| brown ||| green,2,2,1,94,-13.02548599243164,-13.91122817993164,-10.34970474243164,-10.90829849243164
+base_lm-alpaca-merged,"A plum is purple. What color is a plum?
+Question: Choose the correct color.
+",yellow ||| purple ||| black ||| green,1,1,1,38,-12.61340618133545,-9.59973430633545,-10.81067180633545,-11.46496868133545
+base_lm-alpaca-merged,"A flamingo is pink. What color is a flamingo?
+Question: Choose the correct color.
+",orange ||| yellow ||| pink ||| blue,2,0,0,32,-11.341463088989258,-12.946931838989258,-11.372713088989258,-13.058259963989258
+base_lm-alpaca-merged,"The sun is yellow. What color is the sun?
+Question: Choose the correct color.
+",grey ||| orange ||| yellow ||| pink,2,3,0,16,-12.489432334899902,-11.194510459899902,-12.292166709899902,-10.510916709899902
+base_lm-alpaca-merged,"Concrete is grey. What color is concrete?
+Question: Choose the correct color.
+",purple ||| blue ||| grey ||| red,2,0,0,58,-10.553415298461914,-12.428415298461914,-12.369821548461914,-15.489938735961914
+base_lm-alpaca-merged,"An arctic fox is white. What color is an arctic fox?
+Question: Choose the correct color.
+",grey ||| blue ||| yellow ||| white,3,2,0,50,-12.781980514526367,-13.170652389526367,-12.379636764526367,-14.546628952026367
+base_lm-alpaca-merged,"Basil is green. What color is basil?
+Question: Choose the correct color.
+",blue ||| purple ||| green ||| white,2,1,0,106,-13.052568435668945,-10.576005935668945,-11.294755935668945,-14.330888748168945
+base_lm-alpaca-merged,"Clouds are white. What color are clouds?
+Question: Choose the correct color.
+",red ||| white ||| black ||| orange,1,2,0,52,-14.928287506103516,-13.625064849853516,-10.242252349853516,-10.382877349853516
+base_lm-alpaca-merged,"A tooth is white. What color is a tooth?
+Question: Choose the correct color.
+",orange ||| black ||| white ||| brown,2,3,0,93,-11.634385108947754,-11.757431983947754,-14.593369483947754,-10.286728858947754
+base_lm-alpaca-merged,"Urine is yellow. What color is urine?
+Question: Choose the correct color.
+",black ||| purple ||| yellow ||| white,2,0,0,95,-10.532699584960938,-10.591293334960938,-12.116683959960938,-13.388168334960938
+base_lm-alpaca-merged,"A ruby is red. What color is a ruby?
+Question: Choose the correct color.
+",red ||| orange ||| brown ||| green,0,2,0,77,-15.635051727294922,-12.212566375732422,-9.810222625732422,-11.771160125732422
+base_lm-alpaca-merged,"A tomato is red. What color is a tomato?
+Question: Choose the correct color.
+",purple ||| green ||| white ||| red,3,0,0,8,-9.718572616577148,-11.433416366577148,-14.775213241577148,-15.409002304077148
+base_lm-alpaca-merged,"A panther is black. What color is a panther?
+Question: Choose the correct color.
+",brown ||| green ||| blue ||| black,3,0,0,91,-10.480324745178223,-11.622902870178223,-12.865090370178223,-11.960793495178223
+base_lm-alpaca-merged,"Matcha is green. What color is matcha?
+Question: Choose the correct color.
+",yellow ||| pink ||| white ||| green,3,1,0,72,-12.061253547668457,-10.069066047668457,-14.650120735168457,-11.326878547668457
+base_lm-alpaca-merged,"An egg is white. What color is an egg?
+Question: Choose the correct color.
+",yellow ||| purple ||| white ||| brown,2,3,0,83,-12.150732040405273,-10.002294540405273,-14.527685165405273,-9.189794540405273
+base_lm-alpaca-merged,"Corn is yellow. What color is corn?
+Question: Choose the correct color.
+",pink ||| black ||| white ||| yellow,3,1,0,18,-10.153602600097656,-9.298133850097656,-12.326454162597656,-12.171180725097656
+base_lm-alpaca-merged,"Plants are green. What color are plants?
+Question: Choose the correct color.
+",purple ||| yellow ||| green ||| grey,2,0,0,54,-10.492600440979004,-12.180100440979004,-11.766037940979004,-12.699631690979004
+base_lm-alpaca-merged,"A dandelion is yellow. What color is a dandelion?
+Question: Choose the correct color.
+",blue ||| yellow ||| green ||| red,1,2,0,103,-12.422012329101562,-13.009902954101562,-11.170059204101562,-15.662857055664062
+base_lm-alpaca-merged,"Garlic is white. What color is garlic?
+Question: Choose the correct color.
+",black ||| white ||| grey ||| blue,1,0,0,74,-11.77401351928711,-14.74959945678711,-12.45565414428711,-13.09432601928711
+base_lm-alpaca-merged,"Soil is brown. What color is soil?
+Question: Choose the correct color.
+",green ||| brown ||| white ||| orange,1,1,1,34,-9.822607040405273,-9.404638290405273,-12.564794540405273,-9.783544540405273
+base_lm-alpaca-merged,"Parsley is green. What color is parsley?
+Question: Choose the correct color.
+",red ||| yellow ||| green ||| pink,2,3,0,107,-15.067347526550293,-12.990687370300293,-11.695765495300293,-10.836390495300293
+base_lm-alpaca-merged,"A swan is white. What color is a swan?
+Question: Choose the correct color.
+",white ||| green ||| yellow ||| pink,0,3,0,48,-14.948161125183105,-11.541911125183105,-12.303629875183105,-10.659098625183105
+base_lm-alpaca-merged,"A rose is red. What color is a rose?
+Question: Choose the correct color.
+",black ||| red ||| yellow ||| purple,1,3,0,10,-10.753779411315918,-15.411005973815918,-12.661982536315918,-10.105341911315918
+base_lm-alpaca-merged,"The outside of a coconut is brown. What color is the outside of a coconut?
+Question: Choose the correct color.
+",red ||| brown ||| green ||| pink,1,1,1,86,-16.772939682006836,-8.857900619506836,-11.961416244506836,-10.389150619506836
+base_lm-alpaca-merged,"Broccoli is green. What color is broccoli?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,2,0,65,-12.170221328735352,-11.847955703735352,-9.756158828735352,-10.709283828735352
+base_lm-alpaca-merged,"The sky is blue. What color is the sky?
+Question: Choose the correct color.
+",blue ||| purple ||| grey ||| white,0,1,0,6,-13.115163803100586,-10.240163803100586,-12.525320053100586,-15.434988021850586
+base_lm-alpaca-merged,"Blood is red. What color is blood?
+Question: Choose the correct color.
+",yellow ||| grey ||| red ||| purple,2,3,0,11,-11.879412651062012,-12.533709526062012,-15.132830619812012,-10.396990776062012
+base_lm-alpaca-merged,"A polar bear is white. What color is a polar bear?
+Question: Choose the correct color.
+",grey ||| white ||| brown ||| green,1,2,0,40,-12.621563911437988,-15.236798286437988,-9.240704536437988,-11.596173286437988
+base_lm-alpaca-merged,"Cheese is yellow. What color is cheese?
+Question: Choose the correct color.
+",black ||| yellow ||| red ||| white,1,0,0,15,-10.048101425170898,-12.177007675170898,-14.262456893920898,-13.566656112670898
+base_lm-alpaca-merged,"An iceberg is white. What color is an iceberg?
+Question: Choose the correct color.
+",pink ||| white ||| orange ||| red,1,0,0,96,-11.000252723693848,-15.060799598693848,-11.222908973693848,-15.235116004943848
+base_lm-alpaca-merged,"An orange is orange. What color is an orange?
+Question: Choose the correct color.
+",brown ||| red ||| purple ||| orange,3,3,1,43,-9.495004653930664,-13.050668716430664,-9.530160903930664,-8.686410903930664
+base_lm-alpaca-merged,"A sunflower is yellow. What color is a sunflower?
+Question: Choose the correct color.
+",yellow ||| brown ||| red ||| blue,0,1,0,0,-12.088421821594238,-8.998578071594238,-15.650921821594238,-13.012249946594238
+base_lm-alpaca-merged,"Seaweed is green. What color is seaweed?
+Question: Choose the correct color.
+",blue ||| green ||| grey ||| red,1,1,1,73,-12.52535343170166,-11.46090030670166,-12.39840030670166,-14.79293155670166
+base_lm-alpaca-merged,"A heart is red. What color is a heart?
+Question: Choose the correct color.
+",red ||| white ||| yellow ||| blue,0,2,0,12,-15.448087692260742,-14.737882614135742,-12.149015426635742,-13.041593551635742
+base_lm-alpaca-merged,"An aubergine is purple. What color is an aubergine?
+Question: Choose the correct color.
+",green ||| red ||| brown ||| purple,3,2,0,75,-11.638528823852539,-16.75766944885254,-8.986185073852539,-10.220560073852539
+base_lm-alpaca-merged,"A duckling is yellow. What color is a duckling?
+Question: Choose the correct color.
+",orange ||| grey ||| green ||| yellow,3,0,0,90,-10.527714729309082,-12.258183479309082,-11.723027229309082,-12.305058479309082
+base_lm-alpaca-merged,"Chocolate is brown. What color is chocolate?
+Question: Choose the correct color.
+",brown ||| red ||| blue ||| orange,0,0,1,57,-8.702263832092285,-14.235466957092285,-11.073357582092285,-9.838982582092285
+base_lm-alpaca-merged,"Steel is grey. What color is steel?
+Question: Choose the correct color.
+",black ||| brown ||| green ||| grey,3,1,0,51,-10.654149055480957,-8.759617805480957,-11.212742805480957,-12.259617805480957
+color_tag-alpaca-merged,"Scrambled eggs are yellow. What color are scrambled eggs?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| black,2,3,0,87,-12.360377311706543,-15.784205436706543,-14.422389030456543,-12.284205436706543
+color_tag-alpaca-merged,"The ocean is blue. What color is the ocean?
+Question: Choose the correct color.
+",brown ||| grey ||| blue ||| yellow,2,2,1,1,-13.689658164978027,-15.476279258728027,-12.821494102478027,-14.585288047790527
+color_tag-alpaca-merged,"A pine tree is green. What color is a pine tree?
+Question: Choose the correct color.
+",green ||| brown ||| red ||| blue,0,0,1,92,-12.28178596496582,-13.67827033996582,-16.33745002746582,-12.39506721496582
+color_tag-alpaca-merged,"An egg yolk is yellow. What color is an egg yolk?
+Question: Choose the correct color.
+",green ||| yellow ||| pink ||| brown,1,0,0,82,-12.512510299682617,-14.291807174682617,-13.450010299682617,-13.596494674682617
+color_tag-alpaca-merged,"A carrot is orange. What color is a carrot?
+Question: Choose the correct color.
+",red ||| purple ||| orange ||| yellow,2,1,0,14,-14.980185508728027,-12.555380821228027,-13.608115196228027,-14.028037071228027
+color_tag-alpaca-merged,"Rice is white. What color is rice?
+Question: Choose the correct color.
+",purple ||| white ||| grey ||| red,1,1,1,62,-13.355911254882812,-11.382278442382812,-15.707962036132812,-14.789138793945312
+color_tag-alpaca-merged,"Snow is white. What color is snow?
+Question: Choose the correct color.
+",pink ||| white ||| yellow ||| red,1,1,1,30,-13.467124938964844,-10.855308532714844,-14.797203063964844,-15.735191345214844
+color_tag-alpaca-merged,"Bone is white. What color is bone?
+Question: Choose the correct color.
+",white ||| black ||| purple ||| grey,0,0,1,4,-11.344535827636719,-12.018363952636719,-13.175590515136719,-16.00078582763672
+color_tag-alpaca-merged,"A pea is green. What color is a pea?
+Question: Choose the correct color.
+",white ||| pink ||| yellow ||| green,3,0,0,60,-11.13523006439209,-13.39108943939209,-14.35178279876709,-12.47312068939209
+color_tag-alpaca-merged,"Ivy is green. What color is ivy?
+Question: Choose the correct color.
+",green ||| black ||| yellow ||| orange,0,1,0,76,-11.174524307250977,-10.975305557250977,-15.523645401000977,-14.564844131469727
+color_tag-alpaca-merged,"A cucumber is green. What color is a cucumber?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| orange,0,0,1,88,-13.223676681518555,-15.813520431518555,-14.279340744018555,-14.084028244018555
+color_tag-alpaca-merged,"A pear is green. What color is a pear?
+Question: Choose the correct color.
+",green ||| black ||| orange ||| brown,0,1,0,44,-12.846485137939453,-11.992969512939453,-14.078418731689453,-13.745899200439453
+color_tag-alpaca-merged,"Moss is green. What color is moss?
+Question: Choose the correct color.
+",pink ||| orange ||| green ||| blue,2,2,1,84,-13.097017288208008,-13.907564163208008,-11.447603225708008,-12.394868850708008
+color_tag-alpaca-merged,"Cherry blossoms are pink. What color are cherry blossoms?
+Question: Choose the correct color.
+",blue ||| white ||| pink ||| black,2,1,0,33,-12.670646667480469,-11.268302917480469,-13.463615417480469,-12.254631042480469
+color_tag-alpaca-merged,"Rainclouds are grey. What color are rainclouds?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| grey,3,0,0,53,-12.093038558959961,-13.861799240112305,-13.652608871459961,-15.762960433959961
+color_tag-alpaca-merged,"A raven is black. What color is a raven?
+Question: Choose the correct color.
+",grey ||| black ||| brown ||| green,1,3,0,25,-15.591794967651367,-11.635251998901367,-14.001951217651367,-11.617673873901367
+color_tag-alpaca-merged,"A chick is yellow. What color is a chick?
+Question: Choose the correct color.
+",red ||| orange ||| yellow ||| pink,2,3,0,98,-15.740957260131836,-14.060293197631836,-14.562002182006836,-13.429922103881836
+color_tag-alpaca-merged,"A lemon is yellow. What color is a lemon?
+Question: Choose the correct color.
+",orange ||| red ||| yellow ||| purple,2,3,0,17,-14.05761432647705,-16.002925872802734,-14.49950885772705,-13.12695026397705
+color_tag-alpaca-merged,"A cherry is red. What color is a cherry?
+Question: Choose the correct color.
+",orange ||| red ||| purple ||| grey,1,2,0,46,-13.616661071777344,-15.923301696777344,-12.646934509277344,-15.157676696777344
+color_tag-alpaca-merged,"A daffodil is yellow. What color is a daffodil?
+Question: Choose the correct color.
+",yellow ||| brown ||| black ||| red,0,2,0,102,-14.762310028076172,-13.962535858154297,-12.809673309326172,-15.286235809326172
+color_tag-alpaca-merged,"Spinach is green. What color is spinach?
+Question: Choose the correct color.
+",red ||| green ||| black ||| grey,1,2,0,64,-16.276430130004883,-11.8809232711792,-11.7207670211792,-15.6021146774292
+color_tag-alpaca-merged,"Sugar is white. What color is sugar?
+Question: Choose the correct color.
+",pink ||| brown ||| white ||| red,2,2,1,28,-13.23058795928955,-13.76183795928955,-10.79992389678955,-15.65050983428955
+color_tag-alpaca-merged,"Crows are black. What color are crows?
+Question: Choose the correct color.
+",black ||| blue ||| pink ||| orange,0,0,1,24,-12.611299514770508,-12.800752639770508,-13.890108108520508,-14.150362014770508
+color_tag-alpaca-merged,"Wood is brown. What color is wood?
+Question: Choose the correct color.
+",yellow ||| brown ||| blue ||| white,1,3,0,100,-14.425146102905273,-13.869726181030273,-12.655126571655273,-11.210790634155273
+color_tag-alpaca-merged,"The fruit mandarin is orange. What color is the fruit mandarin?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| yellow,2,0,0,45,-11.127043724060059,-14.128508567810059,-13.976653099060059,-14.732359886169434
+color_tag-alpaca-merged,"Sails are white. What color are sails?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| grey,2,2,1,99,-13.621002197265625,-13.544342041015625,-11.192291259765625,-16.142486572265625
+color_tag-alpaca-merged,"Paper is white. What color is paper?
+Question: Choose the correct color.
+",orange ||| blue ||| white ||| grey,2,2,1,27,-13.482954978942871,-12.320845603942871,-10.811079978942871,-15.423384666442871
+color_tag-alpaca-merged,"An elephant is grey. What color is an elephant?
+Question: Choose the correct color.
+",white ||| brown ||| orange ||| grey,3,0,0,36,-11.560969352722168,-13.796809196472168,-14.217646598815918,-15.553156852722168
+color_tag-alpaca-merged,"Feta cheese is white. What color is feta cheese?
+Question: Choose the correct color.
+",blue ||| pink ||| white ||| red,2,2,1,71,-12.507555961608887,-13.608141899108887,-11.575915336608887,-14.700915336608887
+color_tag-alpaca-merged,"Lavender is purple. What color is lavender?
+Question: Choose the correct color.
+",green ||| grey ||| purple ||| yellow,2,0,0,39,-11.272686958312988,-15.401104927062988,-13.315655708312988,-14.637677192687988
+color_tag-alpaca-merged,"Sheep are white. What color are sheep?
+Question: Choose the correct color.
+",green ||| white ||| red ||| blue,1,1,1,31,-12.568211555480957,-10.866063117980957,-15.703953742980957,-12.254734992980957
+color_tag-alpaca-merged,"Pasta is yellow. What color is pasta?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| black,1,0,0,63,-11.372028350830078,-14.656696319580078,-13.577594757080078,-11.938434600830078
+color_tag-alpaca-merged,"Baking soda is white. What color is baking soda?
+Question: Choose the correct color.
+",white ||| blue ||| red ||| brown,0,0,1,79,-11.235644340515137,-12.605761528015137,-14.214648246765137,-13.645068168640137
+color_tag-alpaca-merged,"A frog is green. What color is a frog?
+Question: Choose the correct color.
+",green ||| black ||| red ||| brown,0,1,0,19,-13.03661060333252,-12.25926685333252,-16.847156524658203,-13.70262622833252
+color_tag-alpaca-merged,"Jeans are blue. What color are jeans?
+Question: Choose the correct color.
+",blue ||| yellow ||| brown ||| green,0,3,0,22,-12.506536483764648,-14.481634140014648,-13.934759140014648,-11.070989608764648
+color_tag-alpaca-merged,"Stone is grey. What color is stone?
+Question: Choose the correct color.
+",brown ||| green ||| orange ||| grey,3,1,0,35,-14.093854904174805,-11.546979904174805,-14.113386154174805,-15.838972091674805
+color_tag-alpaca-merged,"Butter is yellow. What color is butter?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| grey,1,0,0,3,-10.851638793945312,-14.286880493164062,-12.743240356445312,-15.070877075195312
+color_tag-alpaca-merged,"A fire extinguisher is red. What color is a fire extinguisher?
+Question: Choose the correct color.
+",grey ||| green ||| red ||| blue,2,1,0,89,-15.671181678771973,-12.455361366271973,-15.351845741271973,-13.146767616271973
+color_tag-alpaca-merged,"A pumpkin is orange. What color is a pumpkin?
+Question: Choose the correct color.
+",orange ||| green ||| purple ||| red,0,1,0,13,-13.804683685302734,-12.304683685302734,-12.685543060302734,-15.639156341552734
+color_tag-alpaca-merged,"A lime is green. What color is a lime?
+Question: Choose the correct color.
+",white ||| green ||| black ||| red,1,0,0,66,-11.244430541992188,-13.064743041992188,-12.504196166992188,-15.666305541992188
+color_tag-alpaca-merged,"Cocoa is brown. What color is cocoa?
+Question: Choose the correct color.
+",orange ||| pink ||| black ||| brown,3,2,0,56,-13.594654083251953,-12.981372833251953,-11.788990020751953,-13.543384552001953
+color_tag-alpaca-merged,"Coal is black. What color is coal?
+Question: Choose the correct color.
+",pink ||| green ||| purple ||| black,3,1,0,26,-13.168055534362793,-11.815516471862793,-13.073328971862793,-11.823328971862793
+color_tag-alpaca-merged,"A leaf is green. What color is a leaf?
+Question: Choose the correct color.
+",grey ||| green ||| purple ||| orange,1,2,0,20,-15.291888236999512,-12.660357475280762,-12.478716850280762,-13.762896537780762
+color_tag-alpaca-merged,"Cottage cheese is white. What color is cottage cheese?
+Question: Choose the correct color.
+",white ||| green ||| black ||| purple,0,0,1,70,-11.633068084716797,-11.967052459716797,-12.353771209716797,-13.125255584716797
+color_tag-alpaca-merged,"The inside of a pineapple is yellow. What color is the inside of a pineapple?
+Question: Choose the correct color.
+",white ||| purple ||| yellow ||| pink,2,0,0,7,-10.84414005279541,-12.69960880279541,-14.35878849029541,-13.29140567779541
+color_tag-alpaca-merged,"A strawberry is red. What color is a strawberry?
+Question: Choose the correct color.
+",red ||| white ||| orange ||| grey,0,1,0,9,-15.717292785644531,-10.854988098144531,-13.562995910644531,-15.129768371582031
+color_tag-alpaca-merged,"Aluminium foil is grey. What color is aluminium foil?
+Question: Choose the correct color.
+",white ||| grey ||| orange ||| purple,1,0,0,59,-10.901965141296387,-15.740832328796387,-13.928332328796387,-12.985949516296387
+color_tag-alpaca-merged,"A lady bug is red. What color is a lady bug?
+Question: Choose the correct color.
+",yellow ||| red ||| grey ||| pink,1,3,0,101,-14.522586822509766,-16.188114166259766,-15.368778228759766,-13.214969635009766
+color_tag-alpaca-merged,"Grass is green. What color is grass?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,3,1,2,-15.105688095092773,-15.738012313842773,-13.504613876342773,-10.701879501342773
+color_tag-alpaca-merged,"Yoghurt is white. What color is yoghurt?
+Question: Choose the correct color.
+",white ||| grey ||| black ||| brown,0,0,1,69,-10.87315559387207,-15.72569465637207,-11.76378059387207,-14.11631965637207
+color_tag-alpaca-merged,"Cinnamon is brown. What color is cinnamon?
+Question: Choose the correct color.
+",grey ||| red ||| yellow ||| brown,3,3,1,85,-15.639352798461914,-15.516305923461914,-14.595407485961914,-13.802927017211914
+color_tag-alpaca-merged,"Flour is white. What color is flour?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| brown,2,2,1,78,-13.497915267944336,-13.479848861694336,-11.244985580444336,-14.102163314819336
+color_tag-alpaca-merged,"A snowman is white. What color is a snowman?
+Question: Choose the correct color.
+",pink ||| green ||| blue ||| white,3,3,1,80,-13.260112762451172,-13.318706512451172,-12.724956512451172,-10.736675262451172
+color_tag-alpaca-merged,"A banana is yellow. What color is a banana?
+Question: Choose the correct color.
+",brown ||| grey ||| green ||| yellow,3,2,0,42,-14.045680046081543,-15.890406608581543,-13.315211296081543,-14.525416374206543
+color_tag-alpaca-merged,"Salmon meat is pink. What color is salmon meat?
+Question: Choose the correct color.
+",blue ||| pink ||| green ||| grey,1,2,0,68,-13.053311347961426,-13.503018379211426,-11.773037910461426,-16.13631820678711
+color_tag-alpaca-merged,"Milk is white. What color is milk?
+Question: Choose the correct color.
+",blue ||| white ||| orange ||| black,1,1,1,29,-12.302480697631836,-11.130605697631836,-13.618886947631836,-11.964590072631836
+color_tag-alpaca-merged,"Ivory is white. What color is ivory?
+Question: Choose the correct color.
+",red ||| black ||| brown ||| white,3,3,1,5,-15.427967071533203,-11.784412384033203,-13.757556915283203,-11.343006134033203
+color_tag-alpaca-merged,"A snow leopard is white. What color is a snow leopard?
+Question: Choose the correct color.
+",white ||| yellow ||| blue ||| orange,0,0,1,49,-11.51020336151123,-14.77436351776123,-13.01606273651123,-14.26514720916748
+color_tag-alpaca-merged,"The animal bat is black. What color is the animal bat?
+Question: Choose the correct color.
+",white ||| green ||| blue ||| black,3,0,0,23,-11.18172836303711,-12.11141586303711,-12.78036117553711,-12.42196273803711
+color_tag-alpaca-merged,"A blackboard is black. What color is a blackboard?
+Question: Choose the correct color.
+",grey ||| black ||| yellow ||| red,1,1,1,105,-15.601778984069824,-11.898165702819824,-14.288790702819824,-15.077181816101074
+color_tag-alpaca-merged,"The animal seal is grey. What color is the animal seal?
+Question: Choose the correct color.
+",blue ||| grey ||| white ||| brown,1,2,0,37,-12.984842300415039,-16.07077980041504,-11.400857925415039,-14.406473159790039
+color_tag-alpaca-merged,"A suit is black. What color is a suit?
+Question: Choose the correct color.
+",black ||| brown ||| white ||| yellow,0,2,0,55,-12.392918586730957,-14.080418586730957,-11.244481086730957,-14.379246711730957
+color_tag-alpaca-merged,"Feces is brown. What color is feces?
+Question: Choose the correct color.
+",yellow ||| white ||| brown ||| green,2,1,0,94,-14.561141967773438,-11.044784545898438,-14.040756225585938,-11.062362670898438
+color_tag-alpaca-merged,"A plum is purple. What color is a plum?
+Question: Choose the correct color.
+",yellow ||| purple ||| black ||| green,1,2,0,38,-14.208969116210938,-12.634750366210938,-12.248031616210938,-12.361312866210938
+color_tag-alpaca-merged,"A flamingo is pink. What color is a flamingo?
+Question: Choose the correct color.
+",orange ||| yellow ||| pink ||| blue,2,3,0,32,-13.771683692932129,-14.364457130432129,-13.113480567932129,-12.420121192932129
+color_tag-alpaca-merged,"The sun is yellow. What color is the sun?
+Question: Choose the correct color.
+",grey ||| orange ||| yellow ||| pink,2,3,0,16,-15.701347351074219,-13.884452819824219,-14.765617370605469,-13.432792663574219
+color_tag-alpaca-merged,"Concrete is grey. What color is concrete?
+Question: Choose the correct color.
+",purple ||| blue ||| grey ||| red,2,1,0,58,-12.75131607055664,-12.40268325805664,-15.36899185180664,-15.61948013305664
+color_tag-alpaca-merged,"An arctic fox is white. What color is an arctic fox?
+Question: Choose the correct color.
+",grey ||| blue ||| yellow ||| white,3,3,1,50,-16.05544090270996,-13.245870590209961,-14.741964340209961,-11.665792465209961
+color_tag-alpaca-merged,"Basil is green. What color is basil?
+Question: Choose the correct color.
+",blue ||| purple ||| green ||| white,2,3,0,106,-12.853500366210938,-13.801986694335938,-12.085433959960938,-11.387191772460938
+color_tag-alpaca-merged,"Clouds are white. What color are clouds?
+Question: Choose the correct color.
+",red ||| white ||| black ||| orange,1,1,1,52,-16.427978515625,-11.083250999450684,-12.427000999450684,-14.097899436950684
+color_tag-alpaca-merged,"A tooth is white. What color is a tooth?
+Question: Choose the correct color.
+",orange ||| black ||| white ||| brown,2,2,1,93,-13.971158027648926,-12.732876777648926,-11.207486152648926,-13.596158027648926
+color_tag-alpaca-merged,"Urine is yellow. What color is urine?
+Question: Choose the correct color.
+",black ||| purple ||| yellow ||| white,2,3,0,95,-12.37127685546875,-13.61737060546875,-14.96014404296875,-11.23553466796875
+color_tag-alpaca-merged,"A ruby is red. What color is a ruby?
+Question: Choose the correct color.
+",red ||| orange ||| brown ||| green,0,3,0,77,-16.137638092041016,-13.8632230758667,-13.6102933883667,-12.1913480758667
+color_tag-alpaca-merged,"A tomato is red. What color is a tomato?
+Question: Choose the correct color.
+",purple ||| green ||| white ||| red,3,2,0,8,-12.451449394226074,-12.615511894226074,-11.049105644226074,-15.908480644226074
+color_tag-alpaca-merged,"A panther is black. What color is a panther?
+Question: Choose the correct color.
+",brown ||| green ||| blue ||| black,3,3,1,91,-13.688514709472656,-12.689979553222656,-12.386268615722656,-12.353065490722656
+color_tag-alpaca-merged,"Matcha is green. What color is matcha?
+Question: Choose the correct color.
+",yellow ||| pink ||| white ||| green,3,2,0,72,-14.298274040222168,-13.590266227722168,-10.446711540222168,-13.329524040222168
+color_tag-alpaca-merged,"An egg is white. What color is an egg?
+Question: Choose the correct color.
+",yellow ||| purple ||| white ||| brown,2,2,1,83,-14.662412643432617,-13.196592330932617,-11.878232955932617,-13.997373580932617
+color_tag-alpaca-merged,"Corn is yellow. What color is corn?
+Question: Choose the correct color.
+",pink ||| black ||| white ||| yellow,3,2,0,18,-13.687152862548828,-12.561054229736328,-11.179218292236328,-14.678241729736328
+color_tag-alpaca-merged,"Plants are green. What color are plants?
+Question: Choose the correct color.
+",purple ||| yellow ||| green ||| grey,2,2,1,54,-13.021910667419434,-14.653517723083496,-12.616637229919434,-15.870543479919434
+color_tag-alpaca-merged,"A dandelion is yellow. What color is a dandelion?
+Question: Choose the correct color.
+",blue ||| yellow ||| green ||| red,1,2,0,103,-12.916826248168945,-14.712114334106445,-12.653154373168945,-15.740556716918945
+color_tag-alpaca-merged,"Garlic is white. What color is garlic?
+Question: Choose the correct color.
+",black ||| white ||| grey ||| blue,1,1,1,74,-12.227349281311035,-11.123833656311035,-15.958794593811035,-12.565239906311035
+color_tag-alpaca-merged,"Soil is brown. What color is soil?
+Question: Choose the correct color.
+",green ||| brown ||| white ||| orange,1,2,0,34,-12.146636962890625,-13.694488525390625,-10.923980712890625,-13.816070556640625
+color_tag-alpaca-merged,"Parsley is green. What color is parsley?
+Question: Choose the correct color.
+",red ||| yellow ||| green ||| pink,2,2,1,107,-14.800935745239258,-14.980623245239258,-11.542146682739258,-13.668611526489258
+color_tag-alpaca-merged,"A swan is white. What color is a swan?
+Question: Choose the correct color.
+",white ||| green ||| yellow ||| pink,0,0,1,48,-11.595544815063477,-12.097497940063477,-14.867029190063477,-13.336267471313477
+color_tag-alpaca-merged,"A rose is red. What color is a rose?
+Question: Choose the correct color.
+",black ||| red ||| yellow ||| purple,1,0,0,10,-12.46471881866455,-15.70885944366455,-14.579983711242676,-12.97057819366455
+color_tag-alpaca-merged,"The outside of a coconut is brown. What color is the outside of a coconut?
+Question: Choose the correct color.
+",red ||| brown ||| green ||| pink,1,2,0,86,-15.671815872192383,-13.891298294067383,-11.358095169067383,-13.236024856567383
+color_tag-alpaca-merged,"Broccoli is green. What color is broccoli?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,3,1,65,-14.561131477355957,-15.564549446105957,-12.865330696105957,-12.818455696105957
+color_tag-alpaca-merged,"The sky is blue. What color is the sky?
+Question: Choose the correct color.
+",blue ||| purple ||| grey ||| white,0,3,0,6,-12.928701400756836,-13.463857650756836,-15.650259017944336,-11.207998275756836
+color_tag-alpaca-merged,"Blood is red. What color is blood?
+Question: Choose the correct color.
+",yellow ||| grey ||| red ||| purple,2,3,0,11,-14.760031700134277,-15.790488243103027,-15.176230430603027,-13.324667930603027
+color_tag-alpaca-merged,"A polar bear is white. What color is a polar bear?
+Question: Choose the correct color.
+",grey ||| white ||| brown ||| green,1,1,1,40,-15.948412895202637,-11.132006645202637,-14.057726860046387,-12.169116020202637
+color_tag-alpaca-merged,"Cheese is yellow. What color is cheese?
+Question: Choose the correct color.
+",black ||| yellow ||| red ||| white,1,3,0,15,-12.086982727050781,-14.576728820800781,-15.482490539550781,-10.788154602050781
+color_tag-alpaca-merged,"An iceberg is white. What color is an iceberg?
+Question: Choose the correct color.
+",pink ||| white ||| orange ||| red,1,1,1,96,-13.533581733703613,-11.440320014953613,-14.075207710266113,-16.391490936279297
+color_tag-alpaca-merged,"An orange is orange. What color is an orange?
+Question: Choose the correct color.
+",brown ||| red ||| purple ||| orange,3,2,0,43,-13.830071449279785,-16.1992130279541,-12.970696449279785,-13.976555824279785
+color_tag-alpaca-merged,"A sunflower is yellow. What color is a sunflower?
+Question: Choose the correct color.
+",yellow ||| brown ||| red ||| blue,0,3,0,0,-14.768716812133789,-14.362710952758789,-14.785806655883789,-12.931802749633789
+color_tag-alpaca-merged,"Seaweed is green. What color is seaweed?
+Question: Choose the correct color.
+",blue ||| green ||| grey ||| red,1,1,1,73,-12.878767967224121,-11.995955467224121,-16.103378295898438,-14.967146873474121
+color_tag-alpaca-merged,"A heart is red. What color is a heart?
+Question: Choose the correct color.
+",red ||| white ||| yellow ||| blue,0,1,0,12,-16.250141143798828,-11.214496612548828,-14.352191925048828,-12.472309112548828
+color_tag-alpaca-merged,"An aubergine is purple. What color is an aubergine?
+Question: Choose the correct color.
+",green ||| red ||| brown ||| purple,3,0,0,75,-11.872163772583008,-15.828218460083008,-13.996675491333008,-13.226655960083008
+color_tag-alpaca-merged,"A duckling is yellow. What color is a duckling?
+Question: Choose the correct color.
+",orange ||| grey ||| green ||| yellow,3,2,0,90,-14.789628982543945,-16.447832107543945,-13.295854568481445,-15.170488357543945
+color_tag-alpaca-merged,"Chocolate is brown. What color is chocolate?
+Question: Choose the correct color.
+",brown ||| red ||| blue ||| orange,0,2,0,57,-14.055978775024414,-15.318185806274414,-12.787912368774414,-13.832345962524414
+color_tag-alpaca-merged,"Steel is grey. What color is steel?
+Question: Choose the correct color.
+",black ||| brown ||| green ||| grey,3,2,0,51,-11.931880950927734,-14.351314544677734,-11.348873138427734,-15.950435638427734
+color_cat-alpaca-merged,"Scrambled eggs are yellow. What color are scrambled eggs?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| black,2,3,0,87,-12.180177688598633,-12.780763626098633,-13.521242141723633,-11.770998001098633
+color_cat-alpaca-merged,"The ocean is blue. What color is the ocean?
+Question: Choose the correct color.
+",brown ||| grey ||| blue ||| yellow,2,1,0,1,-12.40423583984375,-12.26068115234375,-13.11419677734375,-12.77532958984375
+color_cat-alpaca-merged,"A pine tree is green. What color is a pine tree?
+Question: Choose the correct color.
+",green ||| brown ||| red ||| blue,0,0,1,92,-12.205991744995117,-12.420835494995117,-13.134214401245117,-12.936948776245117
+color_cat-alpaca-merged,"An egg yolk is yellow. What color is an egg yolk?
+Question: Choose the correct color.
+",green ||| yellow ||| pink ||| brown,1,2,0,82,-12.3375825881958,-12.3805513381958,-11.3961763381958,-12.4528169631958
+color_cat-alpaca-merged,"A carrot is orange. What color is a carrot?
+Question: Choose the correct color.
+",red ||| purple ||| orange ||| yellow,2,1,0,14,-14.917366027832031,-11.972053527832031,-12.441780090332031,-12.244514465332031
+color_cat-alpaca-merged,"Rice is white. What color is rice?
+Question: Choose the correct color.
+",purple ||| white ||| grey ||| red,1,1,1,62,-12.560009002685547,-11.595165252685547,-12.614696502685547,-13.536571502685547
+color_cat-alpaca-merged,"Snow is white. What color is snow?
+Question: Choose the correct color.
+",pink ||| white ||| yellow ||| red,1,1,1,30,-11.532352447509766,-11.313602447509766,-12.789676666259766,-13.554203033447266
+color_cat-alpaca-merged,"Bone is white. What color is bone?
+Question: Choose the correct color.
+",white ||| black ||| purple ||| grey,0,0,1,4,-11.585174560546875,-11.886932373046875,-12.302947998046875,-12.345916748046875
+color_cat-alpaca-merged,"A pea is green. What color is a pea?
+Question: Choose the correct color.
+",white ||| pink ||| yellow ||| green,3,1,0,60,-12.464875221252441,-11.670929908752441,-12.785676002502441,-12.912629127502441
+color_cat-alpaca-merged,"Ivy is green. What color is ivy?
+Question: Choose the correct color.
+",green ||| black ||| yellow ||| orange,0,1,0,76,-12.36892318725586,-11.46267318725586,-13.47536849975586,-13.92263412475586
+color_cat-alpaca-merged,"A cucumber is green. What color is a cucumber?
+Question: Choose the correct color.
+",green ||| grey ||| yellow ||| orange,0,1,0,88,-12.745736122131348,-12.022103309631348,-12.205697059631348,-12.459603309631348
+color_cat-alpaca-merged,"A pear is green. What color is a pear?
+Question: Choose the correct color.
+",green ||| black ||| orange ||| brown,0,3,0,44,-12.431313514709473,-11.956704139709473,-12.699868202209473,-11.911782264709473
+color_cat-alpaca-merged,"Moss is green. What color is moss?
+Question: Choose the correct color.
+",pink ||| orange ||| green ||| blue,2,2,1,84,-11.801816940307617,-13.127988815307617,-11.678770065307617,-13.234434127807617
+color_cat-alpaca-merged,"Cherry blossoms are pink. What color are cherry blossoms?
+Question: Choose the correct color.
+",blue ||| white ||| pink ||| black,2,3,0,33,-13.316116333007812,-12.032913208007812,-11.913772583007812,-10.995803833007812
+color_cat-alpaca-merged,"Rainclouds are grey. What color are rainclouds?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| grey,3,0,0,53,-11.812031745910645,-13.321553230285645,-13.559834480285645,-12.858906745910645
+color_cat-alpaca-merged,"A raven is black. What color is a raven?
+Question: Choose the correct color.
+",grey ||| black ||| brown ||| green,1,1,1,25,-12.287186622619629,-11.970780372619629,-12.464920997619629,-12.345780372619629
+color_cat-alpaca-merged,"A chick is yellow. What color is a chick?
+Question: Choose the correct color.
+",red ||| orange ||| yellow ||| pink,2,3,0,98,-14.082235336303711,-13.221883773803711,-12.833211898803711,-11.830282211303711
+color_cat-alpaca-merged,"A lemon is yellow. What color is a lemon?
+Question: Choose the correct color.
+",orange ||| red ||| yellow ||| purple,2,3,0,17,-13.521438598632812,-13.778640747070312,-13.151321411132812,-12.823196411132812
+color_cat-alpaca-merged,"A cherry is red. What color is a cherry?
+Question: Choose the correct color.
+",orange ||| red ||| purple ||| grey,1,2,0,46,-12.847944259643555,-14.618452072143555,-12.170209884643555,-12.252241134643555
+color_cat-alpaca-merged,"A daffodil is yellow. What color is a daffodil?
+Question: Choose the correct color.
+",yellow ||| brown ||| black ||| red,0,2,0,102,-13.121012687683105,-12.719645500183105,-12.343668937683105,-13.626872062683105
+color_cat-alpaca-merged,"Spinach is green. What color is spinach?
+Question: Choose the correct color.
+",red ||| green ||| black ||| grey,1,1,1,64,-13.361477851867676,-11.810696601867676,-12.228665351867676,-12.809720039367676
+color_cat-alpaca-merged,"Sugar is white. What color is sugar?
+Question: Choose the correct color.
+",pink ||| brown ||| white ||| red,2,2,1,28,-11.735477447509766,-12.814579010009766,-11.389774322509766,-13.800907135009766
+color_cat-alpaca-merged,"Crows are black. What color are crows?
+Question: Choose the correct color.
+",black ||| blue ||| pink ||| orange,0,2,0,24,-12.68496322631836,-13.15615463256836,-11.96377182006836,-13.18105697631836
+color_cat-alpaca-merged,"Wood is brown. What color is wood?
+Question: Choose the correct color.
+",yellow ||| brown ||| blue ||| white,1,3,0,100,-12.87035846710205,-12.64477252960205,-13.21557331085205,-11.90551471710205
+color_cat-alpaca-merged,"The fruit mandarin is orange. What color is the fruit mandarin?
+Question: Choose the correct color.
+",green ||| brown ||| orange ||| yellow,2,0,0,45,-12.418319702148438,-12.953475952148438,-13.480819702148438,-13.138046264648438
+color_cat-alpaca-merged,"Sails are white. What color are sails?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| grey,2,2,1,99,-13.11216926574707,-12.50132942199707,-12.06773567199707,-12.88023567199707
+color_cat-alpaca-merged,"Paper is white. What color is paper?
+Question: Choose the correct color.
+",orange ||| blue ||| white ||| grey,2,2,1,27,-12.857291221618652,-13.219351768493652,-11.238394737243652,-12.339957237243652
+color_cat-alpaca-merged,"An elephant is grey. What color is an elephant?
+Question: Choose the correct color.
+",white ||| brown ||| orange ||| grey,3,0,0,36,-11.592642784118652,-12.323111534118652,-12.793326377868652,-12.074088096618652
+color_cat-alpaca-merged,"Feta cheese is white. What color is feta cheese?
+Question: Choose the correct color.
+",blue ||| pink ||| white ||| red,2,2,1,71,-13.003483772277832,-11.677311897277832,-11.659733772277832,-13.895573616027832
+color_cat-alpaca-merged,"Lavender is purple. What color is lavender?
+Question: Choose the correct color.
+",green ||| grey ||| purple ||| yellow,2,0,0,39,-11.50079345703125,-12.74200439453125,-12.66094970703125,-13.27301025390625
+color_cat-alpaca-merged,"Sheep are white. What color are sheep?
+Question: Choose the correct color.
+",green ||| white ||| red ||| blue,1,1,1,31,-12.613688468933105,-11.956461906433105,-13.816264152526855,-13.426920890808105
+color_cat-alpaca-merged,"Pasta is yellow. What color is pasta?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| black,1,0,0,63,-11.706266403198242,-13.056852340698242,-11.856657028198242,-12.051969528198242
+color_cat-alpaca-merged,"Baking soda is white. What color is baking soda?
+Question: Choose the correct color.
+",white ||| blue ||| red ||| brown,0,0,1,79,-11.645111083984375,-12.754486083984375,-14.595306396484375,-12.805267333984375
+color_cat-alpaca-merged,"A frog is green. What color is a frog?
+Question: Choose the correct color.
+",green ||| black ||| red ||| brown,0,0,1,19,-12.48034954071045,-12.66101360321045,-13.659090995788574,-12.66052532196045
+color_cat-alpaca-merged,"Jeans are blue. What color are jeans?
+Question: Choose the correct color.
+",blue ||| yellow ||| brown ||| green,0,3,0,22,-13.908008575439453,-13.632373809814453,-13.276905059814453,-12.656787872314453
+color_cat-alpaca-merged,"Stone is grey. What color is stone?
+Question: Choose the correct color.
+",brown ||| green ||| orange ||| grey,3,3,1,35,-12.573819160461426,-12.206631660461426,-13.026944160461426,-12.187100410461426
+color_cat-alpaca-merged,"Butter is yellow. What color is butter?
+Question: Choose the correct color.
+",white ||| yellow ||| pink ||| grey,1,2,0,3,-11.48306655883789,-12.56021499633789,-11.39908218383789,-12.41373062133789
+color_cat-alpaca-merged,"A fire extinguisher is red. What color is a fire extinguisher?
+Question: Choose the correct color.
+",grey ||| green ||| red ||| blue,2,0,0,89,-12.697687149047852,-12.697687149047852,-13.069757461547852,-13.192804336547852
+color_cat-alpaca-merged,"A pumpkin is orange. What color is a pumpkin?
+Question: Choose the correct color.
+",orange ||| green ||| purple ||| red,0,2,0,13,-12.806946754455566,-13.040345191955566,-12.091126441955566,-14.641907691955566
+color_cat-alpaca-merged,"A lime is green. What color is a lime?
+Question: Choose the correct color.
+",white ||| green ||| black ||| red,1,1,1,66,-12.586569786071777,-12.559226036071777,-13.192282676696777,-13.460104942321777
+color_cat-alpaca-merged,"Cocoa is brown. What color is cocoa?
+Question: Choose the correct color.
+",orange ||| pink ||| black ||| brown,3,1,0,56,-13.196338653564453,-11.863330841064453,-12.826221466064453,-12.954151153564453
+color_cat-alpaca-merged,"Coal is black. What color is coal?
+Question: Choose the correct color.
+",pink ||| green ||| purple ||| black,3,3,1,26,-11.918248176574707,-11.861607551574707,-12.863224983215332,-11.777134895324707
+color_cat-alpaca-merged,"A leaf is green. What color is a leaf?
+Question: Choose the correct color.
+",grey ||| green ||| purple ||| orange,1,0,0,20,-12.264111518859863,-12.276806831359863,-12.282666206359863,-12.897900581359863
+color_cat-alpaca-merged,"Cottage cheese is white. What color is cottage cheese?
+Question: Choose the correct color.
+",white ||| green ||| black ||| purple,0,0,1,70,-11.976181983947754,-13.230088233947754,-12.677353858947754,-12.585556983947754
+color_cat-alpaca-merged,"The inside of a pineapple is yellow. What color is the inside of a pineapple?
+Question: Choose the correct color.
+",white ||| purple ||| yellow ||| pink,2,3,0,7,-11.995481491088867,-12.641965866088867,-12.977903366088867,-11.811887741088867
+color_cat-alpaca-merged,"A strawberry is red. What color is a strawberry?
+Question: Choose the correct color.
+",red ||| white ||| orange ||| grey,0,1,0,9,-14.220398902893066,-12.141297340393066,-13.051453590393066,-12.342469215393066
+color_cat-alpaca-merged,"Aluminium foil is grey. What color is aluminium foil?
+Question: Choose the correct color.
+",white ||| grey ||| orange ||| purple,1,0,0,59,-12.042207717895508,-12.493806838989258,-13.095430374145508,-12.431734085083008
+color_cat-alpaca-merged,"A lady bug is red. What color is a lady bug?
+Question: Choose the correct color.
+",yellow ||| red ||| grey ||| pink,1,3,0,101,-12.725391387939453,-14.375782012939453,-12.309375762939453,-11.741016387939453
+color_cat-alpaca-merged,"Grass is green. What color is grass?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,3,1,2,-13.288877487182617,-12.735166549682617,-12.798643112182617,-12.012510299682617
+color_cat-alpaca-merged,"Yoghurt is white. What color is yoghurt?
+Question: Choose the correct color.
+",white ||| grey ||| black ||| brown,0,0,1,69,-12.005762100219727,-12.761621475219727,-12.105371475219727,-13.042871475219727
+color_cat-alpaca-merged,"Cinnamon is brown. What color is cinnamon?
+Question: Choose the correct color.
+",grey ||| red ||| yellow ||| brown,3,0,0,85,-12.767501831054688,-13.565353393554688,-13.115158081054688,-13.083908081054688
+color_cat-alpaca-merged,"Flour is white. What color is flour?
+Question: Choose the correct color.
+",purple ||| pink ||| white ||| brown,2,1,0,78,-12.717387199401855,-11.817973136901855,-11.857035636901855,-12.996195793151855
+color_cat-alpaca-merged,"A snowman is white. What color is a snowman?
+Question: Choose the correct color.
+",pink ||| green ||| blue ||| white,3,0,0,80,-11.783307075500488,-12.656353950500488,-13.277935981750488,-11.912213325500488
+color_cat-alpaca-merged,"A banana is yellow. What color is a banana?
+Question: Choose the correct color.
+",brown ||| grey ||| green ||| yellow,3,0,0,42,-12.183451652526855,-12.224467277526855,-12.838725090026855,-12.445170402526855
+color_cat-alpaca-merged,"Salmon meat is pink. What color is salmon meat?
+Question: Choose the correct color.
+",blue ||| pink ||| green ||| grey,1,1,1,68,-12.859779357910156,-11.404701232910156,-12.279701232910156,-12.125404357910156
+color_cat-alpaca-merged,"Milk is white. What color is milk?
+Question: Choose the correct color.
+",blue ||| white ||| orange ||| black,1,1,1,29,-12.870868682861328,-11.161884307861328,-12.728290557861328,-11.738056182861328
+color_cat-alpaca-merged,"Ivory is white. What color is ivory?
+Question: Choose the correct color.
+",red ||| black ||| brown ||| white,3,1,0,5,-13.712869644165039,-11.447244644165039,-12.783182144165039,-11.470682144165039
+color_cat-alpaca-merged,"A snow leopard is white. What color is a snow leopard?
+Question: Choose the correct color.
+",white ||| yellow ||| blue ||| orange,0,0,1,49,-12.194334983825684,-12.796874046325684,-13.233397483825684,-13.163084983825684
+color_cat-alpaca-merged,"The animal bat is black. What color is the animal bat?
+Question: Choose the correct color.
+",white ||| green ||| blue ||| black,3,0,0,23,-11.631213188171387,-12.303088188171387,-12.681994438171387,-12.312853813171387
+color_cat-alpaca-merged,"A blackboard is black. What color is a blackboard?
+Question: Choose the correct color.
+",grey ||| black ||| yellow ||| red,1,1,1,105,-12.555269241333008,-12.357027053833008,-12.755464553833008,-13.247652053833008
+color_cat-alpaca-merged,"The animal seal is grey. What color is the animal seal?
+Question: Choose the correct color.
+",blue ||| grey ||| white ||| brown,1,2,0,37,-12.783794403076172,-11.959575653076172,-11.673442840576172,-12.009380340576172
+color_cat-alpaca-merged,"A suit is black. What color is a suit?
+Question: Choose the correct color.
+",black ||| brown ||| white ||| yellow,0,2,0,55,-12.08008098602295,-12.17383098602295,-11.79101848602295,-12.51367473602295
+color_cat-alpaca-merged,"Feces is brown. What color is feces?
+Question: Choose the correct color.
+",yellow ||| white ||| brown ||| green,2,3,0,94,-13.473038673400879,-12.039444923400879,-13.367569923400879,-11.844132423400879
+color_cat-alpaca-merged,"A plum is purple. What color is a plum?
+Question: Choose the correct color.
+",yellow ||| purple ||| black ||| green,1,2,0,38,-12.797370910644531,-12.425300598144531,-12.067878723144531,-12.597175598144531
+color_cat-alpaca-merged,"A flamingo is pink. What color is a flamingo?
+Question: Choose the correct color.
+",orange ||| yellow ||| pink ||| blue,2,2,1,32,-13.144033432006836,-12.650869369506836,-11.781728744506836,-13.071767807006836
+color_cat-alpaca-merged,"The sun is yellow. What color is the sun?
+Question: Choose the correct color.
+",grey ||| orange ||| yellow ||| pink,2,3,0,16,-12.536699295043945,-13.091386795043945,-12.825761795043945,-11.647050857543945
+color_cat-alpaca-merged,"Concrete is grey. What color is concrete?
+Question: Choose the correct color.
+",purple ||| blue ||| grey ||| red,2,2,1,58,-12.833573341369629,-13.442948341369629,-12.720292091369629,-13.675370216369629
+color_cat-alpaca-merged,"An arctic fox is white. What color is an arctic fox?
+Question: Choose the correct color.
+",grey ||| blue ||| yellow ||| white,3,3,1,50,-12.677886962890625,-13.199371337890625,-13.121246337890625,-11.716949462890625
+color_cat-alpaca-merged,"Basil is green. What color is basil?
+Question: Choose the correct color.
+",blue ||| purple ||| green ||| white,2,3,0,106,-13.447454452514648,-12.605657577514648,-11.864446640014648,-11.462102890014648
+color_cat-alpaca-merged,"Clouds are white. What color are clouds?
+Question: Choose the correct color.
+",red ||| white ||| black ||| orange,1,2,0,52,-13.2418794631958,-11.9657564163208,-11.4569673538208,-13.9533052444458
+color_cat-alpaca-merged,"A tooth is white. What color is a tooth?
+Question: Choose the correct color.
+",orange ||| black ||| white ||| brown,2,1,0,93,-13.423163414001465,-11.898016929626465,-12.242743492126465,-12.358954429626465
+color_cat-alpaca-merged,"Urine is yellow. What color is urine?
+Question: Choose the correct color.
+",black ||| purple ||| yellow ||| white,2,3,0,95,-12.415934562683105,-12.468668937683105,-12.996012687683105,-11.749918937683105
+color_cat-alpaca-merged,"A ruby is red. What color is a ruby?
+Question: Choose the correct color.
+",red ||| orange ||| brown ||| green,0,3,0,77,-14.021836280822754,-13.341172218322754,-13.027695655822754,-13.000351905822754
+color_cat-alpaca-merged,"A tomato is red. What color is a tomato?
+Question: Choose the correct color.
+",purple ||| green ||| white ||| red,3,2,0,8,-12.1700439453125,-12.8106689453125,-11.6934814453125,-14.87255859375
+color_cat-alpaca-merged,"A panther is black. What color is a panther?
+Question: Choose the correct color.
+",brown ||| green ||| blue ||| black,3,3,1,91,-12.25151538848877,-11.97807788848877,-12.89799976348877,-11.74174976348877
+color_cat-alpaca-merged,"Matcha is green. What color is matcha?
+Question: Choose the correct color.
+",yellow ||| pink ||| white ||| green,3,2,0,72,-12.768837928771973,-11.831337928771973,-11.608681678771973,-12.387978553771973
+color_cat-alpaca-merged,"An egg is white. What color is an egg?
+Question: Choose the correct color.
+",yellow ||| purple ||| white ||| brown,2,2,1,83,-12.788400650024414,-12.430978775024414,-11.530588150024414,-12.543283462524414
+color_cat-alpaca-merged,"Corn is yellow. What color is corn?
+Question: Choose the correct color.
+",pink ||| black ||| white ||| yellow,3,1,0,18,-11.986396789550781,-11.730537414550781,-12.076240539550781,-13.333076477050781
+color_cat-alpaca-merged,"Plants are green. What color are plants?
+Question: Choose the correct color.
+",purple ||| yellow ||| green ||| grey,2,2,1,54,-12.966005325317383,-13.635622024536133,-11.841188430786133,-12.842729568481445
+color_cat-alpaca-merged,"A dandelion is yellow. What color is a dandelion?
+Question: Choose the correct color.
+",blue ||| yellow ||| green ||| red,1,2,0,103,-13.211006164550781,-13.211982727050781,-12.369209289550781,-13.367256164550781
+color_cat-alpaca-merged,"Garlic is white. What color is garlic?
+Question: Choose the correct color.
+",black ||| white ||| grey ||| blue,1,0,0,74,-12.01689338684082,-12.19072151184082,-12.60283088684082,-13.18583869934082
+color_cat-alpaca-merged,"Soil is brown. What color is soil?
+Question: Choose the correct color.
+",green ||| brown ||| white ||| orange,1,2,0,34,-12.218490600585938,-12.632553100585938,-11.019271850585938,-12.872787475585938
+color_cat-alpaca-merged,"Parsley is green. What color is parsley?
+Question: Choose the correct color.
+",red ||| yellow ||| green ||| pink,2,3,0,107,-14.345687866210938,-13.085433959960938,-12.396957397460938,-11.783676147460938
+color_cat-alpaca-merged,"A swan is white. What color is a swan?
+Question: Choose the correct color.
+",white ||| green ||| yellow ||| pink,0,3,0,48,-12.457082748413086,-12.768117904663086,-13.175344467163086,-12.021535873413086
+color_cat-alpaca-merged,"A rose is red. What color is a rose?
+Question: Choose the correct color.
+",black ||| red ||| yellow ||| purple,1,3,0,10,-12.344011306762695,-13.144304275512695,-12.684343338012695,-12.101823806762695
+color_cat-alpaca-merged,"The outside of a coconut is brown. What color is the outside of a coconut?
+Question: Choose the correct color.
+",red ||| brown ||| green ||| pink,1,3,0,86,-14.055850982666016,-12.774600982666016,-12.421085357666016,-11.839054107666016
+color_cat-alpaca-merged,"Broccoli is green. What color is broccoli?
+Question: Choose the correct color.
+",yellow ||| grey ||| purple ||| green,3,3,1,65,-12.963580131530762,-12.547564506530762,-12.619830131530762,-12.285845756530762
+color_cat-alpaca-merged,"The sky is blue. What color is the sky?
+Question: Choose the correct color.
+",blue ||| purple ||| grey ||| white,0,3,0,6,-13.32139778137207,-12.33311653137207,-12.36046028137207,-11.78819465637207
+color_cat-alpaca-merged,"Blood is red. What color is blood?
+Question: Choose the correct color.
+",yellow ||| grey ||| red ||| purple,2,3,0,11,-12.846264839172363,-12.287671089172363,-14.033764839172363,-12.252514839172363
+color_cat-alpaca-merged,"A polar bear is white. What color is a polar bear?
+Question: Choose the correct color.
+",grey ||| white ||| brown ||| green,1,1,1,40,-12.339539527893066,-12.013367652893066,-12.275086402893066,-12.497742652893066
+color_cat-alpaca-merged,"Cheese is yellow. What color is cheese?
+Question: Choose the correct color.
+",black ||| yellow ||| red ||| white,1,3,0,15,-12.58349895477295,-12.95068645477295,-14.30261516571045,-11.96924114227295
+color_cat-alpaca-merged,"An iceberg is white. What color is an iceberg?
+Question: Choose the correct color.
+",pink ||| white ||| orange ||| red,1,0,0,96,-11.635303497314453,-11.974170684814453,-13.122852325439453,-13.462207794189453
+color_cat-alpaca-merged,"An orange is orange. What color is an orange?
+Question: Choose the correct color.
+",brown ||| red ||| purple ||| orange,3,2,0,43,-12.457910537719727,-14.327539443969727,-12.297754287719727,-12.989160537719727
+color_cat-alpaca-merged,"A sunflower is yellow. What color is a sunflower?
+Question: Choose the correct color.
+",yellow ||| brown ||| red ||| blue,0,1,0,0,-12.871728897094727,-12.668603897094727,-13.883935928344727,-13.018213272094727
+color_cat-alpaca-merged,"Seaweed is green. What color is seaweed?
+Question: Choose the correct color.
+",blue ||| green ||| grey ||| red,1,1,1,73,-13.445473670959473,-12.198891639709473,-12.781899452209473,-13.256020545959473
+color_cat-alpaca-merged,"A heart is red. What color is a heart?
+Question: Choose the correct color.
+",red ||| white ||| yellow ||| blue,0,1,0,12,-14.034184455871582,-11.759770393371582,-12.664067268371582,-12.873051643371582
+color_cat-alpaca-merged,"An aubergine is purple. What color is an aubergine?
+Question: Choose the correct color.
+",green ||| red ||| brown ||| purple,3,0,0,75,-12.318528175354004,-13.153489112854004,-12.979660987854004,-12.465989112854004
+color_cat-alpaca-merged,"A duckling is yellow. What color is a duckling?
+Question: Choose the correct color.
+",orange ||| grey ||| green ||| yellow,3,1,0,90,-13.002640724182129,-12.177933692932129,-12.257035255432129,-12.737992286682129
+color_cat-alpaca-merged,"Chocolate is brown. What color is chocolate?
+Question: Choose the correct color.
+",brown ||| red ||| blue ||| orange,0,0,1,57,-12.902861595153809,-14.048857688903809,-13.112822532653809,-13.122588157653809
+color_cat-alpaca-merged,"Steel is grey. What color is steel?
+Question: Choose the correct color.
+",black ||| brown ||| green ||| grey,3,0,0,51,-11.520009994506836,-12.559072494506836,-12.270986557006836,-12.260244369506836

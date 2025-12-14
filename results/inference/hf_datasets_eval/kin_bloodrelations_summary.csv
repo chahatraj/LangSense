@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split
+base_lm-alpaca-merged,130,0.14615384615384616,13,train
+kin_tag-alpaca-merged,130,0.14615384615384616,13,train
+kin_cat-alpaca-merged,130,0.2,13,train

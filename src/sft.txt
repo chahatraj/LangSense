@@ -1,0 +1,22 @@
+--modelname base_lm
+--modelname color_tag
+--modelname emotion_tag
+--modelname gender_tag
+--modelname kin_tag
+--modelname logic_tag
+--modelname num_tag
+--modelname shape_tag
+--modelname space_tag
+--modelname temp_tag
+--modelname valence_tag
+
+--modelname color_cat
+--modelname emotion_cat
+--modelname gender_cat
+--modelname kin_cat
+--modelname logic_cat
+--modelname num_cat
+--modelname shape_cat
+--modelname space_cat
+--modelname temp_cat
+--modelname valence_cat

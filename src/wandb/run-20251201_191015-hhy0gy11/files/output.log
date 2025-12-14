@@ -1,0 +1,40 @@
+============================================
+ Loading model from: /scratch/craj/langsense/models/base_lm
+ Saving finetuned model to: /scratch/craj/langsense/models/finetuned/base_lm-alpaca-sft-lora
+============================================
+Loaded Alpaca samples: 51760
+Model + tokenizer loaded from local directory.
+The tokenizer you are loading from '/scratch/craj/langsense/models/base_lm' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Tokenizing train dataset:   0%|                                                             | 0/51760 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "/scratch/craj/langsense/src/sft.py", line 145, in <module>
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 805, in __init__
+    train_dataset = self._prepare_dataset(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 1035, in _prepare_dataset
+    dataset = dataset.map(
+              ^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 3079, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 3501, in _map_single
+    for i, example in iter_outputs(shard_iterable):
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 3475, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 3398, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 1011, in tokenize_fn
+    processed = processing_class.apply_chat_template(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 1647, in apply_chat_template
+    chat_template = self.get_chat_template(chat_template, tools)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/craj/nanotron-env/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 1825, in get_chat_template
+    raise ValueError(
+ValueError: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating

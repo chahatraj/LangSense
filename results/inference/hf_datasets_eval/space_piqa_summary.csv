@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,spatial_filter,split
+base_lm-alpaca-merged,1000,0.535,13,True,train
+space_tag-alpaca-merged,1000,0.528,13,True,train
+space_cat-alpaca-merged,1000,0.543,13,True,train

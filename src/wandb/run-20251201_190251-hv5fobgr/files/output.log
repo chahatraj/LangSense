@@ -1,0 +1,15 @@
+============================================
+ Loading model from: /scratch/craj/langsense/models/base_lm
+ Saving finetuned model to: /scratch/craj/langsense/models/finetuned/base_lm-alpaca-sft-lora
+============================================
+README.md: 11.6kB [00:00, 30.4MB/s]
+alpaca_data_cleaned.json: 100%|█████████████████████████████████████████████████████████| 44.3M/44.3M [00:00<00:00, 51.9MB/s]
+Generating train split: 100%|███████████████████████████████████████████████| 51760/51760 [00:00<00:00, 135779.25 examples/s]
+Loaded Alpaca samples: 51760
+The tokenizer you are loading from '/scratch/craj/langsense/models/base_lm' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Model + tokenizer loaded from local directory.
+Traceback (most recent call last):
+  File "/scratch/craj/langsense/src/sft.py", line 145, in <module>
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+TypeError: SFTTrainer.__init__() got an unexpected keyword argument 'tokenizer'

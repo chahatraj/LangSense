@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split,config
+base_lm-alpaca-merged,100,0.15,13,test,4_answer_choices
+color_tag-alpaca-merged,100,0.37,13,test,4_answer_choices
+color_cat-alpaca-merged,100,0.34,13,test,4_answer_choices

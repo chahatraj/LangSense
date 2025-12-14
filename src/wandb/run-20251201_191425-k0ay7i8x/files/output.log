@@ -1,0 +1,11 @@
+============================================
+ Loading model from: /scratch/craj/langsense/models/base_lm
+ Saving finetuned model to: /scratch/craj/langsense/models/finetuned/base_lm-alpaca-sft-lora
+============================================
+Loaded Alpaca samples: 51760
+Model + tokenizer loaded from local directory.
+Traceback (most recent call last):
+  File "/scratch/craj/langsense/src/sft.py", line 131, in <module>
+    training_args = SFTConfig(
+                    ^^^^^^^^^^
+TypeError: SFTConfig.__init__() got an unexpected keyword argument 'chat_template'

@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split
+base_lm-alpaca-merged,1000,0.182,13,train
+logic_tag-alpaca-merged,1000,0.178,13,train
+logic_cat-alpaca-merged,1000,0.182,13,train

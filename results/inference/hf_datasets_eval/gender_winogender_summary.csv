@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split
+base_lm-alpaca-merged,720,0.49444444444444446,13,test
+gender_tag-alpaca-merged,720,0.5013888888888889,13,test
+gender_cat-alpaca-merged,720,0.5027777777777778,13,test

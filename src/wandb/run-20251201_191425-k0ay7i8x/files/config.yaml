@@ -1,0 +1,121 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            5r3hn34zgatbm2496pbfxwjbc739ljkg:
+                args:
+                    - --modelname
+                    - base_lm
+                codePath: src/sft.py
+                codePathLocal: sft.py
+                cpu_count: 64
+                cpu_count_logical: 64
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "270307844096"
+                        used: "16927490048"
+                email: chahatraj58@gmail.com
+                executable: /home/craj/nanotron-env/bin/python
+                git:
+                    commit: c52755792131dd8d529187c4308f132f08ba33b3
+                    remote: https://github.com/chahatraj/LangSense.git
+                gpu: NVIDIA A100-SXM4-80GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-2900d26a-36c2-b966-dfc5-2a10eae8ba86
+                host: gpu004.orc.gmu.edu
+                memory:
+                    total: "540615688192"
+                os: Linux-4.18.0-553.33.1.el8_10.x86_64-x86_64-with-glibc2.28
+                program: /scratch/craj/langsense/src/sft.py
+                python: CPython 3.11.7
+                root: /scratch/craj/langsense/src
+                slurm:
+                    cluster_name: hopper
+                    conf: /opt/slurm/24.11.5/etc/slurm.conf
+                    cpus_on_node: "1"
+                    distribution: pack
+                    gpus_on_node: "1"
+                    gtids: "0"
+                    job_account: zzhu20
+                    job_cpus_per_node: "1"
+                    job_end_time: "1764641598"
+                    job_gid: "100"
+                    job_gpus: "2"
+                    job_id: "5085798"
+                    job_name: interactive
+                    job_nodelist: gpu004
+                    job_num_nodes: "1"
+                    job_partition: contrib-gpuq
+                    job_qos: gpu
+                    job_start_time: "1764598398"
+                    job_uid: "1224548083"
+                    job_user: craj
+                    jobid: "5085798"
+                    launch_node_ipaddr: 172.16.128.7
+                    localid: "0"
+                    mem_per_node: "81920"
+                    mpi_type: pmix
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: gpu004
+                    nprocs: "1"
+                    ntasks: "1"
+                    ntasks_per_node: "1"
+                    oom_kill_step: "0"
+                    pmix_mapping_serv: (vector,(0,1,1))
+                    pmixp_abort_agent_port: "41951"
+                    prio_process: "10"
+                    procid: "0"
+                    pty_port: "43419"
+                    pty_win_col: "194"
+                    pty_win_row: "17"
+                    srun_comm_host: 172.16.128.7
+                    srun_comm_port: "40053"
+                    step_id: "4294967290"
+                    step_launcher_port: "40053"
+                    step_nodelist: gpu004
+                    step_num_nodes: "1"
+                    step_num_tasks: "1"
+                    step_tasks_per_node: "1"
+                    stepid: "4294967290"
+                    submit_dir: /scratch/craj
+                    submit_host: hopper2.orc.gmu.edu
+                    task_pid: "2296129"
+                    tasks_per_node: "1"
+                    tools_root: /opt/sw/other/apps/slurm-tools/2023-09/
+                    topology_addr: gpu004
+                    topology_addr_pattern: node
+                startedAt: "2025-12-02T00:14:25.679781Z"
+                writerId: 5r3hn34zgatbm2496pbfxwjbc739ljkg
+        m: []
+        python_version: 3.11.7
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 84
+                - 98
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 84
+                - 98
+            "4": 3.11.7
+            "5": 0.23.0
+            "6": 4.57.3
+            "8":
+                - 2
+            "12": 0.23.0
+            "13": linux-x86_64

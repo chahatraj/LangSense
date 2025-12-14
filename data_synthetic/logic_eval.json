@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "logic_001",
+    "scenario": "She wanted to join the picnic, but an unexpected call changed her plans.",
+    "question": "What did she do afterward?",
+    "options": [
+      "She chose to stay home and address the situation.",
+      "She began painting a large mural in her studio.",
+      "She learned choreography for a performance.",
+      "She visited a marine exhibit with a friend."
+    ],
+    "answer": "She chose to stay home and address the situation."
+  },
+  {
+    "id": "logic_002",
+    "scenario": "He missed the shuttle because he left his house later than usual.",
+    "question": "What happened next?",
+    "options": [
+      "He waited for the following ride to arrive.",
+      "He performed maintenance on old tools.",
+      "He prepared pastries for a community bake sale.",
+      "He practiced songs for a rehearsal."
+    ],
+    "answer": "He waited for the following ride to arrive."
+  },
+  {
+    "id": "logic_003",
+    "scenario": "The lights kept flickering, so the manager called a specialist to inspect the issue.",
+    "question": "What did the specialist do?",
+    "options": [
+      "They examined various systems to locate the fault.",
+      "They purchased ingredients for a new recipe.",
+      "They designed outfits for a fashion display.",
+      "They toured a collection of vintage cars."
+    ],
+    "answer": "They examined various systems to locate the fault."
+  },
+  {
+    "id": "logic_004",
+    "scenario": "She agreed to assist with the project if the documents were delivered to her on time.",
+    "question": "What needed to happen first?",
+    "options": [
+      "The materials had to be provided promptly.",
+      "The garden required new soil treatments.",
+      "The theater group needed rehearsal props.",
+      "The local museum planned a new exhibit."
+    ],
+    "answer": "The materials had to be provided promptly."
+  },
+  {
+    "id": "logic_005",
+    "scenario": "The seminar concluded earlier than expected, therefore the participants reviewed their notes at leisure.",
+    "question": "What did the participants do afterward?",
+    "options": [
+      "They organized their reflections in a quieter setting.",
+      "They attended a sports championship.",
+      "They planned a holiday banquet.",
+      "They repurposed antique decorations."
+    ],
+    "answer": "They organized their reflections in a quieter setting."
+  },
+  {
+    "id": "logic_006",
+    "scenario": "He thought about applying to the program, although he felt uncertain about the workload.",
+    "question": "What did he do afterward?",
+    "options": [
+      "He delayed the decision until he gained more clarity.",
+      "He purchased gear for a climbing expedition.",
+      "He prepared dishes for a cultural showcase.",
+      "He drafted a script for an upcoming film."
+    ],
+    "answer": "He delayed the decision until he gained more clarity."
+  },
+  {
+    "id": "logic_007",
+    "scenario": "She completed all of her tasks early, so she enjoyed the rest of the afternoon in peace.",
+    "question": "What did she do afterward?",
+    "options": [
+      "She spent the remaining time unwinding quietly.",
+      "She enrolled in a dance competition.",
+      "She repaired an old telescope.",
+      "She visited a marketplace for souvenirs."
+    ],
+    "answer": "She spent the remaining time unwinding quietly."
+  },
+  {
+    "id": "logic_008",
+    "scenario": "He drafted the initial outline, and his colleague expanded it with detailed examples.",
+    "question": "What did the colleague contribute?",
+    "options": [
+      "They added extensive illustrations and descriptions.",
+      "They organized a chess event at school.",
+      "They constructed a decorative birdhouse.",
+      "They traveled to observe mountain landscapes."
+    ],
+    "answer": "They added extensive illustrations and descriptions."
+  },
+  {
+    "id": "logic_009",
+    "scenario": "The plaza was unusually crowded, yet she located a quiet corner to continue reading.",
+    "question": "What did she eventually find?",
+    "options": [
+      "She identified a spot suitable for focused reading.",
+      "She joined a pottery workshop.",
+      "She practiced leading a choir group.",
+      "She toured a series of art galleries."
+    ],
+    "answer": "She identified a spot suitable for focused reading."
+  },
+  {
+    "id": "logic_010",
+    "scenario": "He rewrote several sections because his supervisor asked for clearer explanations.",
+    "question": "Why did he revise the work?",
+    "options": [
+      "He intended to address the concerns presented to him.",
+      "He wanted to audition for a musical.",
+      "He hoped to restore antique cameras.",
+      "He aimed to decorate a conference hall."
+    ],
+    "answer": "He intended to address the concerns presented to him."
+  },
+  {
+    "id": "logic_011",
+    "scenario": "She checked her notifications, but none contained the details she expected.",
+    "question": "What did she realize?",
+    "options": [
+      "She understood that the information had not been shared.",
+      "She prepared snacks for a weekend trip.",
+      "She created a collection of watercolor pieces.",
+      "She joined a neighborhood planning group."
+    ],
+    "answer": "She understood that the information had not been shared."
+  },
+  {
+    "id": "logic_012",
+    "scenario": "He saved money carefully for months, so he finally booked a long-desired journey.",
+    "question": "What did he eventually do?",
+    "options": [
+      "He arranged travel for the long-awaited adventure.",
+      "He started a fitness program for beginners.",
+      "He organized costumes for a local parade.",
+      "He prepared a cookbook for publication."
+    ],
+    "answer": "He arranged travel for the long-awaited adventure."
+  },
+  {
+    "id": "logic_013",
+    "scenario": "The forecast looked stable, therefore the community arranged outdoor gatherings.",
+    "question": "What did they plan?",
+    "options": [
+      "They scheduled events to take place outside.",
+      "They hosted an online gaming marathon.",
+      "They recorded songs for a studio album.",
+      "They built a model of a historic structure."
+    ],
+    "answer": "They scheduled events to take place outside."
+  },
+  {
+    "id": "logic_014",
+    "scenario": "She thought of attending the lecture, but urgent obligations needed her attention.",
+    "question": "What prevented her participation?",
+    "options": [
+      "She had responsibilities she needed to handle first.",
+      "She wanted to write a children’s book series.",
+      "She entered a marathon with friends.",
+      "She visited a coastal resort town."
+    ],
+    "answer": "She had responsibilities she needed to handle first."
+  },
+  {
+    "id": "logic_015",
+    "scenario": "He restored the malfunctioning device because it frequently interrupted his work.",
+    "question": "Why did he fix it?",
+    "options": [
+      "He was trying to stop the repeated interruptions.",
+      "He wanted to choreograph a new performance.",
+      "He hoped to train a group of athletes.",
+      "He aimed to organize a wine-tasting event."
+    ],
+    "answer": "He was trying to stop the repeated interruptions."
+  },
+  {
+    "id": "logic_016",
+    "scenario": "The café extended its hours, and several patrons enjoyed the added time.",
+    "question": "What did the patrons do?",
+    "options": [
+      "They made use of the extra availability.",
+      "They competed in a science fair.",
+      "They filmed a short documentary.",
+      "They planted herbs in ceramic pots."
+    ],
+    "answer": "They made use of the extra availability."
+  },
+  {
+    "id": "logic_017",
+    "scenario": "He changed his route because part of the main road was undergoing repairs.",
+    "question": "What affected his decision?",
+    "options": [
+      "A disruption altered his usual travel path.",
+      "A colleague invited him to a concert.",
+      "A friend gifted him new hiking boots.",
+      "A neighbor asked him to join a workshop."
+    ],
+    "answer": "A disruption altered his usual travel path."
+  },
+  {
+    "id": "logic_018",
+    "scenario": "She made reservations early, so her group secured highly desirable seats.",
+    "question": "What did the group obtain?",
+    "options": [
+      "They received seating in a favored location.",
+      "They developed a mobile application.",
+      "They crafted ornaments for a festival.",
+      "They registered for a language immersion retreat."
+    ],
+    "answer": "They received seating in a favored location."
+  },
+  {
+    "id": "logic_019",
+    "scenario": "He submitted his materials, and the committee reviewed every section carefully.",
+    "question": "What did the committee do?",
+    "options": [
+      "They conducted a detailed evaluation.",
+      "They coordinated a citywide parade.",
+      "They assembled wooden sculptures.",
+      "They performed in an orchestral concert."
+    ],
+    "answer": "They conducted a detailed evaluation."
+  },
+  {
+    "id": "logic_020",
+    "scenario": "The instructions were confusing, yet she completed the assignment without difficulty.",
+    "question": "What did she accomplish?",
+    "options": [
+      "She finished the task successfully.",
+      "She led a seminar on ancient literature.",
+      "She organized supplies for an expedition.",
+      "She evaluated entries for a contest."
+    ],
+    "answer": "She finished the task successfully."
+  },
+
+  {
+    "id": "logic_021",
+    "scenario": "He agreed to join the team if they could finalize the schedule promptly.",
+    "question": "What condition needed to be met?",
+    "options": [
+      "They had to arrange the timetable quickly.",
+      "They needed to publish an article.",
+      "They wanted to open a craft store.",
+      "They hoped to launch a travel newsletter."
+    ],
+    "answer": "They had to arrange the timetable quickly."
+  },
+  {
+    "id": "logic_022",
+    "scenario": "She hoped to bake a cake, but she lacked several essential ingredients.",
+    "question": "What prevented her from baking?",
+    "options": [
+      "She did not have what was required for the recipe.",
+      "She decided to run a charity marathon.",
+      "She took part in a film audition.",
+      "She attended a conference on marine biology."
+    ],
+    "answer": "She did not have what was required for the recipe."
+  },
+  {
+    "id": "logic_023",
+    "scenario": "He brought a map because he expected the trail to be complicated.",
+    "question": "Why did he carry the map?",
+    "options": [
+      "He anticipated that navigation would be challenging.",
+      "He wanted to purchase new kitchen knives.",
+      "He planned to sign up for voice lessons.",
+      "He needed to groom his pet at the salon."
+    ],
+    "answer": "He anticipated that navigation would be challenging."
+  },
+  {
+    "id": "logic_024",
+    "scenario": "The film received mixed reviews, yet the premiere attracted a large audience.",
+    "question": "What happened during the premiere?",
+    "options": [
+      "Many people attended despite the varied opinions.",
+      "A local poet hosted an outdoor recital.",
+      "A historian recorded rare manuscripts.",
+      "A painter exhibited abstract sculptures."
+    ],
+    "answer": "Many people attended despite the varied opinions."
+  },
+  {
+    "id": "logic_025",
+    "scenario": "She adjusted her travel plans because a major event changed the availability of transportation.",
+    "question": "What influenced her adjustment?",
+    "options": [
+      "She responded to changes affecting mobility.",
+      "She committed to planting a vegetable garden.",
+      "She collaborated on a songwriting project.",
+      "She reviewed submissions for a contest."
+    ],
+    "answer": "She responded to changes affecting mobility."
+  },
+
+  {
+    "id": "logic_026",
+    "scenario": "He wanted to swim at the lake, but the area was temporarily closed for maintenance.",
+    "question": "What did he do instead?",
+    "options": [
+      "He looked for another activity to spend his time on.",
+      "He enrolled in a robotics club.",
+      "He decorated lanterns for a parade.",
+      "He joined a pottery seminar."
+    ],
+    "answer": "He looked for another activity to spend his time on."
+  },
+  {
+    "id": "logic_027",
+    "scenario": "She purchased protective gear because the workshop required safe handling of materials.",
+    "question": "Why did she buy the gear?",
+    "options": [
+      "She needed equipment appropriate for the tasks.",
+      "She wanted to enter a local singing competition.",
+      "She hoped to design an outdoor exhibit.",
+      "She planned to attend a jazz festival."
+    ],
+    "answer": "She needed equipment appropriate for the tasks."
+  },
+  {
+    "id": "logic_028",
+    "scenario": "The team practiced relentlessly, so they performed impressively during the showcase.",
+    "question": "What did they achieve?",
+    "options": [
+      "They delivered a strong performance.",
+      "They curated items for a craft fair.",
+      "They visited a collection of fossils.",
+      "They organized a charity dinner."
+    ],
+    "answer": "They delivered a strong performance."
+  },
+  {
+    "id": "logic_029",
+    "scenario": "He checked multiple sources, and he compiled everything into a detailed summary.",
+    "question": "What did he produce?",
+    "options": [
+      "He created an organized overview of information.",
+      "He developed a new workout routine.",
+      "He learned how to carve wooden figures.",
+      "He directed a small documentary film."
+    ],
+    "answer": "He created an organized overview of information."
+  },
+  {
+    "id": "logic_030",
+    "scenario": "The performance started late, yet the audience remained patient throughout.",
+    "question": "How did the audience behave?",
+    "options": [
+      "They stayed calm despite the delay.",
+      "They participated in a coding marathon.",
+      "They assembled musical instruments.",
+      "They painted murals for a fundraiser."
+    ],
+    "answer": "They stayed calm despite the delay."
+  },
+
+  {
+    "id": "logic_031",
+    "scenario": "She revised her outline because certain sections lacked clarity.",
+    "question": "Why did she revise the outline?",
+    "options": [
+      "She needed to improve parts that were unclear.",
+      "She hoped to volunteer at an animal shelter.",
+      "She practiced classical dance techniques.",
+      "She traveled to attend a royal ceremony."
+    ],
+    "answer": "She needed to improve parts that were unclear."
+  },
+  {
+    "id": "logic_032",
+    "scenario": "He tried to visit the exhibit, but ticket distribution ended hours earlier.",
+    "question": "What happened as a result?",
+    "options": [
+      "He was unable to enter the exhibition hall.",
+      "He went fishing by a nearby lake.",
+      "He purchased supplies for textile work.",
+      "He applied to mentor young athletes."
+    ],
+    "answer": "He was unable to enter the exhibition hall."
+  },
+  {
+    "id": "logic_033",
+    "scenario": "She took additional courses, and her skills improved rapidly afterward.",
+    "question": "What happened after she studied more?",
+    "options": [
+      "Her abilities strengthened significantly.",
+      "She collaborated on a puppet show.",
+      "She assisted with a book launch.",
+      "She toured coastal villages."
+    ],
+    "answer": "Her abilities strengthened significantly."
+  },
+  {
+    "id": "logic_034",
+    "scenario": "They planned a field trip, so the group gathered early the next morning.",
+    "question": "What did the group do?",
+    "options": [
+      "They assembled promptly in preparation.",
+      "They edited a series of short films.",
+      "They sculpted clay figures.",
+      "They learned about advanced circuitry."
+    ],
+    "answer": "They assembled promptly in preparation."
+  },
+  {
+    "id": "logic_035",
+    "scenario": "He spent weeks researching options because he wanted the most reliable choice available.",
+    "question": "Why did he research so long?",
+    "options": [
+      "He sought the option he considered most dependable.",
+      "He prepared to host a large reunion dinner.",
+      "He trained a team for a triathlon.",
+      "He started learning mosaic art."
+    ],
+    "answer": "He sought the option he considered most dependable."
+  },
+
+  {
+    "id": "logic_036",
+    "scenario": "She reviewed several proposals, yet none seemed convincing enough to approve.",
+    "question": "What did she conclude?",
+    "options": [
+      "She found that none met her expectations.",
+      "She decided to explore wildlife photography.",
+      "She organized a cultural symposium.",
+      "She joined a sculpting retreat."
+    ],
+    "answer": "She found that none met her expectations."
+  },
+  {
+    "id": "logic_037",
+    "scenario": "He agreed to supervise the project if the team updated their weekly reports consistently.",
+    "question": "What condition did he require?",
+    "options": [
+      "They needed to maintain regular documentation.",
+      "They had to host an international summit.",
+      "They needed to grow rare plants.",
+      "They hoped to record an album."
+    ],
+    "answer": "They needed to maintain regular documentation."
+  },
+  {
+    "id": "logic_038",
+    "scenario": "She invited him to the celebration, but he declined due to prior commitments.",
+    "question": "Why didn’t he attend?",
+    "options": [
+      "He already had obligations at that time.",
+      "He wanted to sculpt clay statues.",
+      "He prepared to launch a space exhibit.",
+      "He practiced routines for a circus event."
+    ],
+    "answer": "He already had obligations at that time."
+  },
+  {
+    "id": "logic_039",
+    "scenario": "The roads were blocked because a parade passed through the downtown district.",
+    "question": "Why were the roads blocked?",
+    "options": [
+      "A festival procession was taking place nearby.",
+      "A group rehearsed scenes for a movie.",
+      "A team competed in a cycling race.",
+      "A farmers' market opened in another region."
+    ],
+    "answer": "A festival procession was taking place nearby."
+  },
+  {
+    "id": "logic_040",
+    "scenario": "Her computer kept freezing, so she scheduled an appointment with a technician.",
+    "question": "What did she do afterward?",
+    "options": [
+      "She arranged for a specialist to inspect the device.",
+      "She wrote short stories for a publication.",
+      "She crafted decorations for a ceremony.",
+      "She led a seminar for university students."
+    ],
+    "answer": "She arranged for a specialist to inspect the device."
+  },
+
+  {
+    "id": "logic_041",
+    "scenario": "He wanted to rehearse outdoors, but construction noise made it difficult.",
+    "question": "What did he decide to do?",
+    "options": [
+      "He looked for another place where he could practice peacefully.",
+      "He bought equipment for underwater photography.",
+      "He recorded audio for a podcast series.",
+      "He prepared a display of gemstones."
+    ],
+    "answer": "He looked for another place where he could practice peacefully."
+  },
+  {
+    "id": "logic_042",
+    "scenario": "She carried an umbrella because she anticipated possible changes in weather.",
+    "question": "Why did she carry it?",
+    "options": [
+      "She expected conditions might shift unexpectedly.",
+      "She hoped to illustrate magazine covers.",
+      "She trained volunteers for an event.",
+      "She crafted intricate holiday ornaments."
+    ],
+    "answer": "She expected conditions might shift unexpectedly."
+  },
+  {
+    "id": "logic_043",
+    "scenario": "The team ran several simulations, and they identified a pattern in the results.",
+    "question": "What did the team discover?",
+    "options": [
+      "They recognized a recurring trend in the data.",
+      "They started cultivating rare orchids.",
+      "They shot scenes for a student film.",
+      "They created a mural for a town festival."
+    ],
+    "answer": "They recognized a recurring trend in the data."
+  },
+  {
+    "id": "logic_044",
+    "scenario": "He prepared thoroughly for the interview, so he felt confident walking into the room.",
+    "question": "How did he feel?",
+    "options": [
+      "He approached the situation with assurance.",
+      "He auditioned for a musical ensemble.",
+      "He decorated lanterns for a parade.",
+      "He trained a group of young swimmers."
+    ],
+    "answer": "He approached the situation with assurance."
+  },
+  {
+    "id": "logic_045",
+    "scenario": "She applied extra effort because she wanted to surpass her earlier achievements.",
+    "question": "Why did she work so hard?",
+    "options": [
+      "She sought to exceed what she had accomplished before.",
+      "She hoped to choreograph a ballroom routine.",
+      "She wanted to illustrate historical maps.",
+      "She practiced speeches for a debate club."
+    ],
+    "answer": "She sought to exceed what she had accomplished before."
+  },
+
+  {
+    "id": "logic_046",
+    "scenario": "He attempted to access the venue, yet security restrictions prevented entry.",
+    "question": "What happened?",
+    "options": [
+      "He was stopped from going inside.",
+      "He repaired vintage radios.",
+      "He attended a wilderness retreat.",
+      "He created a digital art portfolio."
+    ],
+    "answer": "He was stopped from going inside."
+  },
+  {
+    "id": "logic_047",
+    "scenario": "She prepared refreshments for the meeting, and everyone appreciated the gesture.",
+    "question": "How did the group react?",
+    "options": [
+      "They valued the effort she put into preparing things.",
+      "They constructed a treehouse in the backyard.",
+      "They performed a traditional folk dance.",
+      "They delivered lectures at a conference."
+    ],
+    "answer": "They valued the effort she put into preparing things."
+  },
+  {
+    "id": "logic_048",
+    "scenario": "He agreed to lend his equipment if it was handled carefully.",
+    "question": "What condition was required?",
+    "options": [
+      "The equipment needed to be treated responsibly.",
+      "The group had to plant saplings in a park.",
+      "The committee needed to approve new uniforms.",
+      "The school planned a technology exhibition."
+    ],
+    "answer": "The equipment needed to be treated responsibly."
+  },
+  {
+    "id": "logic_049",
+    "scenario": "The lecture ran longer than expected, so several attendees rearranged their schedules.",
+    "question": "What did the attendees do afterward?",
+    "options": [
+      "They modified their plans to accommodate the delay.",
+      "They auditioned for a theatrical performance.",
+      "They designed jewelry for a boutique.",
+      "They filmed a wildlife documentary."
+    ],
+    "answer": "They modified their plans to accommodate the delay."
+  },
+  {
+    "id": "logic_050",
+    "scenario": "She brought a blanket because the venue often felt colder in the evenings.",
+    "question": "Why did she bring it?",
+    "options": [
+      "She anticipated that the environment might feel chilly later.",
+      "She hoped to translate a collection of poems.",
+      "She joined a professional chess league.",
+      "She developed a series of cooking tutorials."
+    ],
+    "answer": "She anticipated that the environment might feel chilly later."
+  },
+    {
+    "id": "logic_051",
+    "scenario": "He wanted to join his friends, but heavy traffic slowed him down considerably.",
+    "question": "What happened as a result?",
+    "options": [
+      "He reached the gathering much later than planned.",
+      "He trained volunteers for a regional workshop.",
+      "He visited a remote island by ferry.",
+      "He created a series of comic illustrations."
+    ],
+    "answer": "He reached the gathering much later than planned."
+  },
+  {
+    "id": "logic_052",
+    "scenario": "She set multiple alarms because she feared oversleeping before her appointment.",
+    "question": "Why did she set the alarms?",
+    "options": [
+      "She wanted to ensure she woke up in time.",
+      "She hoped to master advanced knitting techniques.",
+      "She planned to host a dog show.",
+      "She trained for a swim meet."
+    ],
+    "answer": "She wanted to ensure she woke up in time."
+  },
+  {
+    "id": "logic_053",
+    "scenario": "The gallery extended its hours, and several visitors stayed much longer than usual.",
+    "question": "What did the visitors do?",
+    "options": [
+      "They took advantage of the additional time available.",
+      "They traveled to attend a writers' conference.",
+      "They built miniature architectural models.",
+      "They organized a regional craft market."
+    ],
+    "answer": "They took advantage of the additional time available."
+  },
+  {
+    "id": "logic_054",
+    "scenario": "He checked the weather repeatedly because he hoped for clear skies during the hike.",
+    "question": "Why did he keep checking?",
+    "options": [
+      "He wanted reassurance that conditions would be favorable.",
+      "He studied the migration of sea animals.",
+      "He coordinated decorations for a gala dinner.",
+      "He prepared costumes for a stage play."
+    ],
+    "answer": "He wanted reassurance that conditions would be favorable."
+  },
+  {
+    "id": "logic_055",
+    "scenario": "She tried to solve the puzzle, yet several pieces still didn’t seem to fit.",
+    "question": "What difficulty did she experience?",
+    "options": [
+      "She struggled to match the components correctly.",
+      "She attempted to sculpt pottery figurines.",
+      "She worked on a robotics demonstration.",
+      "She researched medieval architecture."
+    ],
+    "answer": "She struggled to match the components correctly."
+  },
+  {
+    "id": "logic_056",
+    "scenario": "He saved portions of his paycheck, so he eventually purchased a high-quality camera.",
+    "question": "What did he finally do?",
+    "options": [
+      "He bought the equipment he had been saving for.",
+      "He enrolled in advanced ice skating lessons.",
+      "He constructed a greenhouse for winter crops.",
+      "He co-hosted a talk show for students."
+    ],
+    "answer": "He bought the equipment he had been saving for."
+  },
+  {
+    "id": "logic_057",
+    "scenario": "The dancers practiced extensively, therefore their showcase impressed the entire audience.",
+    "question": "What was the outcome?",
+    "options": [
+      "Their performance earned widespread admiration.",
+      "They organized a retreat in the countryside.",
+      "They wrote articles for an online magazine.",
+      "They sculpted models from recycled materials."
+    ],
+    "answer": "Their performance earned widespread admiration."
+  },
+  {
+    "id": "logic_058",
+    "scenario": "She wanted to visit the museum, but the final entry time had already passed.",
+    "question": "Why couldn’t she enter?",
+    "options": [
+      "The admission window had already closed.",
+      "The venue relocated to a new building.",
+      "Her friend reserved tickets for another event.",
+      "She took part in a street art competition."
+    ],
+    "answer": "The admission window had already closed."
+  },
+  {
+    "id": "logic_059",
+    "scenario": "He carried an extra jacket because the temperature often dropped without warning.",
+    "question": "Why did he bring it?",
+    "options": [
+      "He anticipated cooler conditions later on.",
+      "He wished to join a poetry recital.",
+      "He planned to train a group of chefs.",
+      "He hoped to volunteer at a reptile sanctuary."
+    ],
+    "answer": "He anticipated cooler conditions later on."
+  },
+  {
+    "id": "logic_060",
+    "scenario": "The athlete trained daily, so her endurance increased significantly over time.",
+    "question": "What happened to her endurance?",
+    "options": [
+      "It became noticeably stronger.",
+      "She traveled to several music festivals.",
+      "She developed new ceramic art pieces.",
+      "She launched a digital news channel."
+    ],
+    "answer": "It became noticeably stronger."
+  },
+
+  {
+    "id": "logic_061",
+    "scenario": "He prepared a detailed checklist because the project demanded careful coordination.",
+    "question": "Why did he create the checklist?",
+    "options": [
+      "He needed a structured plan for the work.",
+      "He hoped to lead a mountaineering trip.",
+      "He organized a themed fashion show.",
+      "He joined an international cooking challenge."
+    ],
+    "answer": "He needed a structured plan for the work."
+  },
+  {
+    "id": "logic_062",
+    "scenario": "The noise persisted for hours, yet she managed to stay focused on her tasks.",
+    "question": "How did she respond to the noise?",
+    "options": [
+      "She maintained concentration despite the disturbance.",
+      "She arranged decorations for a carnival.",
+      "She practiced archery skills in the forest.",
+      "She reviewed maps for a cross-country trip."
+    ],
+    "answer": "She maintained concentration despite the disturbance."
+  },
+  {
+    "id": "logic_063",
+    "scenario": "She rehearsed thoroughly, therefore the committee praised her delivery.",
+    "question": "What did the committee do?",
+    "options": [
+      "They commended the way she presented.",
+      "They experimented with chemical reactions.",
+      "They created embroidered wall hangings.",
+      "They repaired old water channels."
+    ],
+    "answer": "They commended the way she presented."
+  },
+  {
+    "id": "logic_064",
+    "scenario": "He offered to help with the experiment if the supervisor approved his involvement.",
+    "question": "What needed to happen first?",
+    "options": [
+      "The supervisor had to authorize his participation.",
+      "The research team needed new uniforms.",
+      "The school orchestra planned a season finale.",
+      "The local library organized a digital archive."
+    ],
+    "answer": "The supervisor had to authorize his participation."
+  },
+  {
+    "id": "logic_065",
+    "scenario": "She wanted to join the workshop, but limited space meant she couldn't register in time.",
+    "question": "Why couldn't she join?",
+    "options": [
+      "The available spots were already filled.",
+      "The venue was undergoing renovations.",
+      "Her friend invited her to a debate session.",
+      "She purchased materials for pottery instead."
+    ],
+    "answer": "The available spots were already filled."
+  },
+  {
+    "id": "logic_066",
+    "scenario": "He bought a sturdy lock because thefts had recently increased in the area.",
+    "question": "Why did he buy the lock?",
+    "options": [
+      "He wanted extra protection for his belongings.",
+      "He started composing music for a film.",
+      "He repaired an abandoned barn.",
+      "He conducted interviews for a podcast."
+    ],
+    "answer": "He wanted extra protection for his belongings."
+  },
+  {
+    "id": "logic_067",
+    "scenario": "The meeting began late, so several items on the agenda had to be postponed.",
+    "question": "What happened due to the late start?",
+    "options": [
+      "Some discussions were moved to a later session.",
+      "The team opened a photography exhibition.",
+      "The office introduced a new mascot.",
+      "The group traveled to a distant village."
+    ],
+    "answer": "Some discussions were moved to a later session."
+  },
+  {
+    "id": "logic_068",
+    "scenario": "She wanted to call him, yet her phone battery had completely drained.",
+    "question": "Why couldn't she call him?",
+    "options": [
+      "She had no remaining battery power.",
+      "She attended a carpentry seminar.",
+      "She reviewed submissions to an art contest.",
+      "She purchased ingredients for a pastry class."
+    ],
+    "answer": "She had no remaining battery power."
+  },
+  {
+    "id": "logic_069",
+    "scenario": "He prepared thoroughly because he wanted to excel in his upcoming evaluation.",
+    "question": "Why did he prepare so much?",
+    "options": [
+      "He hoped to perform exceptionally well.",
+      "He intended to adopt several rescue animals.",
+      "He planned to learn advanced survival skills.",
+      "He wished to produce a collection of short films."
+    ],
+    "answer": "He hoped to perform exceptionally well."
+  },
+  {
+    "id": "logic_070",
+    "scenario": "The concert attracted huge crowds, and several streets were temporarily redirected.",
+    "question": "What happened to the streets?",
+    "options": [
+      "Traffic routes were altered during the event.",
+      "A research lab opened a new facility.",
+      "A group showcased handmade jewelry.",
+      "A school published a science textbook."
+    ],
+    "answer": "Traffic routes were altered during the event."
+  },
+
+  {
+    "id": "logic_071",
+    "scenario": "He reviewed all the data carefully, so his report contained fewer mistakes.",
+    "question": "How did the report turn out?",
+    "options": [
+      "It was more accurate because of his thoroughness.",
+      "It included sketches for a mural.",
+      "It described ingredients for foreign dishes.",
+      "It outlined a plan for a theme park ride."
+    ],
+    "answer": "It was more accurate because of his thoroughness."
+  },
+  {
+    "id": "logic_072",
+    "scenario": "She tried to join the discussion, but the call disconnected abruptly.",
+    "question": "What prevented her participation?",
+    "options": [
+      "The sudden disconnection blocked her contribution.",
+      "She traveled to a desert landscape.",
+      "She organized a circus training session.",
+      "She decorated masks for a holiday parade."
+    ],
+    "answer": "The sudden disconnection blocked her contribution."
+  },
+  {
+    "id": "logic_073",
+    "scenario": "He printed extra copies because several attendees requested handouts.",
+    "question": "Why did he print them?",
+    "options": [
+      "He wanted enough material for everyone.",
+      "He planned to compete in a fishing tournament.",
+      "He launched a gardening blog.",
+      "He created a photo album for a reunion."
+    ],
+    "answer": "He wanted enough material for everyone."
+  },
+  {
+    "id": "logic_074",
+    "scenario": "The machine malfunctioned, so production had to pause temporarily.",
+    "question": "What happened next?",
+    "options": [
+      "Operations stopped for a short time.",
+      "The crew wrote new musical scores.",
+      "Tour guides prepared evening lantern walks.",
+      "Bookbinders designed embossed covers."
+    ],
+    "answer": "Operations stopped for a short time."
+  },
+  {
+    "id": "logic_075",
+    "scenario": "She wanted to sign up for the class, but all remaining sessions conflicted with her schedule.",
+    "question": "Why couldn't she join?",
+    "options": [
+      "The available times overlapped with her commitments.",
+      "The instructor chose a different location.",
+      "Her friends opted to take another course.",
+      "The classroom underwent major renovations."
+    ],
+    "answer": "The available times overlapped with her commitments."
+  },
+
+  {
+    "id": "logic_076",
+    "scenario": "He kept practicing the melody because he wanted to refine every note.",
+    "question": "Why did he continue practicing?",
+    "options": [
+      "He aimed for a more polished rendition.",
+      "He prepared an exhibit of animal sketches.",
+      "He organized a marathon for charity.",
+      "He trained a team of junior swimmers."
+    ],
+    "answer": "He aimed for a more polished rendition."
+  },
+  {
+    "id": "logic_077",
+    "scenario": "The sports event ended late, so many people returned home far behind schedule.",
+    "question": "What happened to the crowd?",
+    "options": [
+      "They arrived back home much later than usual.",
+      "They prepared decorations for a community hall.",
+      "They rehearsed music for a festival.",
+      "They explored a butterfly conservatory."
+    ],
+    "answer": "They arrived back home much later than usual."
+  },
+  {
+    "id": "logic_078",
+    "scenario": "She followed the map carefully, and she eventually located the hidden cabin.",
+    "question": "What did she find?",
+    "options": [
+      "She discovered the structure she was searching for.",
+      "She attended a workshop on sculpting.",
+      "She collected samples for a science fair.",
+      "She volunteered at a food shelter."
+    ],
+    "answer": "She discovered the structure she was searching for."
+  },
+  {
+    "id": "logic_079",
+    "scenario": "He bought extra supplies because he anticipated a larger turnout.",
+    "question": "Why did he buy the supplies?",
+    "options": [
+      "He expected more people to arrive.",
+      "He wanted to restore antique clocks.",
+      "He planned to create handmade candles.",
+      "He hoped to learn gourmet baking."
+    ],
+    "answer": "He expected more people to arrive."
+  },
+  {
+    "id": "logic_080",
+    "scenario": "The group arrived early, therefore they obtained spots closest to the stage.",
+    "question": "What did they obtain?",
+    "options": [
+      "They secured locations near the front.",
+      "They entered a regional cooking contest.",
+      "They organized a nature photography tour.",
+      "They carved decorations from driftwood."
+    ],
+    "answer": "They secured locations near the front."
+  },
+
+  {
+    "id": "logic_081",
+    "scenario": "He tried to attend the exhibition, yet the line stretched around the entire block.",
+    "question": "What problem did he encounter?",
+    "options": [
+      "He faced an exceptionally long wait.",
+      "He coordinated travel for a choir group.",
+      "He installed lighting for a performance.",
+      "He reviewed essays for a competition."
+    ],
+    "answer": "He faced an exceptionally long wait."
+  },
+  {
+    "id": "logic_082",
+    "scenario": "She watered her plants regularly, so they remained vibrant throughout the season.",
+    "question": "What happened to the plants?",
+    "options": [
+      "They stayed healthy for a long duration.",
+      "They were displayed in an art exhibit.",
+      "They were traded during a market fair.",
+      "They were used to create herbal formulas."
+    ],
+    "answer": "They stayed healthy for a long duration."
+  },
+  {
+    "id": "logic_083",
+    "scenario": "He double-checked the instructions because he wanted to avoid making errors.",
+    "question": "Why did he review the instructions?",
+    "options": [
+      "He aimed to prevent mistakes.",
+      "He wanted to design a parade float.",
+      "He prepared for a coral reef expedition.",
+      "He studied to become a music conductor."
+    ],
+    "answer": "He aimed to prevent mistakes."
+  },
+  {
+    "id": "logic_084",
+    "scenario": "The research team submitted their findings, and the panel responded with thoughtful questions.",
+    "question": "How did the panel react?",
+    "options": [
+      "They engaged with the material by asking follow-up questions.",
+      "They organized a kite festival at the park.",
+      "They collaborated on a sculpture garden.",
+      "They created lanterns for a winter parade."
+    ],
+    "answer": "They engaged with the material by asking follow-up questions."
+  },
+  {
+    "id": "logic_085",
+    "scenario": "The stairs were slippery because workers recently cleaned the floors.",
+    "question": "Why were the stairs slippery?",
+    "options": [
+      "A recent cleaning left the surface slick.",
+      "A shipment of books arrived late.",
+      "A musical trio practiced in the courtyard.",
+      "A crew installed solar panels nearby."
+    ],
+    "answer": "A recent cleaning left the surface slick."
+  },
+
+  {
+    "id": "logic_086",
+    "scenario": "She looked forward to the picnic, but storm clouds began forming overhead.",
+    "question": "What concern arose?",
+    "options": [
+      "The possibility of rain threatened the outing.",
+      "A cousin invited her to a juggling workshop.",
+      "A florist prepared bouquets for a wedding.",
+      "A hiker documented trails for a guidebook."
+    ],
+    "answer": "The possibility of rain threatened the outing."
+  },
+  {
+    "id": "logic_087",
+    "scenario": "He requested detailed notes if the team attended the conference without him.",
+    "question": "What did he ask for?",
+    "options": [
+      "He wanted comprehensive information afterward.",
+      "He needed new lenses for his camera.",
+      "He planned to adopt a rescue cat.",
+      "He created decorations for a poetry night."
+    ],
+    "answer": "He wanted comprehensive information afterward."
+  },
+  {
+    "id": "logic_088",
+    "scenario": "The shop announced discounts, so customers lined up earlier than usual.",
+    "question": "How did customers respond?",
+    "options": [
+      "They arrived ahead of time to take advantage of the offers.",
+      "They planned an orchestra performance.",
+      "They constructed floats for a parade.",
+      "They launched a local environmental club."
+    ],
+    "answer": "They arrived ahead of time to take advantage of the offers."
+  },
+  {
+    "id": "logic_089",
+    "scenario": "She rearranged her schedule because she needed uninterrupted time to complete the task.",
+    "question": "Why did she rearrange it?",
+    "options": [
+      "She required a period without distractions.",
+      "She intended to compete in a chess tournament.",
+      "She joined a project to design a mural.",
+      "She traveled to explore wildlife habitats."
+    ],
+    "answer": "She required a period without distractions."
+  },
+  {
+    "id": "logic_090",
+    "scenario": "He reviewed the blueprint carefully, and he noticed inconsistencies in several sections.",
+    "question": "What did he find?",
+    "options": [
+      "He detected areas that did not align properly.",
+      "He discovered ancient pottery shards.",
+      "He experimented with new ice cream flavors.",
+      "He developed a set of collectible figurines."
+    ],
+    "answer": "He detected areas that did not align properly."
+  },
+
+  {
+    "id": "logic_091",
+    "scenario": "The bus arrived later than expected, yet commuters remained calm while waiting.",
+    "question": "How did commuters behave?",
+    "options": [
+      "They showed patience despite the delay.",
+      "They organized a beach clean-up effort.",
+      "They wrote articles on digital art.",
+      "They conducted workshops for local youth."
+    ],
+    "answer": "They showed patience despite the delay."
+  },
+  {
+    "id": "logic_092",
+    "scenario": "He revised the menu because several guests had dietary restrictions.",
+    "question": "Why did he adjust the menu?",
+    "options": [
+      "He wanted to accommodate everyone's needs.",
+      "He chose to audition for a new role.",
+      "He created posters for a charity run.",
+      "He joined a mountain rescue team."
+    ],
+    "answer": "He wanted to accommodate everyone's needs."
+  },
+  {
+    "id": "logic_093",
+    "scenario": "She requested additional volunteers, so the event gained enough support to proceed.",
+    "question": "What happened after she made the request?",
+    "options": [
+      "The event received the help it required.",
+      "The committee rebuilt a historic fountain.",
+      "The council planned an astronomy exhibition.",
+      "The school installed eco-friendly lighting."
+    ],
+    "answer": "The event received the help it required."
+  },
+  {
+    "id": "logic_094",
+    "scenario": "He wanted to meet earlier, but everyone else preferred a later time.",
+    "question": "What did the group decide?",
+    "options": [
+      "They chose a schedule that suited most people.",
+      "They formed a choir for seasonal performances.",
+      "They studied marine species for a project.",
+      "They hosted a pop-up artisan market."
+    ],
+    "answer": "They chose a schedule that suited most people."
+  },
+  {
+    "id": "logic_095",
+    "scenario": "She created backup files because her computer had shown signs of instability.",
+    "question": "Why did she create the backups?",
+    "options": [
+      "She wanted to protect her documents in case of failure.",
+      "She hoped to explore coral reefs on vacation.",
+      "She drafted proposals for new murals.",
+      "She trained for an acrobatics show."
+    ],
+    "answer": "She wanted to protect her documents in case of failure."
+  },
+
+  {
+    "id": "logic_096",
+    "scenario": "The chef practiced new techniques, so the restaurant introduced several inventive dishes.",
+    "question": "What change occurred at the restaurant?",
+    "options": [
+      "They added creative options to their offerings.",
+      "They purchased land for expansion.",
+      "They hired performers for a themed dinner.",
+      "They organized international cooking tours."
+    ],
+    "answer": "They added creative options to their offerings."
+  },
+  {
+    "id": "logic_097",
+    "scenario": "He hesitated to join the expedition because the terrain looked unpredictable.",
+    "question": "Why was he unsure?",
+    "options": [
+      "He was uncertain whether the path could be navigated safely.",
+      "He wanted to choreograph a dance routine.",
+      "He wished to design handmade ceramics.",
+      "He planned to initiate a book club."
+    ],
+    "answer": "He was uncertain whether the path could be navigated safely."
+  },
+  {
+    "id": "logic_098",
+    "scenario": "The meeting lasted longer than expected, yet everyone remained attentive.",
+    "question": "How did people respond?",
+    "options": [
+      "They stayed engaged despite the extended duration.",
+      "They developed a festival parade route.",
+      "They painted scenery for a stage play.",
+      "They curated artifacts for a museum wing."
+    ],
+    "answer": "They stayed engaged despite the extended duration."
+  },
+  {
+    "id": "logic_099",
+    "scenario": "She checked the equipment twice because previous malfunctions caused serious delays.",
+    "question": "Why did she double-check the equipment?",
+    "options": [
+      "She wanted to prevent additional setbacks.",
+      "She prepared garments for a fashion runway.",
+      "She rehearsed monologues for a play.",
+      "She sculpted figures from soft clay."
+    ],
+    "answer": "She wanted to prevent additional setbacks."
+  },
+  {
+    "id": "logic_100",
+    "scenario": "He invested extra effort in planning, so the event ran smoothly from start to finish.",
+    "question": "What was the result?",
+    "options": [
+      "The event proceeded without major problems.",
+      "A choir performed in the city plaza.",
+      "A team installed decorative lanterns.",
+      "An artist unveiled a new mural downtown."
+    ],
+    "answer": "The event proceeded without major problems."
+  }
+]
+

@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split,category
+base_lm-alpaca-merged,1000,0.163,13,train,geometry
+shape_tag-alpaca-merged,1000,0.159,13,train,geometry
+shape_cat-alpaca-merged,1000,0.161,13,train,geometry

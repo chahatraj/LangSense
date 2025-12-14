@@ -1,0 +1,607 @@
+[
+  {
+    "id": 1,
+    "question": "Which shape has exactly three straight sides?",
+    "options": ["triangle", "square", "circle", "pentagon"],
+    "answer": "triangle"
+  },
+  {
+    "id": 2,
+    "question": "A stop sign on the road has eight sides. What shape is it?",
+    "options": ["hexagon", "octagon", "nonagon", "pentagon"],
+    "answer": "octagon"
+  },
+  {
+    "id": 3,
+    "question": "Which of these is a solid geometric shape?",
+    "options": ["triangle", "cube", "rhombus", "oval"],
+    "answer": "cube"
+  },
+  {
+    "id": 4,
+    "question": "Which shape has all points the same distance from its center?",
+    "options": ["circle", "square", "hexagon", "trapezoid"],
+    "answer": "circle"
+  },
+  {
+    "id": 5,
+    "question": "A can of soup is best modeled by which 3D shape?",
+    "options": ["cylinder", "cube", "triangle", "pentagon"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 6,
+    "question": "Which shape has five straight sides?",
+    "options": ["pentagon", "hexagon", "heptagon", "square"],
+    "answer": "pentagon"
+  },
+  {
+    "id": 7,
+    "question": "A ball is most closely modeled by which shape?",
+    "options": ["sphere", "cube", "rectangle", "oval"],
+    "answer": "sphere"
+  },
+  {
+    "id": 8,
+    "question": "Which shape has four equal sides and four right angles?",
+    "options": ["square", "rectangle", "rhombus", "trapezoid"],
+    "answer": "square"
+  },
+  {
+    "id": 9,
+    "question": "A rooftop on a small house is often modeled by which solid?",
+    "options": ["prism", "cube", "cone", "cylinder"],
+    "answer": "prism"
+  },
+  {
+    "id": 10,
+    "question": "Which shape has no straight edges at all?",
+    "options": ["circle", "square", "triangle", "octagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 11,
+    "question": "Which shape has six straight sides?",
+    "options": ["hexagon", "pentagon", "heptagon", "square"],
+    "answer": "hexagon"
+  },
+  {
+    "id": 12,
+    "question": "A slice of pizza resembles which flat geometric shape?",
+    "options": ["triangle", "rectangle", "rhombus", "circle"],
+    "answer": "triangle"
+  },
+  {
+    "id": 13,
+    "question": "Which 3D shape has a single curved surface and a flat circular base?",
+    "options": ["cone", "cube", "sphere", "prism"],
+    "answer": "cone"
+  },
+  {
+    "id": 14,
+    "question": "A coin resembles which flat shape?",
+    "options": ["circle", "square", "triangle", "hexagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 15,
+    "question": "Which shape has seven straight sides?",
+    "options": ["heptagon", "octagon", "pentagon", "nonagon"],
+    "answer": "heptagon"
+  },
+  {
+    "id": 16,
+    "question": "Which solid has two flat circular faces and one curved surface?",
+    "options": ["cylinder", "cube", "cone", "sphere"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 17,
+    "question": "Which flat shape has opposite sides that are parallel and equal?",
+    "options": ["parallelogram", "triangle", "circle", "pentagon"],
+    "answer": "parallelogram"
+  },
+  {
+    "id": 18,
+    "question": "Which shape has eight straight sides?",
+    "options": ["octagon", "hexagon", "nonagon", "triangle"],
+    "answer": "octagon"
+  },
+  {
+    "id": 19,
+    "question": "A block of ice is closest to which solid shape?",
+    "options": ["cube", "cone", "sphere", "cylinder"],
+    "answer": "cube"
+  },
+  {
+    "id": 20,
+    "question": "Which flat shape has only one curved boundary and no angles?",
+    "options": ["circle", "oval", "hexagon", "square"],
+    "answer": "circle"
+  },
+  {
+    "id": 21,
+    "question": "Which shape has ten straight sides?",
+    "options": ["decagon", "octagon", "nonagon", "hexagon"],
+    "answer": "decagon"
+  },
+  {
+    "id": 22,
+    "question": "A pencil tip is best modeled by which solid shape?",
+    "options": ["cone", "sphere", "cube", "cylinder"],
+    "answer": "cone"
+  },
+  {
+    "id": 23,
+    "question": "Which flat shape has five equal sides and angles?",
+    "options": ["pentagon", "hexagon", "square", "rectangle"],
+    "answer": "pentagon"
+  },
+  {
+    "id": 24,
+    "question": "Which 3D shape has a pointed top and a circular base?",
+    "options": ["cone", "cylinder", "cube", "pyramid"],
+    "answer": "cone"
+  },
+  {
+    "id": 25,
+    "question": "Which shape has four sides but only one pair of parallel sides?",
+    "options": ["trapezoid", "square", "rectangle", "rhombus"],
+    "answer": "trapezoid"
+  },
+  {
+    "id": 26,
+    "question": "A soccer ball is best modeled by which solid shape?",
+    "options": ["sphere", "cube", "prism", "cone"],
+    "answer": "sphere"
+  },
+  {
+    "id": 27,
+    "question": "Which shape has nine straight sides?",
+    "options": ["nonagon", "octagon", "decagon", "pentagon"],
+    "answer": "nonagon"
+  },
+  {
+    "id": 28,
+    "question": "Which flat shape has two long sides and two short sides?",
+    "options": ["rectangle", "trapezoid", "oval", "triangle"],
+    "answer": "rectangle"
+  },
+  {
+    "id": 29,
+    "question": "Which solid shape has six congruent square faces?",
+    "options": ["cube", "prism", "sphere", "cylinder"],
+    "answer": "cube"
+  },
+  {
+    "id": 30,
+    "question": "Which shape has no straight sides but is elongated?",
+    "options": ["oval", "circle", "hexagon", "square"],
+    "answer": "oval"
+  },
+  {
+    "id": 31,
+    "question": "A traffic yield sign is closest to which shape?",
+    "options": ["triangle", "pentagon", "square", "circle"],
+    "answer": "triangle"
+  },
+  {
+    "id": 32,
+    "question": "Which shape has all sides equal but no right angles?",
+    "options": ["rhombus", "square", "rectangle", "pentagon"],
+    "answer": "rhombus"
+  },
+  {
+    "id": 33,
+    "question": "Which 3D shape has triangular faces that meet at one point?",
+    "options": ["pyramid", "cube", "cylinder", "sphere"],
+    "answer": "pyramid"
+  },
+  {
+    "id": 34,
+    "question": "A coin squeezed on one side resembles which shape?",
+    "options": ["ellipse", "triangle", "pentagon", "octagon"],
+    "answer": "ellipse"
+  },
+  {
+    "id": 35,
+    "question": "Which shape has three equal sides and three equal angles?",
+    "options": ["triangle", "square", "pentagon", "rhombus"],
+    "answer": "triangle"
+  },
+  {
+    "id": 36,
+    "question": "A drinking glass often resembles which solid shape?",
+    "options": ["cylinder", "cone", "cube", "pyramid"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 37,
+    "question": "Which shape has two pairs of parallel sides and all right angles?",
+    "options": ["rectangle", "square", "triangle", "trapezoid"],
+    "answer": "rectangle"
+  },
+  {
+    "id": 38,
+    "question": "Which shape has a curved surface but no edges?",
+    "options": ["sphere", "cube", "cylinder", "cone"],
+    "answer": "sphere"
+  },
+  {
+    "id": 39,
+    "question": "Which shape has six faces that are rectangles?",
+    "options": ["prism", "cube", "cone", "octagon"],
+    "answer": "prism"
+  },
+  {
+    "id": 40,
+    "question": "A yield sign is shaped like which polygon?",
+    "options": ["triangle", "circle", "square", "pentagon"],
+    "answer": "triangle"
+  },
+  {
+    "id": 41,
+    "question": "Which shape has four equal sides but only opposite angles equal?",
+    "options": ["rhombus", "rectangle", "square", "pentagon"],
+    "answer": "rhombus"
+  },
+  {
+    "id": 42,
+    "question": "Which shape resembles the base of most drinking glasses?",
+    "options": ["circle", "square", "pentagon", "hexagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 43,
+    "question": "Which solid shape comes to a sharp point and has flat faces?",
+    "options": ["pyramid", "cube", "cylinder", "sphere"],
+    "answer": "pyramid"
+  },
+  {
+    "id": 44,
+    "question": "Which polygon has seven sides?",
+    "options": ["heptagon", "hexagon", "pentagon", "octagon"],
+    "answer": "heptagon"
+  },
+  {
+    "id": 45,
+    "question": "Which shape best models a wheel?",
+    "options": ["circle", "square", "triangle", "pentagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 46,
+    "question": "Which shape has four right angles but sides of different lengths?",
+    "options": ["rectangle", "square", "rhombus", "pentagon"],
+    "answer": "rectangle"
+  },
+  {
+    "id": 47,
+    "question": "Which solid has circular bases connected by a curved surface?",
+    "options": ["cylinder", "cone", "cube", "pyramid"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 48,
+    "question": "Which shape has twelve edges and six rectangular faces?",
+    "options": ["prism", "cube", "cone", "sphere"],
+    "answer": "prism"
+  },
+  {
+    "id": 49,
+    "question": "Which shape has only one continuous curved edge and no vertices?",
+    "options": ["circle", "oval", "rectangle", "hexagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 50,
+    "question": "Which flat shape has three vertices?",
+    "options": ["triangle", "square", "pentagon", "octagon"],
+    "answer": "triangle"
+  },
+
+  {
+    "id": 51,
+    "question": "A box of chocolates is most like which solid shape?",
+    "options": ["cube", "cylinder", "cone", "sphere"],
+    "answer": "cube"
+  },
+  {
+    "id": 52,
+    "question": "Which flat shape has eight vertices?",
+    "options": ["octagon", "hexagon", "pentagon", "rectangle"],
+    "answer": "octagon"
+  },
+  {
+    "id": 53,
+    "question": "Which shape is formed by all points equal distance from a center in 3D?",
+    "options": ["sphere", "cube", "cylinder", "cone"],
+    "answer": "sphere"
+  },
+  {
+    "id": 54,
+    "question": "Which polygon has six equal sides?",
+    "options": ["hexagon", "pentagon", "square", "heptagon"],
+    "answer": "hexagon"
+  },
+  {
+    "id": 55,
+    "question": "Which solid shape is commonly used for ice-cream cones?",
+    "options": ["cone", "cylinder", "cube", "prism"],
+    "answer": "cone"
+  },
+  {
+    "id": 56,
+    "question": "Which shape has two pairs of parallel sides but no right angles?",
+    "options": ["parallelogram", "square", "rectangle", "triangle"],
+    "answer": "parallelogram"
+  },
+  {
+    "id": 57,
+    "question": "Which flat shape best models a slice of watermelon?",
+    "options": ["ellipse", "triangle", "pentagon", "octagon"],
+    "answer": "ellipse"
+  },
+  {
+    "id": 58,
+    "question": "Which 3D shape resembles the body of most candles?",
+    "options": ["cylinder", "cone", "cube", "sphere"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 59,
+    "question": "Which shape has five vertices?",
+    "options": ["pentagon", "hexagon", "square", "triangle"],
+    "answer": "pentagon"
+  },
+  {
+    "id": 60,
+    "question": "Which shape is flat and has no corners?",
+    "options": ["circle", "oval", "hexagon", "square"],
+    "answer": "circle"
+  },
+
+  {
+    "id": 61,
+    "question": "A dice is an example of which geometric solid?",
+    "options": ["cube", "sphere", "cone", "cylinder"],
+    "answer": "cube"
+  },
+  {
+    "id": 62,
+    "question": "Which shape has nine vertices?",
+    "options": ["nonagon", "octagon", "pentagon", "decagon"],
+    "answer": "nonagon"
+  },
+  {
+    "id": 63,
+    "question": "Which solid has a flat base and triangular sides?",
+    "options": ["pyramid", "cone", "cube", "cylinder"],
+    "answer": "pyramid"
+  },
+  {
+    "id": 64,
+    "question": "Which polygon has ten vertices?",
+    "options": ["decagon", "octagon", "hexagon", "heptagon"],
+    "answer": "decagon"
+  },
+  {
+    "id": 65,
+    "question": "Which shape has only one pair of parallel sides?",
+    "options": ["trapezoid", "square", "rectangle", "triangle"],
+    "answer": "trapezoid"
+  },
+  {
+    "id": 66,
+    "question": "Which shape is round and stretched along one axis?",
+    "options": ["oval", "circle", "hexagon", "rhombus"],
+    "answer": "oval"
+  },
+  {
+    "id": 67,
+    "question": "Which solid shape has no edges and no vertices?",
+    "options": ["sphere", "cube", "cylinder", "pyramid"],
+    "answer": "sphere"
+  },
+  {
+    "id": 68,
+    "question": "Which shape has seven vertices?",
+    "options": ["heptagon", "hexagon", "pentagon", "nonagon"],
+    "answer": "heptagon"
+  },
+  {
+    "id": 69,
+    "question": "Which shape has opposite sides parallel and all sides equal?",
+    "options": ["rhombus", "square", "rectangle", "triangle"],
+    "answer": "rhombus"
+  },
+  {
+    "id": 70,
+    "question": "Which flat shape looks like a long oval moon?",
+    "options": ["crescent", "ellipse", "triangle", "pentagon"],
+    "answer": "crescent"
+  },
+
+  {
+    "id": 71,
+    "question": "A child's building block is most commonly which solid shape?",
+    "options": ["cube", "cone", "cylinder", "sphere"],
+    "answer": "cube"
+  },
+  {
+    "id": 72,
+    "question": "Which polygon has four equal sides?",
+    "options": ["square", "rhombus", "rectangle", "pentagon"],
+    "answer": "square"
+  },
+  {
+    "id": 73,
+    "question": "Which 3D object is formed by stacking identical triangles?",
+    "options": ["prism", "cube", "sphere", "pyramid"],
+    "answer": "prism"
+  },
+  {
+    "id": 74,
+    "question": "Which shape has three vertices and three edges?",
+    "options": ["triangle", "rectangle", "pentagon", "circle"],
+    "answer": "triangle"
+  },
+  {
+    "id": 75,
+    "question": "Which flat shape has all sides parallel in pairs but angles not right?",
+    "options": ["parallelogram", "square", "rectangle", "triangle"],
+    "answer": "parallelogram"
+  },
+  {
+    "id": 76,
+    "question": "Which shape is commonly used for coins around the world?",
+    "options": ["circle", "square", "pentagon", "hexagon"],
+    "answer": "circle"
+  },
+  {
+    "id": 77,
+    "question": "Which shape has twelve edges and eight vertices?",
+    "options": ["cube", "prism", "pyramid", "sphere"],
+    "answer": "cube"
+  },
+  {
+    "id": 78,
+    "question": "A roof with two slanted sides forms which 3D shape?",
+    "options": ["prism", "pyramid", "cone", "cube"],
+    "answer": "prism"
+  },
+  {
+    "id": 79,
+    "question": "Which shape has two long parallel sides and two short parallel sides?",
+    "options": ["rectangle", "parallelogram", "square", "triangle"],
+    "answer": "rectangle"
+  },
+  {
+    "id": 80,
+    "question": "Which shape has no vertices and one continuous curved boundary?",
+    "options": ["circle", "oval", "ellipse", "hexagon"],
+    "answer": "circle"
+  },
+
+  {
+    "id": 81,
+    "question": "A block of butter resembles which solid shape?",
+    "options": ["prism", "cube", "cylinder", "sphere"],
+    "answer": "prism"
+  },
+  {
+    "id": 82,
+    "question": "Which shape has eight vertices?",
+    "options": ["octagon", "hexagon", "pentagon", "triangle"],
+    "answer": "octagon"
+  },
+  {
+    "id": 83,
+    "question": "Which solid is commonly used for water bottles?",
+    "options": ["cylinder", "cube", "pyramid", "sphere"],
+    "answer": "cylinder"
+  },
+  {
+    "id": 84,
+    "question": "Which polygon has five equal angles and sides?",
+    "options": ["pentagon", "hexagon", "square", "triangle"],
+    "answer": "pentagon"
+  },
+  {
+    "id": 85,
+    "question": "Which shape is flat and has no straight sides?",
+    "options": ["oval", "circle", "ellipse", "pentagon"],
+    "answer": "oval"
+  },
+  {
+    "id": 86,
+    "question": "Which shape has three equal angles and sides?",
+    "options": ["triangle", "square", "pentagon", "rhombus"],
+    "answer": "triangle"
+  },
+  {
+    "id": 87,
+    "question": "Which shape forms the faces of a stop sign?",
+    "options": ["octagon", "hexagon", "pentagon", "square"],
+    "answer": "octagon"
+  },
+  {
+    "id": 88,
+    "question": "Which solid is perfectly round with no edges?",
+    "options": ["sphere", "cube", "cone", "cylinder"],
+    "answer": "sphere"
+  },
+  {
+    "id": 89,
+    "question": "Which shape has only one pair of parallel sides?",
+    "options": ["trapezoid", "square", "rectangle", "triangle"],
+    "answer": "trapezoid"
+  },
+  {
+    "id": 90,
+    "question": "Which shape resembles the moon when partially lit?",
+    "options": ["crescent", "oval", "circle", "triangle"],
+    "answer": "crescent"
+  },
+
+  {
+    "id": 91,
+    "question": "Which shape has all sides the same length and all angles equal?",
+    "options": ["square", "rhombus", "rectangle", "pentagon"],
+    "answer": "square"
+  },
+  {
+    "id": 92,
+    "question": "Which polygon has six vertices?",
+    "options": ["hexagon", "heptagon", "pentagon", "octagon"],
+    "answer": "hexagon"
+  },
+  {
+    "id": 93,
+    "question": "Which solid shape is shaped like a party hat?",
+    "options": ["cone", "sphere", "cube", "cylinder"],
+    "answer": "cone"
+  },
+  {
+    "id": 94,
+    "question": "Which flat shape has ten edges?",
+    "options": ["decagon", "octagon", "nonagon", "hexagon"],
+    "answer": "decagon"
+  },
+  {
+    "id": 95,
+    "question": "Which shape is used for common road yield signs?",
+    "options": ["triangle", "square", "circle", "pentagon"],
+    "answer": "triangle"
+  },
+  {
+    "id": 96,
+    "question": "Which shape has two pairs of parallel sides and all angles right?",
+    "options": ["rectangle", "square", "triangle", "pentagon"],
+    "answer": "rectangle"
+  },
+  {
+    "id": 97,
+    "question": "Which solid shape resembles a block of wood?",
+    "options": ["prism", "cube", "cone", "sphere"],
+    "answer": "prism"
+  },
+  {
+    "id": 98,
+    "question": "Which flat shape has four equal sides and equal opposite angles?",
+    "options": ["rhombus", "square", "rectangle", "pentagon"],
+    "answer": "rhombus"
+  },
+  {
+    "id": 99,
+    "question": "Which shape has one continuous curved surface and no edges?",
+    "options": ["sphere", "cube", "cylinder", "cone"],
+    "answer": "sphere"
+  },
+  {
+    "id": 100,
+    "question": "Which flat shape has no angles and one curved boundary?",
+    "options": ["circle", "oval", "ellipse", "rectangle"],
+    "answer": "circle"
+  }
+]

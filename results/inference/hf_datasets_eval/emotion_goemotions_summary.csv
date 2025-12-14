@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split,config,num_options
+base_lm-alpaca-merged,2000,0.386,13,validation,simplified,4
+emotion_tag-alpaca-merged,2000,0.394,13,validation,simplified,4
+emotion_cat-alpaca-merged,2000,0.476,13,validation,simplified,4

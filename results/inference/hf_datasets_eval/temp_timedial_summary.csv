@@ -1,0 +1,4 @@
+model,samples,accuracy,seed,split
+base_lm-alpaca-merged,1000,0.551,13,test
+temp_tag-alpaca-merged,1000,0.55,13,test
+temp_cat-alpaca-merged,1000,0.587,13,test

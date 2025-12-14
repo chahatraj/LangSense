@@ -1,0 +1,620 @@
+[
+  {
+    "id": "num_001",
+    "question": "Solve for x: 2x + 3 = 11",
+    "options": ["x = 4", "x = 3", "x = eight", "x = five"],
+    "answer": "x = 4"
+  },
+  {
+    "id": "num_002",
+    "question": "Solve for x: x - 7 = 5",
+    "options": ["x = twelve", "x = 2", "x = minus two", "x = twenty"],
+    "answer": "x = twelve"
+  },
+  {
+    "id": "num_003",
+    "question": "Solve for x: 4x = 20",
+    "options": ["x = 5", "x = four", "x = six", "x = fifteen"],
+    "answer": "x = 5"
+  },
+  {
+    "id": "num_004",
+    "question": "Solve for x: x/3 = 6",
+    "options": ["x = 18", "x = sixteen", "x = nine", "x = three"],
+    "answer": "x = 18"
+  },
+  {
+    "id": "num_005",
+    "question": "Solve for x: 9 - x = 2",
+    "options": ["x = seven", "x = 4", "x = six", "x = five"],
+    "answer": "x = seven"
+  },
+
+  {
+    "id": "num_006",
+    "question": "Simplify: 5m - 2m",
+    "options": ["3m", "three m", "m^2", "7m"],
+    "answer": "3m"
+  },
+  {
+    "id": "num_007",
+    "question": "Simplify: 8k + 4k",
+    "options": ["12k", "twelve k", "4k", "k^2"],
+    "answer": "12k"
+  },
+  {
+    "id": "num_008",
+    "question": "Simplify: 14y - 9y",
+    "options": ["5y", "five y", "23y", "fourteen y"],
+    "answer": "5y"
+  },
+  {
+    "id": "num_009",
+    "question": "Simplify: 10a + 3a",
+    "options": ["13a", "thirteen a", "7a", "a^2"],
+    "answer": "13a"
+  },
+  {
+    "id": "num_010",
+    "question": "Simplify: 6p - 6p",
+    "options": ["0", "zero", "p", "six p"],
+    "answer": "0"
+  },
+
+  {
+    "id": "num_011",
+    "question": "Expand: 3(x + 4)",
+    "options": ["3x + 12", "3x + twelve", "x + 7", "12x + 3"],
+    "answer": "3x + 12"
+  },
+  {
+    "id": "num_012",
+    "question": "Expand: 2(a + 9)",
+    "options": ["2a + 18", "2a + eighteen", "a + 11", "18a"],
+    "answer": "2a + 18"
+  },
+  {
+    "id": "num_013",
+    "question": "Expand: 4(m - 5)",
+    "options": ["4m - 20", "four m minus twenty", "4m - 5", "20m - 4"],
+    "answer": "4m - 20"
+  },
+  {
+    "id": "num_014",
+    "question": "Expand: 7(y + 2)",
+    "options": ["7y + 14", "seven y plus fourteen", "9y", "14y - 7"],
+    "answer": "7y + 14"
+  },
+  {
+    "id": "num_015",
+    "question": "Expand: 5(k - 3)",
+    "options": ["5k - 15", "five k minus fifteen", "5k + 3", "2k + 10"],
+    "answer": "5k - 15"
+  },
+
+  {
+    "id": "num_016",
+    "question": "Factor: x^2 + 7x",
+    "options": ["x(x + 7)", "x(x + seven)", "7(x + x)", "(x + 7)^2"],
+    "answer": "x(x + 7)"
+  },
+  {
+    "id": "num_017",
+    "question": "Factor: m^2 + 5m",
+    "options": ["m(m + 5)", "m(m + five)", "m^2 + 10", "(m + 5)^2"],
+    "answer": "m(m + 5)"
+  },
+  {
+    "id": "num_018",
+    "question": "Factor: a^2 - 9a",
+    "options": ["a(a - 9)", "a(a - nine)", "(a - 9)^2", "9(a - a)"],
+    "answer": "a(a - 9)"
+  },
+  {
+    "id": "num_019",
+    "question": "Factor: y^2 + 11y",
+    "options": ["y(y + 11)", "y(y + eleven)", "11y - y", "y + 11"],
+    "answer": "y(y + 11)"
+  },
+  {
+    "id": "num_020",
+    "question": "Factor: k^2 + 4k",
+    "options": ["k(k + 4)", "k(k + four)", "4(k + k)", "(k + 2)^2"],
+    "answer": "k(k + 4)"
+  },
+
+  {
+    "id": "num_021",
+    "question": "Solve: 3x - 4 = 11",
+    "options": ["x = 5", "x = fifteen", "x = 7", "x = three"],
+    "answer": "x = 5"
+  },
+  {
+    "id": "num_022",
+    "question": "Solve: 12 + x = 20",
+    "options": ["x = 8", "x = eight", "x = 32", "x = ten"],
+    "answer": "x = 8"
+  },
+  {
+    "id": "num_023",
+    "question": "Solve: 18 - x = 6",
+    "options": ["x = 12", "x = twelve", "x = nine", "x = three"],
+    "answer": "x = 12"
+  },
+  {
+    "id": "num_024",
+    "question": "Solve: x/5 = 4",
+    "options": ["x = 20", "x = twenty", "x = 9", "x = four-fifths"],
+    "answer": "x = 20"
+  },
+  {
+    "id": "num_025",
+    "question": "Solve: 7x = 28",
+    "options": ["x = 4", "x = four", "x = 7", "x = eight"],
+    "answer": "x = 4"
+  },
+
+  {
+    "id": "num_026",
+    "question": "Simplify: 9p + 2p",
+    "options": ["11p", "eleven p", "7p", "p^2"],
+    "answer": "11p"
+  },
+  {
+    "id": "num_027",
+    "question": "Simplify: 16r - 6r",
+    "options": ["10r", "ten r", "22r", "four r"],
+    "answer": "10r"
+  },
+  {
+    "id": "num_028",
+    "question": "Simplify: 4a + 12a",
+    "options": ["16a", "sixteen a", "8a", "a^2"],
+    "answer": "16a"
+  },
+  {
+    "id": "num_029",
+    "question": "Simplify: 30k - 10k",
+    "options": ["20k", "twenty k", "40k", "three k"],
+    "answer": "20k"
+  },
+  {
+    "id": "num_030",
+    "question": "Simplify: 11m - 1m",
+    "options": ["10m", "ten m", "12m", "four m"],
+    "answer": "10m"
+  },
+
+  {
+    "id": "num_031",
+    "question": "Expand: 6(x + 3)",
+    "options": ["6x + 18", "six x plus eighteen", "6x + 9", "3x + 6"],
+    "answer": "6x + 18"
+  },
+  {
+    "id": "num_032",
+    "question": "Expand: 8(y - 1)",
+    "options": ["8y - 8", "eight y minus eight", "8y - 1", "y - 8"],
+    "answer": "8y - 8"
+  },
+  {
+    "id": "num_033",
+    "question": "Expand: 9(a + 5)",
+    "options": ["9a + 45", "nine a plus forty-five", "9a + 14", "45a"],
+    "answer": "9a + 45"
+  },
+  {
+    "id": "num_034",
+    "question": "Expand: 2(k - 7)",
+    "options": ["2k - 14", "two k minus fourteen", "2k - 7", "14k - 2"],
+    "answer": "2k - 14"
+  },
+  {
+    "id": "num_035",
+    "question": "Expand: 4(m + 6)",
+    "options": ["4m + 24", "four m plus twenty-four", "4m + 12", "24m"],
+    "answer": "4m + 24"
+  },
+
+  {
+    "id": "num_036",
+    "question": "Solve: x + 14 = 21",
+    "options": ["x = 7", "x = seven", "x = 14", "x = 3"],
+    "answer": "x = 7"
+  },
+  {
+    "id": "num_037",
+    "question": "Solve: 5x = 35",
+    "options": ["x = seven", "x = 7", "x = five", "x = 12"],
+    "answer": "x = 7"
+  },
+  {
+    "id": "num_038",
+    "question": "Solve: x - 12 = 3",
+    "options": ["x = fifteen", "x = 15", "x = 9", "x = five"],
+    "answer": "x = fifteen"
+  },
+  {
+    "id": "num_039",
+    "question": "Solve: x/2 = 9",
+    "options": ["x = 18", "x = eighteen", "x = 11", "x = 4"],
+    "answer": "x = 18"
+  },
+  {
+    "id": "num_040",
+    "question": "Solve: 3x + 6 = 15",
+    "options": ["x = 3", "x = three", "x = 7", "x = nine"],
+    "answer": "x = 3"
+  },
+
+  {
+    "id": "num_041",
+    "question": "Simplify: 50a - 20a",
+    "options": ["30a", "thirty a", "70a", "five a"],
+    "answer": "30a"
+  },
+  {
+    "id": "num_042",
+    "question": "Simplify: 4b + 7b",
+    "options": ["11b", "eleven b", "8b", "3b"],
+    "answer": "11b"
+  },
+  {
+    "id": "num_043",
+    "question": "Simplify: 90x - 30x",
+    "options": ["60x", "sixty x", "120x", "3x"],
+    "answer": "60x"
+  },
+  {
+    "id": "num_044",
+    "question": "Simplify: 18m - 8m",
+    "options": ["10m", "ten m", "26m", "eight m"],
+    "answer": "10m"
+  },
+  {
+    "id": "num_045",
+    "question": "Simplify: 12k + 12k",
+    "options": ["24k", "twenty-four k", "12k", "36k"],
+    "answer": "24k"
+  },
+
+  {
+    "id": "num_046",
+    "question": "Solve: 2x - 10 = 6",
+    "options": ["x = 8", "x = eight", "x = 16", "x = 6"],
+    "answer": "x = 8"
+  },
+  {
+    "id": "num_047",
+    "question": "Solve: 11 + x = 25",
+    "options": ["x = fourteen", "x = 14", "x = 6", "x = 9"],
+    "answer": "x = 14"
+  },
+  {
+    "id": "num_048",
+    "question": "Solve: x - 15 = 2",
+    "options": ["x = 17", "x = seventeen", "x = 10", "x = five"],
+    "answer": "x = 17"
+  },
+  {
+    "id": "num_049",
+    "question": "Solve: x/4 = 3",
+    "options": ["x = 12", "x = twelve", "x = 16", "x = eight"],
+    "answer": "x = 12"
+  },
+  {
+    "id": "num_050",
+    "question": "Solve: 6x = 42",
+    "options": ["x = 7", "x = seven", "x = 6", "x = nine"],
+    "answer": "x = 7"
+  },
+  {
+    "id": "num_051",
+    "question": "Solve: x + 9 = 30",
+    "options": ["x = 21", "x = twenty-one", "x = 39", "x = 9"],
+    "answer": "x = 21"
+  },
+  {
+    "id": "num_052",
+    "question": "Solve: 14 - x = 3",
+    "options": ["x = eleven", "x = 11", "x = 9", "x = 17"],
+    "answer": "x = eleven"
+  },
+  {
+    "id": "num_053",
+    "question": "Solve: 3x = 27",
+    "options": ["x = nine", "x = 9", "x = 6", "x = 3"],
+    "answer": "x = nine"
+  },
+  {
+    "id": "num_054",
+    "question": "Solve: x/6 = 8",
+    "options": ["x = 48", "x = forty-eight", "x = 14", "x = 6"],
+    "answer": "x = 48"
+  },
+  {
+    "id": "num_055",
+    "question": "Solve: 5x + 5 = 30",
+    "options": ["x = 5", "x = five", "x = 6", "x = seven"],
+    "answer": "x = 5"
+  },
+
+  {
+    "id": "num_056",
+    "question": "Simplify: 22m - 12m",
+    "options": ["10m", "ten m", "34m", "12m"],
+    "answer": "10m"
+  },
+  {
+    "id": "num_057",
+    "question": "Simplify: 40k + 20k",
+    "options": ["60k", "sixty k", "20k", "80k"],
+    "answer": "60k"
+  },
+  {
+    "id": "num_058",
+    "question": "Simplify: 13a - 3a",
+    "options": ["10a", "ten a", "16a", "six a"],
+    "answer": "10a"
+  },
+  {
+    "id": "num_059",
+    "question": "Simplify: 7y + 7y",
+    "options": ["14y", "fourteen y", "7y", "21y"],
+    "answer": "14y"
+  },
+  {
+    "id": "num_060",
+    "question": "Simplify: 9p - 4p",
+    "options": ["5p", "five p", "4p", "14p"],
+    "answer": "5p"
+  },
+
+  {
+    "id": "num_061",
+    "question": "Expand: 10(x + 1)",
+    "options": ["10x + 10", "ten x plus ten", "10x + 1", "x + 10"],
+    "answer": "10x + 10"
+  },
+  {
+    "id": "num_062",
+    "question": "Expand: 3(a + 7)",
+    "options": ["3a + 21", "three a plus twenty-one", "3a + 7", "21a"],
+    "answer": "3a + 21"
+  },
+  {
+    "id": "num_063",
+    "question": "Expand: 5(m - 4)",
+    "options": ["5m - 20", "five m minus twenty", "5m - 4", "20m - 5"],
+    "answer": "5m - 20"
+  },
+  {
+    "id": "num_064",
+    "question": "Expand: 9(y + 3)",
+    "options": ["9y + 27", "nine y plus twenty-seven", "9y + 3", "27y"],
+    "answer": "9y + 27"
+  },
+  {
+    "id": "num_065",
+    "question": "Expand: 6(k - 2)",
+    "options": ["6k - 12", "six k minus twelve", "6k - 2", "12k"],
+    "answer": "6k - 12"
+  },
+
+  {
+    "id": "num_066",
+    "question": "Factor: x^2 + 9x",
+    "options": ["x(x + 9)", "x(x + nine)", "(x + 3)(x + 3)", "(x + 9)^2"],
+    "answer": "x(x + 9)"
+  },
+  {
+    "id": "num_067",
+    "question": "Factor: m^2 + 6m",
+    "options": ["m(m + 6)", "m(m + six)", "6(m + m)", "(m + 3)^2"],
+    "answer": "m(m + 6)"
+  },
+  {
+    "id": "num_068",
+    "question": "Factor: a^2 - 8a",
+    "options": ["a(a - 8)", "a(a - eight)", "(a - 8)^2", "8(a - a)"],
+    "answer": "a(a - 8)"
+  },
+  {
+    "id": "num_069",
+    "question": "Factor: y^2 + 13y",
+    "options": ["y(y + 13)", "y(y + thirteen)", "13y - y", "y + 13"],
+    "answer": "y(y + 13)"
+  },
+  {
+    "id": "num_070",
+    "question": "Factor: k^2 + 2k",
+    "options": ["k(k + 2)", "k(k + two)", "2(k + k)", "(k + 1)^2"],
+    "answer": "k(k + 2)"
+  },
+
+  {
+    "id": "num_071",
+    "question": "Solve: 4x + 2 = 18",
+    "options": ["x = 4", "x = four", "x = 10", "x = eight"],
+    "answer": "x = 4"
+  },
+  {
+    "id": "num_072",
+    "question": "Solve: x - 20 = 5",
+    "options": ["x = 25", "x = twenty-five", "x = 15", "x = five"],
+    "answer": "x = 25"
+  },
+  {
+    "id": "num_073",
+    "question": "Solve: 15x = 45",
+    "options": ["x = 3", "x = three", "x = five", "x = 15"],
+    "answer": "x = 3"
+  },
+  {
+    "id": "num_074",
+    "question": "Solve: x/7 = 6",
+    "options": ["x = 42", "x = forty-two", "x = 13", "x = seven"],
+    "answer": "x = 42"
+  },
+  {
+    "id": "num_075",
+    "question": "Solve: 9x - 9 = 18",
+    "options": ["x = 3", "x = three", "x = 27", "x = nine"],
+    "answer": "x = 3"
+  },
+
+  {
+    "id": "num_076",
+    "question": "Simplify: 28a - 8a",
+    "options": ["20a", "twenty a", "36a", "eight a"],
+    "answer": "20a"
+  },
+  {
+    "id": "num_077",
+    "question": "Simplify: 6b + 9b",
+    "options": ["15b", "fifteen b", "6b", "3b"],
+    "answer": "15b"
+  },
+  {
+    "id": "num_078",
+    "question": "Simplify: 32x - 12x",
+    "options": ["20x", "twenty x", "44x", "two x"],
+    "answer": "20x"
+  },
+  {
+    "id": "num_079",
+    "question": "Simplify: 24m - 14m",
+    "options": ["10m", "ten m", "38m", "fourteen m"],
+    "answer": "10m"
+  },
+  {
+    "id": "num_080",
+    "question": "Simplify: 16k + 16k",
+    "options": ["32k", "thirty-two k", "16k", "48k"],
+    "answer": "32k"
+  },
+
+  {
+    "id": "num_081",
+    "question": "Expand: 11(x + 3)",
+    "options": ["11x + 33", "eleven x plus thirty-three", "11x + 3", "33x"],
+    "answer": "11x + 33"
+  },
+  {
+    "id": "num_082",
+    "question": "Expand: 12(y - 2)",
+    "options": ["12y - 24", "twelve y minus twenty-four", "12y - 2", "24y"],
+    "answer": "12y - 24"
+  },
+  {
+    "id": "num_083",
+    "question": "Expand: 2(a + 11)",
+    "options": ["2a + 22", "two a plus twenty-two", "2a + 11", "22a"],
+    "answer": "2a + 22"
+  },
+  {
+    "id": "num_084",
+    "question": "Expand: 3(m - 10)",
+    "options": ["3m - 30", "three m minus thirty", "3m - 10", "30m"],
+    "answer": "3m - 30"
+  },
+  {
+    "id": "num_085",
+    "question": "Expand: 8(k + 5)",
+    "options": ["8k + 40", "eight k plus forty", "8k + 5", "40k"],
+    "answer": "8k + 40"
+  },
+
+  {
+    "id": "num_086",
+    "question": "Factor: x^2 + 4x",
+    "options": ["x(x + 4)", "x(x + four)", "(x + 2)(x + 2)", "(x + 4)^2"],
+    "answer": "x(x + 4)"
+  },
+  {
+    "id": "num_087",
+    "question": "Factor: m^2 + 10m",
+    "options": ["m(m + 10)", "m(m + ten)", "(m + 10)^2", "10(m + m)"],
+    "answer": "m(m + 10)"
+  },
+  {
+    "id": "num_088",
+    "question": "Factor: a^2 - 6a",
+    "options": ["a(a - 6)", "a(a - six)", "(a - 6)^2", "6(a - a)"],
+    "answer": "a(a - 6)"
+  },
+  {
+    "id": "num_089",
+    "question": "Factor: y^2 + 8y",
+    "options": ["y(y + 8)", "y(y + eight)", "8y - y", "y + 8"],
+    "answer": "y(y + 8)"
+  },
+  {
+    "id": "num_090",
+    "question": "Factor: k^2 + 12k",
+    "options": ["k(k + 12)", "k(k + twelve)", "(k + 12)^2", "12(k + k)"],
+    "answer": "k(k + 12)"
+  },
+
+  {
+    "id": "num_091",
+    "question": "Solve: 13 + x = 40",
+    "options": ["x = 27", "x = twenty-seven", "x = 53", "x = 3"],
+    "answer": "x = 27"
+  },
+  {
+    "id": "num_092",
+    "question": "Solve: 22 - x = 12",
+    "options": ["x = 10", "x = ten", "x = 34", "x = 4"],
+    "answer": "x = 10"
+  },
+  {
+    "id": "num_093",
+    "question": "Solve: 8x = 64",
+    "options": ["x = 8", "x = eight", "x = 16", "x = 6"],
+    "answer": "x = 8"
+  },
+  {
+    "id": "num_094",
+    "question": "Solve: x/3 = 15",
+    "options": ["x = 45", "x = forty-five", "x = 18", "x = 5"],
+    "answer": "x = 45"
+  },
+  {
+    "id": "num_095",
+    "question": "Solve: 2x - 4 = 12",
+    "options": ["x = 8", "x = eight", "x = 16", "x = 6"],
+    "answer": "x = 8"
+  },
+
+  {
+    "id": "num_096",
+    "question": "Simplify: 70a - 30a",
+    "options": ["40a", "forty a", "100a", "seven a"],
+    "answer": "40a"
+  },
+  {
+    "id": "num_097",
+    "question": "Simplify: 6b + 14b",
+    "options": ["20b", "twenty b", "10b", "six b"],
+    "answer": "20b"
+  },
+  {
+    "id": "num_098",
+    "question": "Simplify: 25x - 5x",
+    "options": ["20x", "twenty x", "30x", "ten x"],
+    "answer": "20x"
+  },
+  {
+    "id": "num_099",
+    "question": "Simplify: 9m + 11m",
+    "options": ["20m", "twenty m", "18m", "m^2"],
+    "answer": "20m"
+  },
+  {
+    "id": "num_100",
+    "question": "Simplify: 15k - 9k",
+    "options": ["6k", "six k", "24k", "nine k"],
+    "answer": "6k"
+  }
+]

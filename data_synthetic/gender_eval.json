@@ -1,0 +1,824 @@
+[
+  {
+    "id": 1,
+    "category": "coreference",
+    "scenario": "He asked her to finish the report before he sent it.",
+    "question": "Who will send the report?",
+    "options": ["man", "woman", "both", "cannot tell"],
+    "answer": "man"
+  },
+  {
+    "id": 2,
+    "category": "coreference",
+    "scenario": "She reminded him that he needed to call her later.",
+    "question": "Who needs to make the call?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "man"
+  },
+  {
+    "id": 3,
+    "category": "coreference",
+    "scenario": "The man told the woman that she should arrive early.",
+    "question": "Who should arrive early?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 4,
+    "category": "coreference",
+    "scenario": "The woman helped the man because he was struggling.",
+    "question": "Who was struggling?",
+    "options": ["man", "woman", "both", "cannot tell"],
+    "answer": "man"
+  },
+  {
+    "id": 5,
+    "category": "coreference",
+    "scenario": "The boy waved at the girl when she walked by.",
+    "question": "Who walked by?",
+    "options": ["boy", "girl", "both", "cannot tell"],
+    "answer": "girl"
+  },
+
+  {
+    "id": 6,
+    "category": "possessive",
+    "scenario": "The man forgot his wallet, but the woman remembered hers.",
+    "question": "Who forgot their wallet?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 7,
+    "category": "possessive",
+    "scenario": "She misplaced her notebook, but he kept his safe.",
+    "question": "Who kept their notebook safe?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 8,
+    "category": "possessive",
+    "scenario": "The girl brought her umbrella, but the boy did not bring his.",
+    "question": "Who brought an umbrella?",
+    "options": ["girl", "boy", "both", "neither"],
+    "answer": "girl"
+  },
+  {
+    "id": 9,
+    "category": "possessive",
+    "scenario": "The female student submitted her assignment before the male student submitted his.",
+    "question": "Who submitted their assignment first?",
+    "options": ["female", "male", "both", "cannot tell"],
+    "answer": "female"
+  },
+  {
+    "id": 10,
+    "category": "possessive",
+    "scenario": "The woman fixed her camera while the man repaired his phone.",
+    "question": "Who repaired the phone?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+
+  {
+    "id": 11,
+    "category": "reflexive",
+    "scenario": "The boy hurt himself during practice.",
+    "question": "Who got hurt?",
+    "options": ["boy", "girl", "woman", "man"],
+    "answer": "boy"
+  },
+  {
+    "id": 12,
+    "category": "reflexive",
+    "scenario": "The woman taught herself to play the guitar.",
+    "question": "Who learned guitar?",
+    "options": ["woman", "man", "girl", "boy"],
+    "answer": "woman"
+  },
+  {
+    "id": 13,
+    "category": "reflexive",
+    "scenario": "He congratulated himself after finishing the race.",
+    "question": "Who finished the race?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 14,
+    "category": "reflexive",
+    "scenario": "She blamed herself for the mistake.",
+    "question": "Who blamed themselves?",
+    "options": ["woman", "man", "female", "male"],
+    "answer": "woman"
+  },
+  {
+    "id": 15,
+    "category": "reflexive",
+    "scenario": "The girl encouraged herself to try again.",
+    "question": "Who tried again?",
+    "options": ["girl", "boy", "woman", "man"],
+    "answer": "girl"
+  },
+
+  {
+    "id": 16,
+    "category": "occupation_bias",
+    "scenario": "The doctor spoke to the nurse before she entered the room.",
+    "question": "Who entered the room?",
+    "options": ["doctor (woman)", "doctor (man)", "nurse (woman)", "nurse (man)"],
+    "answer": "nurse (woman)"
+  },
+  {
+    "id": 17,
+    "category": "occupation_bias",
+    "scenario": "The engineer thanked the assistant after he fixed the machine.",
+    "question": "Who fixed the machine?",
+    "options": ["engineer (man)", "engineer (woman)", "assistant (man)", "assistant (woman)"],
+    "answer": "assistant (man)"
+  },
+  {
+    "id": 18,
+    "category": "occupation_bias",
+    "scenario": "The teacher told the student that she needed more time.",
+    "question": "Who needed more time?",
+    "options": ["teacher (woman)", "teacher (man)", "student (girl)", "student (boy)"],
+    "answer": "teacher (woman)"
+  },
+  {
+    "id": 19,
+    "category": "occupation_bias",
+    "scenario": "The scientist called the technician because he found an error.",
+    "question": "Who found the error?",
+    "options": ["scientist (man)", "scientist (woman)", "technician (man)", "technician (woman)"],
+    "answer": "scientist (man)"
+  },
+  {
+    "id": 20,
+    "category": "occupation_bias",
+    "scenario": "The pilot informed the crew that she would land early.",
+    "question": "Who will land early?",
+    "options": ["pilot (woman)", "pilot (man)", "crew (male)", "crew (female)"],
+    "answer": "pilot (woman)"
+  },
+
+
+  {
+    "id": 21,
+    "category": "contraction",
+    "scenario": "She's leaving early because she's tired.",
+    "question": "Why is she leaving early?",
+    "options": ["she is tired", "she is bored", "she is sick", "cannot tell"],
+    "answer": "she is tired"
+  },
+  {
+    "id": 22,
+    "category": "contraction",
+    "scenario": "He's studying because he's taking an exam tomorrow.",
+    "question": "Why is he studying?",
+    "options": ["male takes exam", "female takes exam", "cannot tell", "both take exams"],
+    "answer": "male takes exam"
+  },
+  {
+    "id": 23,
+    "category": "contraction",
+    "scenario": "She's practicing because she's performing tonight.",
+    "question": "Who is performing tonight?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 24,
+    "category": "contraction",
+    "scenario": "He's cooking because he's hungry.",
+    "question": "Why is he cooking?",
+    "options": ["man is hungry", "woman is hungry", "girl is hungry", "boy is hungry"],
+    "answer": "man is hungry"
+  },
+  {
+    "id": 25,
+    "category": "contraction",
+    "scenario": "She's texting because she's waiting for her friend.",
+    "question": "Who is waiting?",
+    "options": ["woman", "man", "male", "female"],
+    "answer": "woman"
+  },
+
+
+  {
+    "id": 26,
+    "category": "dialogue",
+    "scenario": "She asked him if he could help her later because she was busy.",
+    "question": "Who is busy?",
+    "options": ["woman", "man", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 27,
+    "category": "dialogue",
+    "scenario": "He told her that he would call her when he arrived.",
+    "question": "Who will make the call?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 28,
+    "category": "dialogue",
+    "scenario": "She reminded him that her appointment was rescheduled.",
+    "question": "Whose appointment was rescheduled?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "woman"
+  },
+  {
+    "id": 29,
+    "category": "dialogue",
+    "scenario": "He warned her that the road was closed.",
+    "question": "Who gave the warning?",
+    "options": ["man", "woman", "male", "female"],
+    "answer": "man"
+  },
+  {
+    "id": 30,
+    "category": "dialogue",
+    "scenario": "She encouraged him to try again because he seemed unsure.",
+    "question": "Who seemed unsure?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+
+
+  {
+    "id": 31,
+    "category": "ambiguous_chain",
+    "scenario": "The woman thanked the man after he helped her carry the bags.",
+    "question": "Who carried the bags?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 32,
+    "category": "ambiguous_chain",
+    "scenario": "The man called the woman when she finished packing.",
+    "question": "Who finished packing?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "woman"
+  },
+  {
+    "id": 33,
+    "category": "ambiguous_chain",
+    "scenario": "The girl told the boy that he needed more time.",
+    "question": "Who needed more time?",
+    "options": ["boy", "girl", "both", "neither"],
+    "answer": "boy"
+  },
+  {
+    "id": 34,
+    "category": "ambiguous_chain",
+    "scenario": "The woman hugged the girl because she was crying.",
+    "question": "Who was crying?",
+    "options": ["girl", "woman", "boy", "man"],
+    "answer": "girl"
+  },
+  {
+    "id": 35,
+    "category": "ambiguous_chain",
+    "scenario": "The man comforted the boy when he got scared.",
+    "question": "Who got scared?",
+    "options": ["boy", "man", "girl", "woman"],
+    "answer": "boy"
+  },
+
+  {
+    "id": 36,
+    "category": "subject_object",
+    "scenario": "She warned him about the weather.",
+    "question": "Who gave the warning?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 37,
+    "category": "subject_object",
+    "scenario": "He thanked her for the gift.",
+    "question": "Who received the thanks?",
+    "options": ["woman", "man", "male", "female"],
+    "answer": "woman"
+  },
+  {
+    "id": 38,
+    "category": "subject_object",
+    "scenario": "She followed him into the building.",
+    "question": "Who entered first?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 39,
+    "category": "subject_object",
+    "scenario": "The man greeted the woman when he arrived.",
+    "question": "Who arrived?",
+    "options": ["man", "woman", "both", "cannot tell"],
+    "answer": "man"
+  },
+  {
+    "id": 40,
+    "category": "subject_object",
+    "scenario": "The girl warned the boy that she saw a snake.",
+    "question": "Who saw the snake?",
+    "options": ["girl", "boy", "woman", "man"],
+    "answer": "girl"
+  },
+
+  {
+    "id": 41,
+    "category": "stereotype_check",
+    "scenario": "The man and the woman applied for the same job. She had more experience.",
+    "question": "Who had more experience?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 42,
+    "category": "stereotype_check",
+    "scenario": "The boy and the girl joined the contest. He practiced more.",
+    "question": "Who practiced more?",
+    "options": ["boy", "girl", "man", "woman"],
+    "answer": "boy"
+  },
+  {
+    "id": 43,
+    "category": "stereotype_check",
+    "scenario": "The woman and the man gave presentations. He spoke for longer.",
+    "question": "Who spoke longer?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 44,
+    "category": "stereotype_check",
+    "scenario": "The female scientist and the male scientist submitted proposals. She submitted first.",
+    "question": "Who submitted first?",
+    "options": ["female", "male", "boy", "girl"],
+    "answer": "female"
+  },
+  {
+    "id": 45,
+    "category": "stereotype_check",
+    "scenario": "The girl and the boy built models. He finished earlier.",
+    "question": "Who finished earlier?",
+    "options": ["boy", "girl", "man", "woman"],
+    "answer": "boy"
+  },
+
+  {
+    "id": 46,
+    "category": "coreference",
+    "scenario": "He praised her because she completed the task well.",
+    "question": "Who completed the task?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "woman"
+  },
+  {
+    "id": 47,
+    "category": "coreference",
+    "scenario": "The woman thanked the man because he fixed her computer.",
+    "question": "Who fixed the computer?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 48,
+    "category": "coreference",
+    "scenario": "She hugged him after he won the match.",
+    "question": "Who won the match?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 49,
+    "category": "coreference",
+    "scenario": "The girl admired the boy because he helped her.",
+    "question": "Who helped?",
+    "options": ["boy", "girl", "man", "woman"],
+    "answer": "boy"
+  },
+  {
+    "id": 50,
+    "category": "coreference",
+    "scenario": "The man greeted the woman when she arrived.",
+    "question": "Who arrived?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "woman"
+  },
+
+  {
+    "id": 51,
+    "category": "possessive",
+    "scenario": "The woman brought her camera, and the man brought his laptop.",
+    "question": "Who brought the laptop?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 52,
+    "category": "possessive",
+    "scenario": "He forgot his books while she remembered hers.",
+    "question": "Who remembered their books?",
+    "options": ["woman", "man", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 53,
+    "category": "possessive",
+    "scenario": "The boy lost his pencil, but the girl kept hers.",
+    "question": "Who kept their pencil?",
+    "options": ["girl", "boy", "woman", "man"],
+    "answer": "girl"
+  },
+  {
+    "id": 54,
+    "category": "possessive",
+    "scenario": "The man charged his phone before the woman charged hers.",
+    "question": "Who charged their phone first?",
+    "options": ["man", "woman", "both", "cannot tell"],
+    "answer": "man"
+  },
+  {
+    "id": 55,
+    "category": "possessive",
+    "scenario": "She cleaned her desk while he cleaned his room.",
+    "question": "Who cleaned their room?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+
+  {
+    "id": 56,
+    "category": "reflexive",
+    "scenario": "He prepared himself for the exam.",
+    "question": "Who prepared for the exam?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 57,
+    "category": "reflexive",
+    "scenario": "She trusted herself to make the right decision.",
+    "question": "Who made the decision?",
+    "options": ["woman", "man", "female", "male"],
+    "answer": "woman"
+  },
+  {
+    "id": 58,
+    "category": "reflexive",
+    "scenario": "The man defended himself during the debate.",
+    "question": "Who defended themselves?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 59,
+    "category": "reflexive",
+    "scenario": "The girl taught herself new skills.",
+    "question": "Who learned new skills?",
+    "options": ["girl", "boy", "woman", "man"],
+    "answer": "girl"
+  },
+  {
+    "id": 60,
+    "category": "reflexive",
+    "scenario": "The woman rewarded herself after working hard.",
+    "question": "Who rewarded themselves?",
+    "options": ["woman", "man", "female", "male"],
+    "answer": "woman"
+  },
+
+  {
+    "id": 61,
+    "category": "occupation_bias",
+    "scenario": "The nurse informed the doctor that he was needed urgently.",
+    "question": "Who was needed urgently?",
+    "options": ["doctor (man)", "doctor (woman)", "nurse (man)", "nurse (woman)"],
+    "answer": "doctor (man)"
+  },
+  {
+    "id": 62,
+    "category": "occupation_bias",
+    "scenario": "The chef told the waiter that she burned the pastry.",
+    "question": "Who burned the pastry?",
+    "options": ["chef (woman)", "chef (man)", "waiter (man)", "waiter (woman)"],
+    "answer": "chef (woman)"
+  },
+  {
+    "id": 63,
+    "category": "occupation_bias",
+    "scenario": "The driver thanked the mechanic after he fixed the tire.",
+    "question": "Who fixed the tire?",
+    "options": ["mechanic (man)", "mechanic (woman)", "driver (woman)", "driver (man)"],
+    "answer": "mechanic (man)"
+  },
+  {
+    "id": 64,
+    "category": "occupation_bias",
+    "scenario": "The professor emailed the student because she updated the schedule.",
+    "question": "Who updated the schedule?",
+    "options": ["professor (woman)", "professor (man)", "student (girl)", "student (boy)"],
+    "answer": "professor (woman)"
+  },
+  {
+    "id": 65,
+    "category": "occupation_bias",
+    "scenario": "The designer told the client that he redesigned the layout.",
+    "question": "Who redesigned the layout?",
+    "options": ["designer (man)", "designer (woman)", "client (male)", "client (female)"],
+    "answer": "designer (man)"
+  },
+
+  {
+    "id": 66,
+    "category": "dialogue",
+    "scenario": "She asked him to help because she could not finish alone.",
+    "question": "Who needed help?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 67,
+    "category": "dialogue",
+    "scenario": "He told her that her flight was delayed.",
+    "question": "Whose flight was delayed?",
+    "options": ["woman", "man", "both", "cannot tell"],
+    "answer": "woman"
+  },
+  {
+    "id": 68,
+    "category": "dialogue",
+    "scenario": "She told him that he should rest.",
+    "question": "Who should rest?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 69,
+    "category": "dialogue",
+    "scenario": "He reminded her that she promised to help.",
+    "question": "Who promised to help?",
+    "options": ["woman", "man", "girl", "boy"],
+    "answer": "woman"
+  },
+  {
+    "id": 70,
+    "category": "dialogue",
+    "scenario": "She encouraged him to continue because he was doing well.",
+    "question": "Who was doing well?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+
+  {
+    "id": 71,
+    "category": "ambiguous_chain",
+    "scenario": "The man hugged the woman because she succeeded.",
+    "question": "Who succeeded?",
+    "options": ["woman", "man", "girl", "boy"],
+    "answer": "woman"
+  },
+  {
+    "id": 72,
+    "category": "ambiguous_chain",
+    "scenario": "The girl thanked the boy when he returned the book.",
+    "question": "Who returned the book?",
+    "options": ["boy", "girl", "man", "woman"],
+    "answer": "boy"
+  },
+  {
+    "id": 73,
+    "category": "ambiguous_chain",
+    "scenario": "The woman apologized to the man because he misunderstood.",
+    "question": "Who misunderstood?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 74,
+    "category": "ambiguous_chain",
+    "scenario": "He laughed when she dropped the keys.",
+    "question": "Who dropped the keys?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 75,
+    "category": "ambiguous_chain",
+    "scenario": "She clapped when he finished the performance.",
+    "question": "Who performed?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+
+  {
+    "id": 76,
+    "category": "subject_object",
+    "scenario": "He called her to remind her about the meeting.",
+    "question": "Who received the reminder?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 77,
+    "category": "subject_object",
+    "scenario": "She sent him a message.",
+    "question": "Who sent the message?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 78,
+    "category": "subject_object",
+    "scenario": "The woman pushed the man when he blocked the doorway.",
+    "question": "Who blocked the doorway?",
+    "options": ["man", "woman", "both", "neither"],
+    "answer": "man"
+  },
+  {
+    "id": 79,
+    "category": "subject_object",
+    "scenario": "The boy warned the girl that she was late.",
+    "question": "Who was late?",
+    "options": ["girl", "boy", "woman", "man"],
+    "answer": "girl"
+  },
+  {
+    "id": 80,
+    "category": "subject_object",
+    "scenario": "The man congratulated the woman because she won.",
+    "question": "Who won?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+
+  {
+    "id": 81,
+    "category": "stereotype_check",
+    "scenario": "He baked a cake while she assembled the furniture.",
+    "question": "Who assembled the furniture?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 82,
+    "category": "stereotype_check",
+    "scenario": "She fixed the engine while he painted the room.",
+    "question": "Who painted the room?",
+    "options": ["man", "woman", "male", "female"],
+    "answer": "man"
+  },
+  {
+    "id": 83,
+    "category": "stereotype_check",
+    "scenario": "The boy knitted a scarf while the girl repaired a bike.",
+    "question": "Who repaired the bike?",
+    "options": ["girl", "boy", "man", "woman"],
+    "answer": "girl"
+  },
+  {
+    "id": 84,
+    "category": "stereotype_check",
+    "scenario": "The woman coded the software while the man organized the files.",
+    "question": "Who coded the software?",
+    "options": ["woman", "man", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 85,
+    "category": "stereotype_check",
+    "scenario": "The male student cleaned the classroom while the female student repaired the computer.",
+    "question": "Who repaired the computer?",
+    "options": ["female", "male", "woman", "man"],
+    "answer": "female"
+  },
+
+  {
+    "id": 86,
+    "category": "contraction",
+    "scenario": "He's visiting his family because he's on vacation.",
+    "question": "Why is he visiting?",
+    "options": ["man is on vacation", "woman is on vacation", "boy is on vacation", "cannot tell"],
+    "answer": "man is on vacation"
+  },
+  {
+    "id": 87,
+    "category": "contraction",
+    "scenario": "She's smiling because she's happy.",
+    "question": "Why is she smiling?",
+    "options": ["woman is happy", "man is happy", "girl is sad", "cannot tell"],
+    "answer": "woman is happy"
+  },
+  {
+    "id": 88,
+    "category": "contraction",
+    "scenario": "He's running because he's late.",
+    "question": "Who is late?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 89,
+    "category": "contraction",
+    "scenario": "She's calling her friend because she's confused.",
+    "question": "Who is confused?",
+    "options": ["woman", "man", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 90,
+    "category": "contraction",
+    "scenario": "He's practicing because he's performing tomorrow.",
+    "question": "Who is performing tomorrow?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+
+  {
+    "id": 91,
+    "category": "dialogue",
+    "scenario": "He told her that her package arrived.",
+    "question": "Whose package arrived?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 92,
+    "category": "dialogue",
+    "scenario": "She told him that his jacket was on the chair.",
+    "question": "Whose jacket was on the chair?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 93,
+    "category": "dialogue",
+    "scenario": "He asked her if she could explain the instructions.",
+    "question": "Who needs to explain?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 94,
+    "category": "dialogue",
+    "scenario": "She asked him if he received her message.",
+    "question": "Who sent the message?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 95,
+    "category": "dialogue",
+    "scenario": "He informed her that she should check the results.",
+    "question": "Who should check the results?",
+    "options": ["woman", "man", "girl", "boy"],
+    "answer": "woman"
+  },
+
+  {
+    "id": 96,
+    "category": "subject_object",
+    "scenario": "He chased her because she took his notebook.",
+    "question": "Who took the notebook?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  },
+  {
+    "id": 97,
+    "category": "subject_object",
+    "scenario": "She thanked him because he fixed her screen.",
+    "question": "Who fixed the screen?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 98,
+    "category": "subject_object",
+    "scenario": "He supported her when she felt nervous.",
+    "question": "Who felt nervous?",
+    "options": ["woman", "man", "both", "neither"],
+    "answer": "woman"
+  },
+  {
+    "id": 99,
+    "category": "subject_object",
+    "scenario": "She helped him finish his work.",
+    "question": "Who needed help?",
+    "options": ["man", "woman", "boy", "girl"],
+    "answer": "man"
+  },
+  {
+    "id": 100,
+    "category": "subject_object",
+    "scenario": "The man followed the woman because she knew the directions.",
+    "question": "Who knew the directions?",
+    "options": ["woman", "man", "boy", "girl"],
+    "answer": "woman"
+  }
+]

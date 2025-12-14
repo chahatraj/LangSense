@@ -1,0 +1,821 @@
+[
+  {
+    "id": 1,
+    "mapping": "A_to_B",
+    "scenario": "The lamp is left of the sofa.",
+    "question": "In which compass direction is the lamp relative to the sofa?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 2,
+    "mapping": "A_to_B",
+    "scenario": "The bird flew above the tree.",
+    "question": "What compass direction corresponds to its position?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 3,
+    "mapping": "A_to_B",
+    "scenario": "The key fell below the shelf.",
+    "question": "Which compass direction matches this relationship?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 4,
+    "mapping": "A_to_B",
+    "scenario": "The desk is right of the cabinet.",
+    "question": "What compass direction corresponds to the desk’s location?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 5,
+    "mapping": "A_to_B",
+    "scenario": "A shelf hangs over the doorway.",
+    "question": "Choose the compass direction that represents this placement.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+
+  {
+    "id": 6,
+    "mapping": "A_to_B",
+    "scenario": "The tablet is under the monitor.",
+    "question": "Which compass direction applies here?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 7,
+    "mapping": "A_to_B",
+    "scenario": "The refrigerator is left of the sink.",
+    "question": "Select the matching compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 8,
+    "mapping": "A_to_B",
+    "scenario": "The drone rose up from the ground.",
+    "question": "What compass direction reflects this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 9,
+    "mapping": "A_to_B",
+    "scenario": "The cat slept below the window.",
+    "question": "What compass direction matches this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 10,
+    "mapping": "A_to_B",
+    "scenario": "The office chair is right of the desk.",
+    "question": "Which compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+
+  {
+    "id": 11,
+    "mapping": "A_to_B",
+    "scenario": "A painting hangs over the bed.",
+    "question": "What compass direction aligns with this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 12,
+    "mapping": "A_to_B",
+    "scenario": "The pillow is under the blanket.",
+    "question": "Select the equivalent compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 13,
+    "mapping": "A_to_B",
+    "scenario": "The speaker is left of the monitor.",
+    "question": "Which compass direction matches this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 14,
+    "mapping": "A_to_B",
+    "scenario": "The picture frame is above the television.",
+    "question": "What compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 15,
+    "mapping": "A_to_B",
+    "scenario": "The trash bin sits below the counter.",
+    "question": "Which compass direction applies?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+
+  {
+    "id": 16,
+    "mapping": "A_to_B",
+    "scenario": "The plant is right of the bookshelf.",
+    "question": "Which compass direction corresponds to this relationship?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 17,
+    "mapping": "A_to_B",
+    "scenario": "A shelf hangs over the desk.",
+    "question": "Choose the compass direction that matches this.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 18,
+    "mapping": "A_to_B",
+    "scenario": "The computer tower is under the table.",
+    "question": "Which compass direction fits?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 19,
+    "mapping": "A_to_B",
+    "scenario": "The mouse is left of the keyboard.",
+    "question": "What compass direction represents this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 20,
+    "mapping": "A_to_B",
+    "scenario": "The light fixture hangs above the table.",
+    "question": "Pick the compass equivalent.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+
+  {
+    "id": 21,
+    "mapping": "A_to_B",
+    "scenario": "The dog lay under the bench.",
+    "question": "Which compass direction aligns with this placement?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 22,
+    "mapping": "A_to_B",
+    "scenario": "The mug sits right of the notebook.",
+    "question": "Which compass direction matches?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 23,
+    "mapping": "A_to_B",
+    "scenario": "The trophy is above the shelf.",
+    "question": "Which compass direction corresponds to its placement?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 24,
+    "mapping": "A_to_B",
+    "scenario": "The toolbox is below the cabinet.",
+    "question": "Which compass direction applies?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 25,
+    "mapping": "A_to_B",
+    "scenario": "The painting is left of the window.",
+    "question": "Which compass direction does this correspond to?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+
+  {
+    "id": 26,
+    "mapping": "A_to_B",
+    "scenario": "The sculpture is right of the doorway.",
+    "question": "Choose the compass direction that fits.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 27,
+    "mapping": "A_to_B",
+    "scenario": "The book is above the candle.",
+    "question": "Which compass direction is correct?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 28,
+    "mapping": "A_to_B",
+    "scenario": "The shoes are below the coat rack.",
+    "question": "Which compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 29,
+    "mapping": "A_to_B",
+    "scenario": "The oven is left of the fridge.",
+    "question": "What compass direction does this map to?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 30,
+    "mapping": "A_to_B",
+    "scenario": "The shelf is over the dresser.",
+    "question": "Which compass direction represents this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+
+  {
+    "id": 31,
+    "mapping": "A_to_B",
+    "scenario": "The charger is under the nightstand.",
+    "question": "Which compass direction corresponds to this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 32,
+    "mapping": "A_to_B",
+    "scenario": "The sign is right of the entrance.",
+    "question": "Pick the equivalent compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 33,
+    "mapping": "A_to_B",
+    "scenario": "The mirror is above the sink.",
+    "question": "Which compass direction corresponds here?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 34,
+    "mapping": "A_to_B",
+    "scenario": "The mat is below the counter.",
+    "question": "Choose the compass equivalent.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 35,
+    "mapping": "A_to_B",
+    "scenario": "The poster is left of the blackboard.",
+    "question": "Which compass direction aligns with this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+
+  {
+    "id": 36,
+    "mapping": "A_to_B",
+    "scenario": "The crate is under the shelf.",
+    "question": "Which compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 37,
+    "mapping": "A_to_B",
+    "scenario": "The vase is over the drawer.",
+    "question": "Which compass direction fits this?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 38,
+    "mapping": "A_to_B",
+    "scenario": "The clock is right of the mirror.",
+    "question": "What compass direction matches here?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 39,
+    "mapping": "A_to_B",
+    "scenario": "The keyboard is left of the mouse.",
+    "question": "Which compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+  {
+    "id": 40,
+    "mapping": "A_to_B",
+    "scenario": "The photo frame is above the desk.",
+    "question": "Pick the correct compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+
+  {
+    "id": 41,
+    "mapping": "A_to_B",
+    "scenario": "The towel is below the shelf.",
+    "question": "Select the compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 42,
+    "mapping": "A_to_B",
+    "scenario": "The candle is right of the vase.",
+    "question": "Which compass direction matches?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 43,
+    "mapping": "A_to_B",
+    "scenario": "The phone is over the charger.",
+    "question": "Choose the compass mapping.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 44,
+    "mapping": "A_to_B",
+    "scenario": "The vacuum sits under the table.",
+    "question": "Which compass direction maps here?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 45,
+    "mapping": "A_to_B",
+    "scenario": "The cup is left of the pitcher.",
+    "question": "What compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "west"
+  },
+
+  {
+    "id": 46,
+    "mapping": "A_to_B",
+    "scenario": "The jar is above the cutting board.",
+    "question": "Which compass mapping is correct?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 47,
+    "mapping": "A_to_B",
+    "scenario": "The slippers are below the radiator.",
+    "question": "Pick the correct compass direction.",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+  {
+    "id": 48,
+    "mapping": "A_to_B",
+    "scenario": "The picture is right of the sculpture.",
+    "question": "Which compass direction applies?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "east"
+  },
+  {
+    "id": 49,
+    "mapping": "A_to_B",
+    "scenario": "The ornament hangs over the table.",
+    "question": "What compass direction corresponds?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "north"
+  },
+  {
+    "id": 50,
+    "mapping": "A_to_B",
+    "scenario": "The pencil rolled under the chair.",
+    "question": "Which compass direction fits this scenario?",
+    "options": ["north", "south", "east", "west"],
+    "answer": "south"
+  },
+
+  {
+    "id": 51,
+    "mapping": "B_to_A",
+    "scenario": "The tree stands north of the cabin.",
+    "question": "Where is the tree located relative to the cabin?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "up"
+  },
+  {
+    "id": 52,
+    "mapping": "B_to_A",
+    "scenario": "The tent is south of the river.",
+    "question": "Which spatial direction applies?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 53,
+    "mapping": "B_to_A",
+    "scenario": "The barn lies east of the field.",
+    "question": "What spatial placement matches?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 54,
+    "mapping": "B_to_A",
+    "scenario": "A shed is west of the garden.",
+    "question": "Which spatial term describes its position?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 55,
+    "mapping": "B_to_A",
+    "scenario": "The lookout tower is north of the path.",
+    "question": "Choose the correct spatial relation.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+
+  {
+    "id": 56,
+    "mapping": "B_to_A",
+    "scenario": "The hill lies south of the lake.",
+    "question": "Which spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 57,
+    "mapping": "B_to_A",
+    "scenario": "The orchard sits east of the barn.",
+    "question": "What spatial term matches here?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 58,
+    "mapping": "B_to_A",
+    "scenario": "The windmill stands west of the crops.",
+    "question": "Select its spatial position.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 59,
+    "mapping": "B_to_A",
+    "scenario": "A cliff lies north of the forest.",
+    "question": "Choose the spatial equivalent.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 60,
+    "mapping": "B_to_A",
+    "scenario": "The canyon is south of the plateau.",
+    "question": "Which spatial direction applies?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "down"
+  },
+
+  {
+    "id": 61,
+    "mapping": "B_to_A",
+    "scenario": "The statue is east of the fountain.",
+    "question": "What spatial position does the statue occupy?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 62,
+    "mapping": "B_to_A",
+    "scenario": "The bench is west of the tree.",
+    "question": "Choose the correct spatial mapping.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 63,
+    "mapping": "B_to_A",
+    "scenario": "The cabin rests north of the valley.",
+    "question": "Which spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 64,
+    "mapping": "B_to_A",
+    "scenario": "The river bend is south of the bridge.",
+    "question": "What spatial direction applies?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 65,
+    "mapping": "B_to_A",
+    "scenario": "The storage barn is east of the old mill.",
+    "question": "Which spatial term describes its location?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+
+  {
+    "id": 66,
+    "mapping": "B_to_A",
+    "scenario": "The workshop is west of the entrance.",
+    "question": "What spatial placement matches?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 67,
+    "mapping": "B_to_A",
+    "scenario": "The cave lies north of the trail.",
+    "question": "Select the spatial equivalent.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 68,
+    "mapping": "B_to_A",
+    "scenario": "The docks sit south of the village.",
+    "question": "Choose the matching spatial direction.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 69,
+    "mapping": "B_to_A",
+    "scenario": "The barn is east of the stable.",
+    "question": "Which spatial direction applies?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 70,
+    "mapping": "B_to_A",
+    "scenario": "The shrine is west of the waterfall.",
+    "question": "Which spatial position fits?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+
+  {
+    "id": 71,
+    "mapping": "B_to_A",
+    "scenario": "The lookout point is north of the campsite.",
+    "question": "Which spatial direction corresponds?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "up"
+  },
+  {
+    "id": 72,
+    "mapping": "B_to_A",
+    "scenario": "The swamp lies south of the grasslands.",
+    "question": "Choose the spatial equivalent.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 73,
+    "mapping": "B_to_A",
+    "scenario": "The stables are east of the farm house.",
+    "question": "Which spatial relation applies?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 74,
+    "mapping": "B_to_A",
+    "scenario": "A stone marker stands west of the ruins.",
+    "question": "Select the correct spatial mapping.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 75,
+    "mapping": "B_to_A",
+    "scenario": "A cabin is north of the perimeter fence.",
+    "question": "What spatial direction matches?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+
+  {
+    "id": 76,
+    "mapping": "B_to_A",
+    "scenario": "The quarry is south of the ridge.",
+    "question": "Which spatial term applies?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 77,
+    "mapping": "B_to_A",
+    "scenario": "The radar tower is east of the checkpoint.",
+    "question": "Choose the spatial equivalent.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 78,
+    "mapping": "B_to_A",
+    "scenario": "The old bunker is west of the airstrip.",
+    "question": "What spatial direction aligns?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 79,
+    "mapping": "B_to_A",
+    "scenario": "The cliffs lie north of the shoreline.",
+    "question": "Which spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 80,
+    "mapping": "B_to_A",
+    "scenario": "The wetlands lie south of the hills.",
+    "question": "Select the spatial relation.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+
+  {
+    "id": 81,
+    "mapping": "B_to_A",
+    "scenario": "A village is east of the river crossing.",
+    "question": "Which spatial direction applies?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 82,
+    "mapping": "B_to_A",
+    "scenario": "A forest patch lies west of the meadow.",
+    "question": "Which spatial placement fits?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 83,
+    "mapping": "B_to_A",
+    "scenario": "A viewpoint stands north of the gorge.",
+    "question": "What spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 84,
+    "mapping": "B_to_A",
+    "scenario": "A creek flows south of the bridge.",
+    "question": "Select the spatial mapping.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 85,
+    "mapping": "B_to_A",
+    "scenario": "A rest stop is east of the highway.",
+    "question": "Choose the proper spatial term.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+
+  {
+    "id": 86,
+    "mapping": "B_to_A",
+    "scenario": "A trail cabin is west of the fork.",
+    "question": "Which spatial direction describes this?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 87,
+    "mapping": "B_to_A",
+    "scenario": "A lighthouse sits north of the beach.",
+    "question": "What spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 88,
+    "mapping": "B_to_A",
+    "scenario": "A marsh lies south of the foothills.",
+    "question": "Choose the spatial mapping.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 89,
+    "mapping": "B_to_A",
+    "scenario": "A fountain stands east of the main plaza.",
+    "question": "Which spatial direction fits?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 90,
+    "mapping": "B_to_A",
+    "scenario": "A small hut lies west of the pasture.",
+    "question": "What spatial term matches?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+
+  {
+    "id": 91,
+    "mapping": "B_to_A",
+    "scenario": "A canyon sits north of the ridge.",
+    "question": "Which spatial direction corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 92,
+    "mapping": "B_to_A",
+    "scenario": "A quarry sits south of the mine entrance.",
+    "question": "Which spatial mapping is correct?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 93,
+    "mapping": "B_to_A",
+    "scenario": "A lookout tower is east of the cabins.",
+    "question": "Which spatial term applies?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 94,
+    "mapping": "B_to_A",
+    "scenario": "A water tank lies west of the orchard.",
+    "question": "Select the spatial equivalent.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 95,
+    "mapping": "B_to_A",
+    "scenario": "The deer trail begins north of the clearing.",
+    "question": "Choose the correct spatial direction.",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+
+  {
+    "id": 96,
+    "mapping": "B_to_A",
+    "scenario": "The marsh sits south of the ravine.",
+    "question": "Which spatial direction applies?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  },
+  {
+    "id": 97,
+    "mapping": "B_to_A",
+    "scenario": "A beacon tower is east of the cliffs.",
+    "question": "Which spatial placement fits?",
+    "options": ["left", "right", "up", "down"],
+    "answer": "right"
+  },
+  {
+    "id": 98,
+    "mapping": "B_to_A",
+    "scenario": "A rocky outcrop stands west of the ferry landing.",
+    "question": "Select the spatial counterpart.",
+    "options": ["left", "right", "up", "down"],
+    "answer": "left"
+  },
+  {
+    "id": 99,
+    "mapping": "B_to_A",
+    "scenario": "A mountain peak sits north of the peninsula.",
+    "question": "Which spatial word corresponds?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "up"
+  },
+  {
+    "id": 100,
+    "mapping": "B_to_A",
+    "scenario": "A supply depot is south of the hillside.",
+    "question": "Which spatial direction applies?",
+    "options": ["up", "down", "left", "right"],
+    "answer": "down"
+  }
+]
