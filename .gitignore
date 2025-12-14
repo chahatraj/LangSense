@@ -3,7 +3,6 @@ data/
 datasets/
 logs/
 models/
-results/
 
 # Python
 __pycache__/
